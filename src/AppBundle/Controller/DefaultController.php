@@ -18,4 +18,12 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
+
+    /**
+     * @Route("/confirmed", name="email_confirmed")
+     */
+    public function emailConfirmed()
+    {
+        return $this->render('default/confirmed.html.twig');
+    }
 }
