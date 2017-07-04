@@ -23,7 +23,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/BeautyStack/api.client.git"
+            "url": "https://github.com/BeautyStack/api-client-php.git"
         }
     ],
 
@@ -39,7 +39,7 @@
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.3.*",
         "twig/twig": "^1.0||^2.0",
-        "beautystack/api-client": "*@dev"
+        "beautystack/api-client-php": "*@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

@@ -16,10 +16,9 @@ class UserControllerTest extends WebTestCase
             [],
             [],
             ['CONTENT_TYPE' => 'application/json'],
-            '{"email":"jane.doe@example.com"}');
+            '{"email":"jane.doe@example.com"}'
+        );
 
-        $content = 'Beautystack is a new salon software system for beauty pros.';
         $this->assertEquals(201, $client->getResponse()->getStatusCode());
-        // $this->assertContains($content, $crawler->filter('header p')->text());
     }
 }

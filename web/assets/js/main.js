@@ -110,6 +110,7 @@
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+					$email = document.querySelectorAll('#signup-form #email')[0],
 					$message;
 
 			// Bail if addEventListener isn't supported.
@@ -151,7 +152,7 @@
 						$submit.disabled = true;
 
                     $.ajax({
-                        url: 'http://localhost:8080/user/leads',
+                        url: '/user/leads',
                         type: 'post',
                         dataType: 'json',
                         success: function (data) {
@@ -164,7 +165,7 @@
                             // Show message.
                             $message._show('success', 'Thank you!');
                         },
-                        data: JSON.stringify({ email: "lalobo@gmail.com" })
+                        data: JSON.stringify({ email: $email.value })
                     });
 				});
 
