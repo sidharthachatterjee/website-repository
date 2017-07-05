@@ -1111,6 +1111,7 @@ body {
 /* Footer */
 
 	#footer {
+    text-align: center;
 		-moz-transition: opacity 0.5s ease-in-out;
 		-webkit-transition: opacity 0.5s ease-in-out;
 		-ms-transition: opacity 0.5s ease-in-out;
@@ -1125,6 +1126,10 @@ body {
 		#footer .icons {
 			margin: 0 0 0.5em 0;
 		}
+
+    #footer .icons a:hover {
+      text-decoration: none;
+    }
 
 		#footer .copyright {
 			font-size: 0.8em;
