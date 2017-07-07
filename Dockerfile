@@ -37,9 +37,9 @@ RUN useradd -ms /bin/bash ubuntu
 VOLUME ["/home/ubuntu/fe.homepage/"]
 VOLUME ["/opt/beautystack/"]
 
-ADD ./home-ubuntu-ssh/id_rsa /home/ubuntu/.ssh/id_rsa
-ADD ./home-ubuntu-ssh/id_rsa.pub /home/ubuntu/.ssh/id_rsa.pub
-ADD ./home-ubuntu-ssh/config /home/ubuntu/.ssh/config
+ADD ./infrastructure/home-ubuntu-ssh/id_rsa /home/ubuntu/.ssh/id_rsa
+ADD ./infrastructure/home-ubuntu-ssh/id_rsa.pub /home/ubuntu/.ssh/id_rsa.pub
+ADD ./infrastructure/home-ubuntu-ssh/config /home/ubuntu/.ssh/config
 RUN chmod 600 /home/ubuntu/.ssh/id_rsa
 RUN chmod 600 /home/ubuntu/.ssh/id_rsa.pub
 RUN chmod 600 /home/ubuntu/.ssh/config
@@ -50,7 +50,7 @@ RUN a2enmod rewrite
 RUN a2enmod headers
 RUN a2dissite 000-default
 
-ADD etc-apache2-sites-available/fe.homepage.conf /etc/apache2/sites-available/fe.homepage.conf
+ADD ./infrastructure/etc-apache2-sites-available/fe.homepage.conf /etc/apache2/sites-available/fe.homepage.conf
 RUN a2ensite fe.homepage
 
 EXPOSE 80
