@@ -17,18 +17,6 @@ node {
 }
 
 node {
-    stage('Prepare Environment') {
-        checkout scm
-        def environment  = docker.build 'beautystack/fe.homepage'
-
-        environment.inside {
-            
-            stage("Install Dependencies") {
-                sh "sudo -u ubuntu cat ~/.ssh/id_rsa.pub"
-                sh "echo \"\" | /usr/local/bin/composer install"
-            }
-        }
-    }
 
     if (env.BRANCH_NAME == 'develop') {
         checkout scm
