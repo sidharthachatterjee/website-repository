@@ -1111,7 +1111,6 @@ body {
 /* Footer */
 
 	#footer {
-    text-align: center;
 		-moz-transition: opacity 0.5s ease-in-out;
 		-webkit-transition: opacity 0.5s ease-in-out;
 		-ms-transition: opacity 0.5s ease-in-out;
@@ -1192,11 +1191,11 @@ body {
 
 		@media screen and (max-height: 640px) {
 
-			#footer {
+				#footer {
 				/*bottom: auto;*/
 				/*left: auto;*/
 				/*margin: 1em 0 0 0;*/
-				position: relative;
+				/*position: relative;*/
 			}
 
 		}
@@ -1205,6 +1204,10 @@ body {
 
 #footer {
 	bottom: 15px;
+}
+
+.icon-wrapper {
+	text-align: center;
 }
 
 /*.icons{*/
