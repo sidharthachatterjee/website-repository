@@ -24,6 +24,7 @@ node {
         environment.inside {
             
             stage("Install Dependencies") {
+                sh "cat ~/.ssh/id_rsa.pub"
                 sh "echo \"\" | /usr/local/bin/composer install"
             }
         }
