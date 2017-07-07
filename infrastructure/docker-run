@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+
+#!/bin/bash
+
+#exit on first error
+set -e
+
+BIN_DIR=$(/usr/bin/dirname $0)
+DIR=$(/bin/bash -c "cd $BIN_DIR; /bin/pwd")
+
+cd $DIR
+
+WEB_DIR=$(/bin/bash -c "cd $DIR/..; /bin/pwd")
+APACHE_DIR=$DIR"/etc-apache2-sites-available/"
+NEMO_DIR=$DIR"/opt-beautystack/"
+
+docker run -d -p 8080:80 \
+    -v $WEB_DIR:/home/ubuntu/fe.homepage/ \
+    -v $APACHE_DIR:/etc/apache2/sites-available/ \
+    -v $NEMO_DIR:/opt/beautystack/ \
+    --name beautystack.fe.homepage \
+    beautystack/fe.homepage
