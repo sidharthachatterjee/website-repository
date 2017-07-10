@@ -120,6 +120,7 @@
 			// Message.
 				$message = document.createElement('span');
 					$message.classList.add('message');
+					$message.id = 'leadMessage';
 					$form.appendChild($message);
 
 				$message._show = function(type, text) {
