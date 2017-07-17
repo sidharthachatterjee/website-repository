@@ -20,7 +20,9 @@ class UserController
     {
         $requestArray = json_decode($request->getContent(), 1);
 
-        $apiInstance = new \BeautyStack\ApiClient\Api\DefaultApi();
+        $apiClient = new \BeautyStack\ApiClient\ApiClient();
+        $apiClient->getConfig()->setHost('http://api.beautystack.local');
+        $apiInstance = new \BeautyStack\ApiClient\Api\DefaultApi($apiClient);
         $createLeadRequest = new \BeautyStack\ApiClient\Model\CreateLeadRequest();
         $createLeadRequest->setEmail($requestArray['email']);
         $result = $apiInstance->userLeadsPost($createLeadRequest);

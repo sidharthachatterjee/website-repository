@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BeautyStack/api-client-php.git",
-                "reference": "c9649008213861ffedf2a3c88008914275b2b258"
+                "reference": "2c43abce02951e07bc7cd13bb36774d7f6c0af39"
             },
             "require": {
                 "ext-curl": "*",
@@ -52,7 +52,7 @@
                 "sdk",
                 "swagger"
             ],
-            "time": "2017-07-04 10:05:32"
+            "time": "2017-07-17 21:02:27"
         },
         {
             "name": "composer/ca-bundle",
