@@ -596,7 +596,7 @@
 		margin: 0 0 2em 0;
 	}
 
-		form .message {
+		.message {
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out, -moz-transform 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
@@ -611,7 +611,7 @@
 			opacity: 0;
 		}
 
-			form .message:before {
+			.message:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
@@ -620,11 +620,11 @@
 				text-transform: none !important;
 			}
 
-			form .message:before {
+			.message:before {
 				margin-right: 0.5em;
 			}
 
-			form .message.visible {
+			.message.visible {
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -632,19 +632,22 @@
 				opacity: 1;
 			}
 
-			form .message.success {
-				color: #1cb495;
+			.message.success {
+				color: #000000;
+        font-size: 40px;
+        font-family: "Source Sans Pro";
+
 			}
 
-				form .message.success:before {
+				.message.success:before {
 					content: '\f00c';
 				}
 
-			form .message.failure {
+			.message.failure {
 				color: #ff2361;
 			}
 
-				form .message.failure:before {
+				.message.failure:before {
 					content: '\f119';
 				}
 
@@ -1076,7 +1079,7 @@
 		}
 
 		#signup-form > * {
-			margin: 0 0 0 1em;
+			margin: 0 0 0 0em;
 		}
 
 		#signup-form > :first-child {
