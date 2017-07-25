@@ -121,7 +121,7 @@
 				$message = document.createElement('span');
 					$message.classList.add('message');
 					$message.id = 'leadMessage';
-					$form.appendChild($message);
+					$('#message').html($message);
 
 				$message._show = function(type, text) {
 
@@ -129,9 +129,9 @@
 					$message.classList.add(type);
 					$message.classList.add('visible');
 
-					window.setTimeout(function() {
-						$message._hide();
-					}, 3000);
+					// window.setTimeout(function() {
+					// 	$message._hide();
+					// }, 3000);
 
 				};
 
@@ -164,7 +164,10 @@
                             $submit.disabled = false;
 
                             // Show message.
+                            $('#email').hide()
+                            $('#leadSubmit').hide()
                             $message._show('success', 'Thank you!');
+
                         },
                         data: JSON.stringify({ email: $email.value })
                     });
