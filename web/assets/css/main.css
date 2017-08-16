@@ -13,13 +13,47 @@ html, body {
 	height: 100%;
 }
 
-
 #left-side {
 
 	background-color: #000;
 	display: flex;
   	align-items: center;
-  	justify-content: center;
+  	justify-content: left;
+    padding-left: 60px;
+
+}
+
+#content {
+    position: absolute;
+    top: 250px;
+    font-size: 16px;
+    border-bottom: thick;
+    border-image: url('../../images/bg.jpg');
+}
+
+#line-break {
+
+    border-bottom: 3px;
+    outline: 2px solid white
+    color: #ffffff
+}
+
+#content2 {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 400px;
+    font-size: 15px; 
+}
+
+#signup-form {
+    position: relative;
+    top: 100px;
+}
+
+#footer {
+    position: relative;
+    top: 200px;
+    right: 215px;
 }
 
 #right-side {
@@ -35,16 +69,8 @@ html, body {
 
     p {
     	font-family: 'Roboto Mono', monospace;
+    	color: #ffffff
     }
-
-
-#content {
- 
-}
-
-p {
-	color: #ffffff
-}
 
 #logo {
     position: absolute;
@@ -52,3 +78,4 @@ p {
     margin: auto;
     width: 40%;
 }
+
