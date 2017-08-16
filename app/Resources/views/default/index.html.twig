@@ -1,44 +1,44 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="container-fluid height-100">
-        <div class="row page height-100">
-            <div id="left-side" class="col-md-5 height-100">
+<div class="container-fluid height-100">
+  <div class="row page height-100">
+    <div id="left-side" class="col-md-5 height-100">
 
-                <!-- Header -->
-                <header id="header">
-                    <!-- <h1 id="title">beautystack</h1> -->
-                   
+      <!-- Header -->
+      <div id="header">
+        <!-- <h1 id="title">beautystack</h1> -->
+        <p id="content">Beautystack is a new platform for beauty pros. </p>
+        <div id="line-break"></div>
+        <p id="content2"><b>Get early access?</b></p>
+      </div>
 
-                    <p id="content">Beautystack is a new platform for beauty pros. </p>
-                    
-                    <p id="content2"><b>Get early access?</b></p>
-                </header>
+      <div id="form-wrapper">
+        <!-- Signup Form -->
+        <form id="signup-form" method="post" action="#">
+          <input type="email" name="email" id="email" placeholder="Email Address" />
+          <input type="submit" id="leadSubmit" value="Go" />
+        </form>
+      </div>
+      <br>
+      <br>
 
-                <!-- Signup Form -->
-                <form id="signup-form" method="post" action="#">
-                    <input type="email" name="email" id="email" placeholder="Email Address" />
-                    <input type="submit" id="leadSubmit" value="Go" />
-                </form>
+      <!-- Footer -->
+      <div id="footer">
+        <ul class="icons">
+          <li><a href="https://twitter.com/beautystack" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="http://instagram.com/beautystackgang" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+          <li><a href="mailto:info@beautystack.co" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+      </div>
 
-                <div id="message">
-                </div>
-
-                <!-- Footer -->
-                <footer id="footer">
-                    <ul class="icons">
-                        <li><a href="https://twitter.com/beautystack" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="http://instagram.com/beautystackgang" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="mailto:info@beautystack.co" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-                    </ul>
-                </footer>
-            </div>
-
-            <div id="right-side" class="col-md-7 height-100">
-                <img id="logo" src="../../images/btystk.png" style="max-width: 100%;">
-            </div>
-        </div>
     </div>
+
+    <div id="right-side" class="col-md-7 height-100">
+      <img id="logo" src="../../images/btystk.png" style="max-width: 100%;">
+    </div>
+  </div>
+</div>
 
 
 {% endblock %}
@@ -50,12 +50,12 @@
 <script src="/assets/js/main.js"></script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-98387976-1', 'auto');
-ga('send', 'pageview');
+  ga('create', 'UA-98387976-1', 'auto');
+  ga('send', 'pageview');
 </script>
 {% endblock %}

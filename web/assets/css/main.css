@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
@@ -14,46 +14,50 @@ html, body {
 }
 
 #left-side {
-
 	background-color: #000;
 	display: flex;
-  	align-items: center;
-  	justify-content: left;
-    padding-left: 60px;
+	align-items: center;
+	justify-content: left;
+  padding-left: 60px;
+}
 
+#header {
+  position: absolute;
+  top: 0;
 }
 
 #content {
-    position: absolute;
-    top: 250px;
-    font-size: 16px;
-    border-bottom: thick;
-    border-image: url('../../images/bg.jpg');
+  position: relative;
+  /*top: 250px;*/
+  top: 30vh;
+  font-size: 16px;
+  border-image: url('../../images/bg.jpg');
 }
 
 #line-break {
-
-    border-bottom: 3px;
-    outline: 2px solid white
-    color: #ffffff
+  height: 1px;
+  width: 100px;
+  background-color: white;
+  position: relative;
+  top: 34vh;
 }
 
 #content2 {
-    font-family: 'Roboto Mono', monospace;
-    position: absolute;
-    top: 400px;
-    font-size: 15px; 
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+  /*top: 350px;*/
+  font-size: 15px;
+  top: 39vh;
 }
 
-#signup-form {
-    position: relative;
-    top: 100px;
+#form-wrapper {
+  position: relative;
+  top: 50px;
 }
 
 #footer {
-    position: relative;
-    top: 200px;
-    right: 215px;
+  position: relative;
+  top: 200px;
 }
 
 #right-side {
@@ -63,19 +67,29 @@ html, body {
 }
 
 #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-
-    p {
-    	font-family: 'Roboto Mono', monospace;
-    	color: #ffffff
-    }
-
-#logo {
-    position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
-    width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+p {
+ font-family: 'Roboto Mono', monospace;
+ color: #ffffff
+}
+
+#logo {
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+  width: 40%;
+}
+
+.icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icons li {
+  display: inline;
+}
