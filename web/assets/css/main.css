@@ -37,7 +37,11 @@ html, body {
 #line-break {
   height: 1px;
   width: 100px;
-  background-color: white;
+  background: #a9f3ff; /* Old browsers */
+  background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9f3ff', endColorstr='#ffd0bd',GradientType=1 ); /* IE6-9 */
   position: relative;
   top: 34vh;
 }
@@ -53,6 +57,45 @@ html, body {
 #form-wrapper {
   position: relative;
   top: 50px;
+}
+
+input[type="email"] {
+  font-size:18px;
+  font-family: 'Roboto Mono', monospace;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding-left: 15px;
+
+  border: #a9f3ff; /* Old browsers */
+
+  /*-webkit-border-image: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);*/
+  /*-webkit-border-image: -webkit-linear-gradient(left, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%);*/
+  /*-webkit-border-image: linear-gradient(to right, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%);*/
+
+  border-width: 1px;
+  border-style: solid;
+}
+
+input[type="submit"] {
+  height: 50px;
+  width: 80px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 0 4% 4% 0;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9f3ff+0,ffb2f6+51,ffd0bd+100 */
+  background: #a9f3ff; /* Old browsers */
+  background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9f3ff', endColorstr='#ffd0bd',GradientType=1 ); /* IE6-9 */
+}
+
+.input-field {
+  float: left;
 }
 
 #footer {
