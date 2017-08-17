@@ -101,6 +101,7 @@ input[type="submit"] {
 #footer {
   position: relative;
   top: 200px;
+  right: 345px;
 }
 
 #right-side {
