@@ -63,7 +63,7 @@ html, body {
 }
 
 #user-type{
-
+  margin-top: 6vh;
 }
 
 .circle {
@@ -71,18 +71,24 @@ html, body {
   width: 30px;
   border-radius: 50%;
   border: 2px white solid;
-  padding: 4px;
 }
 
-.footer-wrapper {
-  position: relative;
+.selected {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 3px 0 0 3px;
+
+  background: #a9f3ff; /* Old browsers */
+  background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9f3ff', endColorstr='#ffd0bd',GradientType=1 ); /* IE6-9 */
 }
 
 #footer {
-  position: relative;
+  position: absolute;
   margin-top: 50px;
-  float: left;
-  clear: both;
 }
 
 .form {
@@ -161,6 +167,10 @@ p {
 }
 
 .icon {
+  color: white;
+}
+
+.icon:hover {
   color: white;
 }
 
