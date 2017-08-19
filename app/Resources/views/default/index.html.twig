@@ -1,35 +1,52 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<div class="container-fluid height-100">
-  <div class="row page height-100">
-    <div id="left-side" class="col-md-5 height-100">
+<div id="page-wrapper">
 
-      <!-- Header -->
-      <div id="header">
-        <!-- <h1 id="title">beautystack</h1> -->
-        <p id="content">Beautystack is a new platform for beauty pros. </p>
-        <div id="line-break"></div>
-        <p id="content2"><b>Get early access?</b></p>
-      </div>
+  <div class="container-fluid height-100">
+    <div class="row height-100">
+      <div id="left-side" class="col-md-5 height-100">
 
-      <div id="form-wrapper">
-        <!-- Signup Form -->
-        <form id="signup-form" method="post" action="#">
-          <input type="email" name="email" id="email" placeholder="Email Address" class="input-field" />
-          <input type="submit" id="leadSubmit" value="GO" class="input-field" />
-        </form>
-      </div>
-      <br>
-      <br>
+        <!-- Header -->
+        <div id="header" class="section">
+          <!-- <h1 id="title">beautystack</h1> -->
+          <p id="content">Beautystack is a new platform for beauty pros. </p>
+          <div id="line-break"></div>
+          <p id="content2"><b>Get early access?</b></p>
+        </div>
 
-      <!-- Footer -->
-      <div id="footer">
-        <ul class="icons">
-          <li><a href="mailto:info@beautystack.co" class="icon"><i class="fa fa-envelope-o"></i></a></li>
-          <li><a href="https://twitter.com/beautystack" class="icon"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://instagram.com/beautystackgang" class="icon"><i class="fa fa-instagram"></i></a></li>
-        </ul>
+
+
+      <!-- <div id="user-type" class="section">
+        <div class="col-xs-6">
+          <i class="circle"></i>
+          <span class='user-type-text'>I am a Beauty Pro</span>
+        </div>
+
+        <div class="col-xs-6">
+          <i class="circle"></i>
+          <span class='user-type-text'>I am a Client</span>
+        </div>
+      </div> -->
+
+
+      <div class="footer-wrapper">
+        <div id="footer" class="section">
+          <!-- Signup Form -->
+          <div class="form">
+            <form id="signup-form" method="post" action="#">
+              <input type="email" name="email" id="email" placeholder="Email Address" class="input-field" />
+              <input type="submit" id="leadSubmit" value="GO" class="input-field" />
+            </form>
+          </div>
+
+          <ul class="icons">
+            <li><a href="mailto:info@beautystack.co" class="icon"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/beautystack" class="icon"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com/beautystackgang" class="icon"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+
+        </div>
       </div>
 
     </div>
@@ -40,6 +57,7 @@
   </div>
 </div>
 
+</div>
 
 {% endblock %}
 
