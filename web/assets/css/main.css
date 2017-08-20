@@ -32,7 +32,6 @@ html, body {
 
 .section {
   margin: 0 30px 50px 30px;
-  /*height: auto;*/
 }
 
 #header {
@@ -64,7 +63,7 @@ html, body {
 }
 
 #user-type{
-  /*min-width: 600px;*/
+  min-width: 30vw;
   margin-top: 5vh;
 }
 
@@ -82,7 +81,7 @@ html, body {
   border-radius: 50%;
   margin: 3px 0 0 3px;
 
-  background: #a9f3ff; /* Old browsers */
+  background: #a9f3ff; /* Old browsers
   background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #a9f3ff 0%,#ffb2f6 51%,#ffd0bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -91,15 +90,20 @@ html, body {
 
 #footer {
   position: absolute;
-  margin-top: 50px;
+  margin: 80px 0 50px 30px;
+  min-width: 240px;
 }
 
 .form {
   margin-bottom: 50px;
-  /*min-width: 326px;*/
+  min-width: 240px;
 }
 
 input[type="email"] {
+  widows: 220px;
+  min-width: 220px;
+  max-width: 280px;
+
   font-size:18px;
   font-family: 'Roboto Mono', monospace;
   height: 50px;
@@ -120,6 +124,7 @@ input[type="email"] {
 input[type="submit"] {
   height: 50px;
   width: 80px;
+
   font-family: 'Roboto Mono', monospace;
   background-color: black;
   color: white;
@@ -139,7 +144,6 @@ input[type="submit"] {
 }
 
 #right-side {
-
 	background-image: url('../../images/bg.jpg');
 	background-size: cover;
 }
@@ -165,7 +169,7 @@ p {
 .icons {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 30px 0 0 0;
   position: absolute;
   left: -18px;
 }
@@ -182,4 +186,28 @@ p {
   display: inline;
   font-size: 28px;
   margin-left: 20px;
+}
+
+
+@media (max-width: 320px) {
+  .section {
+    margin: 0 0 50px 0;
+  }
+
+  #left-side {
+    padding-left: 15px;
+  }
+
+  #footer {
+    margin: 80px 0 50px 0;
+    width: 300px;
+  }
+
+  input[type="email"] {
+    width: 220px;
+  }
+
+  #user-type {
+    margin-top: 14vh;
+  }
 }
