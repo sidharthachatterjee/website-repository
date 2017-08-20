@@ -38,7 +38,8 @@ html, body {
 #header {
   position: absolute;
   top: 0;
-  margin-top: 100px;
+  margin-top: 14vh;
+  min-height: 180px;
 }
 
 #content {
@@ -63,7 +64,8 @@ html, body {
 }
 
 #user-type{
-  margin-top: 6vh;
+  /*min-width: 600px;*/
+  margin-top: 5vh;
 }
 
 .circle {
@@ -71,6 +73,7 @@ html, body {
   width: 30px;
   border-radius: 50%;
   border: 2px white solid;
+  cursor: pointer;
 }
 
 .selected {
@@ -93,6 +96,7 @@ html, body {
 
 .form {
   margin-bottom: 50px;
+  /*min-width: 326px;*/
 }
 
 input[type="email"] {
