@@ -62,12 +62,19 @@ html, body {
   font-size: 15px;
 }
 
-#user-type{
+#user-type {
   min-width: 30vw;
   margin-top: 5vh;
 }
 
+.user-type-text {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+}
+
 .circle {
+  display: inline-block;
   height: 30px;
   width: 30px;
   border-radius: 50%;
