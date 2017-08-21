@@ -19,31 +19,33 @@ html, body {
 }
 
 .height-100 {
-	height: 100%;
+	height: 100vh;
 }
 
 #left-side {
 	background-color: #000;
-	display: flex;
-	align-items: center;
+	/*display: flex;*/
+	/*align-items: center;*/
 	justify-content: left;
   padding-left: 60px;
+  padding-top: 20vh;
 }
 
 .section {
-  margin: 0 30px 50px 30px;
+  margin: 0 30px 30px 30px;
+  position: initial;
 }
 
 #header {
-  position: absolute;
-  top: 0;
-  margin-top: 14vh;
-  min-height: 180px;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*margin-top: 25vh;*/
+  /*min-height: 180px;*/
 }
 
 #content {
   font-size: 16px;
-  border-image: url('../../images/bg.jpg');
+  /*border-image: url('../../images/bg.jpg');*/
 }
 
 #line-break {
@@ -63,7 +65,7 @@ html, body {
 }
 
 #user-type {
-  width: 30vw;
+  /*width: 30vw;*/
   margin-top: 0;
   margin-left: 30px;
   display: flex;
@@ -78,6 +80,18 @@ html, body {
   display: inline-block;
   position: relative;
   bottom: 10px;
+  padding-left: 8px;
+
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 1px;
+  font-size: 12px;
+
+  cursor: pointer;
+}
+
+.grey-text {
+  color: grey;
 }
 
 .circle {
@@ -87,6 +101,10 @@ html, body {
   border-radius: 50%;
   border: 2px white solid;
   cursor: pointer;
+}
+
+.grey-circle {
+  border-color: grey;
 }
 
 .selected {
@@ -103,9 +121,12 @@ html, body {
 }
 
 #footer {
-  position: absolute;
-  margin: 80px 0 50px 30px;
+  /*position: inherit;*/
+  /*position: absolute;*/
+  left: 40px;
+  margin: 20px 0 20px 30px;
   min-width: 240px;
+  display: inline-table;
 }
 
 .form {
@@ -117,6 +138,7 @@ input[type="email"] {
   widows: 220px;
   min-width: 220px;
   max-width: 280px;
+  border-radius: 5% 0 0 5%;
 
   font-size:18px;
   font-family: 'Roboto Mono', monospace;
@@ -181,10 +203,10 @@ p {
 }
 
 .icons {
+  position: relative;
   list-style-type: none;
   padding: 0;
-  margin: 30px 0 0 0;
-  position: absolute;
+  margin: 100px 0 0 0;
   left: -18px;
 }
 
@@ -203,17 +225,29 @@ p {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .section {
     margin: 0 0 50px 0;
   }
 
   #left-side {
     padding-left: 15px;
+    padding-top: 15vh;
+  }
+
+  #header {
+    margin-bottom: 0;
+  }
+
+  #user-type {
+    margin-top: 0;
+    margin-left: 0px;
+    margin-bottom: 5vh;
+    display: grid;
   }
 
   #footer {
-    margin: 80px 0 50px 0;
+    margin: 0 0 50px 0;
     width: 300px;
   }
 
@@ -221,14 +255,18 @@ p {
     width: 220px;
   }
 
-  #user-type {
-    margin-top: 13vh;
-    margin-left: 0px;
-    margin-bottom: 15vh;
-    display: grid;
-  }
-
   .option {
     width: 300px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-height: 321px;) {
+  #left-side {
+    height: 568px;
+  }
+
+  #user-type {
+    margin: 0;
   }
 }
