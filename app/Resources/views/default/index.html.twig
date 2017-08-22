@@ -71,42 +71,22 @@
     <script src="/assets/js/main.js"></script>
 
     <script>
-        function firstChoice () {
-            $('.circle').eq(1).html("");
-            $('.circle').eq(0).html("<div class='selected'></div>");
-            $('.user-type-text').eq(1).toggleClass("grey-text");
-            $('.user-type-text').eq(0).toggleClass("grey-text");
-            $('.circle').eq(0).toggleClass("grey-circle");
-            $('.circle').eq(1).toggleClass("grey-circle");
-            $('input[name="lead-type"]')[0].value = 'PRO';
-        }
 
-        function secondChoice () {
-            $('.circle').eq(0).html("");
-            $('.circle').eq(1).html("<div class='selected'></div>");
-            $('.user-type-text').eq(1).toggleClass("grey-text");
-            $('.user-type-text').eq(0).toggleClass("grey-text");
-            $('.circle').eq(0).toggleClass("grey-circle");
-            $('.circle').eq(1).toggleClass("grey-circle");
-            $('input[name="lead-type"]')[0].value = 'CLIENT';
-        }
+        function choiceSelect (choice) {
+          var alternate = (choice == 0 ? 1 : 0);
+          $('.circle').eq(alternate).html("");
+          $('.circle').eq(choice).html("<div class='selected'></div>");
+          $('.user-type-text').eq(alternate).addClass("grey-text");
+          $('.user-type-text').eq(choice).removeClass("grey-text");
+          $('.circle').eq(choice).removeClass("grey-circle");
+          $('.circle').eq(alternate).addClass("grey-circle");
+          $('input[name="lead-type"]')[0].value = (choice == 0 ? 'PRO' : 'CLIENT');
+          }
 
-        $('.circle').eq(0).click(function () {
-            firstChoice();
-        });
-        $('.circle').eq(1).click(function () {
-            secondChoice();
-        });
-
-        $('.user-type-text').eq(0).click(function () {
-            firstChoice();
-        })
-        $('.user-type-text').eq(1).click(function () {
-            secondChoice();
-        })
-
-        // Use $('#pro').html() to check if pro is selected
-        // Use $('#client').html() to check if client is selected
+        $('.circle').eq(0).click(function () {choiceSelect(0);});
+        $('.circle').eq(1).click(function () {choiceSelect(1);});
+        $('.user-type-text').eq(0).click(function () {choiceSelect(0); })
+        $('.user-type-text').eq(1).click(function () {choiceSelect(1); })
 
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
