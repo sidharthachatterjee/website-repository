@@ -25,6 +25,7 @@ class UserController
         $apiInstance = new \BeautyStack\ApiClient\Api\DefaultApi($apiClient);
         $createLeadRequest = new \BeautyStack\ApiClient\Model\CreateLeadRequest();
         $createLeadRequest->setEmail($requestArray['email']);
+        $createLeadRequest->setType($requestArray['type']);
         $result = $apiInstance->userLeadsPost($createLeadRequest);
         return new JsonResponse($result, Response::HTTP_CREATED);
     }
