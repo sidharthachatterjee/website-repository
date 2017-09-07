@@ -22,11 +22,11 @@ class UserController
 
         $apiClient = new \BeautyStack\ApiClient\ApiClient();
         $apiClient->getConfig()->setHost('http://api.beautystack.local');
-        $apiInstance = new \BeautyStack\ApiClient\Api\DefaultApi($apiClient);
+        $apiInstance = new \BeautyStack\ApiClient\Api\DirectoryApi($apiClient);
         $createLeadRequest = new \BeautyStack\ApiClient\Model\CreateLeadRequest();
         $createLeadRequest->setEmail($requestArray['email']);
         $createLeadRequest->setType($requestArray['type']);
-        $result = $apiInstance->userLeadsPost($createLeadRequest);
+        $result = $apiInstance->directoryLeadsPost($createLeadRequest);
         return new JsonResponse($result, Response::HTTP_CREATED);
     }
 }

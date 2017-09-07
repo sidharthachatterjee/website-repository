@@ -29,7 +29,7 @@
 
     "require": {
         "php": ">=5.5.9",
-        "BeautyStack/api-client-php": "^0.1.0",
+        "BeautyStack/api-client-php": "dev-master",
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/orm": "^2.5",
         "incenteev/composer-parameter-handler": "^2.0",

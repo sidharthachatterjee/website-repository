@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "98b06743c26a020444f059918668a50e",
+    "content-hash": "85e8b5b1d6b03fae4107e906c9c13dd1",
     "packages": [
         {
             "name": "BeautyStack/api-client-php",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BeautyStack/api-client-php.git",
-                "reference": "1b7982d398b63e0ea919ba3d161f0d40ace1f031"
+                "reference": "c8970baaf01aa30032fdfbb13155243e34d4bf9f"
             },
             "require": {
                 "ext-curl": "*",
@@ -52,7 +52,7 @@
                 "sdk",
                 "swagger"
             ],
-            "time": "2017-08-17T07:50:16+00:00"
+            "time": "2017-09-07 16:45:06"
         },
         {
             "name": "composer/ca-bundle",
@@ -2419,7 +2419,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "beautystack/api-client-php": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
