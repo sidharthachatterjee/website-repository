@@ -21,18 +21,18 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/confirm-lead-email", name="confirm_lead_email")
+     * @Route("/confirm-lead-email/{slug}", name="confirm_lead_email")
      */
-    public function confirmLeadEmailAction(Request $request) : Response
+    public function confirmLeadEmailAction(Request $request, string $slug) : Response
     {
         $apiClient = new \BeautyStack\ApiClient\ApiClient();
         $apiClient->getConfig()->setHost('http://api.beautystack.local');
-        $apiInstance = new \BeautyStack\ApiClient\Api\DefaultApi($apiClient);
+        $apiInstance = new \BeautyStack\ApiClient\Api\DirectoryApi($apiClient);
         $updateLeadRequest = new \BeautyStack\ApiClient\Model\UpdateLeadRequest();
         $updateLeadRequest->setStatus('CONFIRMED');
-        $result = $apiInstance->userLeadsIdPatch($request->get('activationToken'), $updateLeadRequest);
+        $result = $apiInstance->directoryLeadsIdPatch($slug, $updateLeadRequest);
 
-        return $this->redirectToRoute('email_confirmed', array(), 301);
+       return $this->redirectToRoute('email_confirmed', array(), 301);
     }
 
     /**
