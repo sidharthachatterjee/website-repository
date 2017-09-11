@@ -35,7 +35,7 @@
                         </div>
                         <div class="col-sm-6 type-option">
                             <span id="client" class="circle grey-circle"></span>
-                            <span class='user-type-text grey-text'>I am a Client</span>
+                            <span class='user-type-text'>I am a Client</span>
                         </div>
                     </div>
 
@@ -43,8 +43,8 @@
                         <div class="col-xs-12">
                             <form id="signup-form" method="post" action="#">
                                 <input name="lead-type" type="hidden" value="PRO">
-                                <input type="email" name="email" id="email" placeholder="Email Address" class="input-field" />
-                                <input type="submit" id="leadSubmit" value="GO" class="input-field" />
+                                <input type="email" name="email" id="email" placeholder="Email Address" class="input-field"/>
+                                <input type="submit" id="leadSubmit" value="GO" class="input-field"/>
                             </form>
                             <div id="message"></div>
                         </div>
@@ -71,22 +71,34 @@
     <script src="/assets/js/main.js"></script>
 
     <script>
+        $(document).ready(function () {
+            function choiceSelect (choice) {
+                var alternate = (choice == 0 ? 1 : 0);
+                $('.circle').eq(alternate).html("");
+                $('.circle').eq(choice).html("<div class='selected'></div>");
+                $('.user-type-text').eq(alternate).addClass("grey-text");
+                $('.user-type-text').eq(choice).removeClass("grey-text");
+                $('.circle').eq(choice).removeClass("grey-circle");
+                $('.circle').eq(alternate).addClass("grey-circle");
+                $('input[name="lead-type"]')[0].value = (choice == 0 ? 'PRO' : 'CLIENT');
+            }
 
-        function choiceSelect (choice) {
-          var alternate = (choice == 0 ? 1 : 0);
-          $('.circle').eq(alternate).html("");
-          $('.circle').eq(choice).html("<div class='selected'></div>");
-          $('.user-type-text').eq(alternate).addClass("grey-text");
-          $('.user-type-text').eq(choice).removeClass("grey-text");
-          $('.circle').eq(choice).removeClass("grey-circle");
-          $('.circle').eq(alternate).addClass("grey-circle");
-          $('input[name="lead-type"]')[0].value = (choice == 0 ? 'PRO' : 'CLIENT');
-          }
+            $('.circle').eq(0).click(function () {
+                choiceSelect(0);
+            });
+            $('.circle').eq(1).click(function () {
+                choiceSelect(1);
+            });
+            $('.user-type-text').eq(0).click(function () {
+                choiceSelect(0);
+            })
+            $('.user-type-text').eq(1).click(function () {
+                choiceSelect(1);
+            })
 
-        $('.circle').eq(0).click(function () {choiceSelect(0);});
-        $('.circle').eq(1).click(function () {choiceSelect(1);});
-        $('.user-type-text').eq(0).click(function () {choiceSelect(0); })
-        $('.user-type-text').eq(1).click(function () {choiceSelect(1); })
+            $('.left-panel-content').addClass('loaded');
+            $('#logo').addClass('loaded');
+        });
 
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;

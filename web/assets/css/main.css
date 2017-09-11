@@ -1,5 +1,5 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Roboto+Mono:300,400,700');
 
 html, body {
     height: 100%;
@@ -8,7 +8,7 @@ html, body {
 
 body {
     font-family: 'Roboto Mono', monospace;
-    color: #ffffff;
+    color: #000;
     font-size: 16px
 }
 
@@ -31,14 +31,22 @@ body {
 
 #form-panel {
     height: 75vh;
-    background-color: #000;
+    background-color: #fff;
     display: flex;
     align-items: center;
 }
 
 .left-panel-content {
+    margin-top: -50px;
+    opacity: 0;
     padding: 0 20px;
     width: 100%;
+    transition: all 500ms ease-in;
+}
+
+.left-panel-content.loaded {
+    margin-top: 0;
+    opacity: 1;
 }
 
 .row {
@@ -72,14 +80,9 @@ body {
 .user-type-text {
     display: inline-block;
     padding-left: 8px;
-    color: white;
     letter-spacing: 1px;
     font-size: 12px;
     cursor: pointer;
-}
-
-.grey-text {
-    color: grey;
 }
 
 .circle {
@@ -156,25 +159,49 @@ input[type="submit"] {
 }
 
 #logo {
+    opacity: 0;
     width: 40%;
+    transition: all 500ms ease-in;
+}
+
+#logo.loaded {
+    opacity: 1;
 }
 
 .icons {
     padding: 0;
+    margin-left: 10px;
+}
+
+.icons.confirm {
+    margin-left: 0;
+    text-align: center;
 }
 
 .icon {
-    color: white;
+    color: #000;
 }
 
 .icon:hover {
-    color: white;
+    color: #000;
 }
 
 .icons li {
     display: inline;
     font-size: 28px;
-    margin-left: 20px;
+    margin: 0 10px;
+}
+
+.confirmation-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.confirmation-text h1 {
+    font-family: 'Karla', sans-serif;
+    color: blue;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -198,6 +225,14 @@ input[type="submit"] {
 
     .user-type-text {
         font-size: 14px;
+    }
+
+    .confirmation-text {
+        font-size: 16px;
+    }
+
+    .confirmation-text h1 {
+        font-size: 60px;
     }
 }
 
