@@ -168,9 +168,14 @@ input[type="submit"] {
     opacity: 1;
 }
 
+.row.social-icons {
+    margin-bottom: 0;
+}
+
 .icons {
     padding: 0;
     margin-left: 10px;
+    margin-bottom: 0;
 }
 
 .icons.confirm {
@@ -204,6 +209,128 @@ input[type="submit"] {
     font-weight: bold;
 }
 
+.legal-links {
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+.legal-links a {
+    text-decoration: underline;
+}
+
+.legal {
+    font-family: 'Karla', sans-serif;
+}
+
+.legal .back img {
+    max-height: 30px !important;
+}
+
+.legal .back {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    background: #000 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    height: 50px !important;
+    width: 60px !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    -webkit-align-items: center !important;
+    align-items: center !important;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+    padding-top: 10px !important;
+}
+
+.legal .back:before {
+    content: "" !important;
+    position: absolute !important;
+    top: 50px !important;
+    right: 0px !important;
+    border-width: 10px 10px 0 0 !important;
+    border-style: solid !important;
+    border-color: #555 transparent !important;
+}
+
+.legal .back:after {
+    content: "" !important;
+    position: absolute !important;
+    top: 50px !important;
+    right: 10px !important;
+    left: 0px !important;
+    border-width: 5px !important;
+    border-style: solid !important;
+    border-color: #000 !important;
+}
+
+.legal a {
+    color: #0d38f9;
+}
+
+.legal a:hover,
+.legal a:visited,
+.legal a:focus,
+.legal a:active {
+    color: #0d38f9;
+}
+
+.legal h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: #0d38f9;
+}
+
+.legal .updated {
+    color: #b1b0b6;
+}
+
+.legal p {
+    margin: 25px 0;
+}
+
+.legal ul {
+    margin: 25px 0;
+    padding: 0;
+}
+
+.legal ul li {
+    list-style: none;
+}
+
+.legal h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.legal .talk {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+.legal .talk .sub {
+    color: #b1b0b6;
+}
+
+.legal .talk .email {
+    color: #0d38f9;
+    font-size: 40px;
+}
+
+.legal .table-col-1 {
+    width: 25%;
+    padding-right: 25px;
+}
+
+.legal .table-col {
+    padding: 8px 0;
+}
+
 @media (min-width: 768px) {
     .row {
         margin-bottom: 45px;
@@ -233,6 +360,13 @@ input[type="submit"] {
 
     .confirmation-text h1 {
         font-size: 60px;
+    }
+
+    .legal-links {
+        position: absolute;
+        bottom: 10px;
+        font-size: 14px;
+        margin-top: 0;
     }
 }
 
