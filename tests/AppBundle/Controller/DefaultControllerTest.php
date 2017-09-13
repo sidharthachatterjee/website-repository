@@ -12,8 +12,8 @@ class DefaultControllerTest extends WebTestCase
 
         $crawler = $client->request('GET', '/');
 
-        $content = 'Beautystack is a new salon software system for beauty pros.';
+        $content = 'Beautystack is a new platform for beauty pros.';
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
-        $this->assertContains($content, $crawler->filter('header p')->text());
+        $this->assertContains($content, $crawler->filter('div')->text());
     }
 }

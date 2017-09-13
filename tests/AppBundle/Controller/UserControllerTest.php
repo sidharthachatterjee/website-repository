@@ -16,7 +16,7 @@ class UserControllerTest extends WebTestCase
             [],
             [],
             ['CONTENT_TYPE' => 'application/json'],
-            '{"email":"jane.doe@example.com"}'
+            '{"email":"jane'.sha1(random_bytes(40)).'@example.com", "type":"CLIENT"}'
         );
 
         $this->assertEquals(201, $client->getResponse()->getStatusCode());

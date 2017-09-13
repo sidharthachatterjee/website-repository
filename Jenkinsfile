@@ -35,7 +35,7 @@ node {
             archive (includes: '**')
         }
 
-        stage("Deploy to Staging") {
+        stage("Deploy to Production") {
             sshagent(credentials: ['44adb942-6d5f-40e0-a9be-141d9f3855d9']) {
                 sh 'ssh ubuntu@138.68.118.193 mkdir -p /home/ubuntu/Projects/builds/fe.homepage/${BUILD_ID}'
                 sh 'scp -r * ubuntu@138.68.118.193:/home/ubuntu/Projects/builds/fe.homepage/${BUILD_ID}'
@@ -46,7 +46,7 @@ node {
             }
         }
 
-        stage("Run Unit Tests") {
+        stage("Run Unit and Integration Tests") {
             sshagent(credentials: ['44adb942-6d5f-40e0-a9be-141d9f3855d9']) {
                 sh 'ssh ubuntu@138.68.118.193 "cd /home/ubuntu/Projects/fe.homepage && /usr/local/bin/phpunit"'
             }
