@@ -4,7 +4,7 @@ node {
         checkout scm
 
         stage("Archive Build") {
-            sh 'echo "developer:\n  name: Beauty Stack Staging\n  email: info@beautystack.co\nhomepage:\n  host: http://homepage.staging.beautystack.co\napi\n  host: http://api.beautystack.local" > bt-build-config.yaml'
+            sh 'echo "developer:\n  name: Beauty Stack Staging\n  email: info@beautystack.co\nhomepage:\n  host: http://homepage.staging.beautystack.co\napi:\n  host: http://api.beautystack.local" > bt-build-config.yaml'
             archive (includes: '**')
         }
 
@@ -33,7 +33,7 @@ node {
         checkout scm
 
         stage("Archive Build") {
-            sh 'echo "developer:\n  name: Beauty Stack Staging\n  email: info@beautystack.co\nhomepage:\n  host: http://homepage.staging.beautystack.co\napi\n  host: http://api.beautystack.local" > bt-build-config.yaml'
+            sh 'echo "developer:\n  name: Beauty Stack Staging\n  email: info@beautystack.co\nhomepage:\n  host: http://homepage.staging.beautystack.co\napi:\n  host: http://api.beautystack.local" > bt-build-config.yaml'
             archive (includes: '**')
         }
 
