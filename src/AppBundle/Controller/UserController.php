@@ -1,6 +1,7 @@
 <?php
 namespace AppBundle\Controller;
 
+use BeautyStack\ApiClient\ApiException;
 use Exception;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -26,7 +27,11 @@ class UserController
         $createLeadRequest = new \BeautyStack\ApiClient\Model\CreateLeadRequest();
         $createLeadRequest->setEmail($requestArray['email']);
         $createLeadRequest->setType($requestArray['type']);
-        $result = $apiInstance->directoryLeadsPost($createLeadRequest);
-        return new JsonResponse($result, Response::HTTP_CREATED);
+        try {
+            $result = $apiInstance->directoryLeadsPost($createLeadRequest);
+            return new JsonResponse($result, Response::HTTP_CREATED);
+        } catch (ApiException $e) {
+            return new JsonResponse(['error' => $e->getMessage()], $e->getCode());
+        }
     }
 }

@@ -64,7 +64,24 @@
                 $message._show('success', 'Thank you!');
 
             },
-            data:     JSON.stringify({email: $email.value, type: $type.value})
+            error : function (jqXHR, textStatus, errorThrown) {
+                console.log(jqXHR.status);
+                console.log(textStatus);
+                console.log(errorThrown);
+                $form.reset();
+                // Enable submit.
+                $submit.disabled = false;
+
+                if (jqXHR.status == 409) {
+                    // Show message.
+                    $('#email').hide()
+                    $('#leadSubmit').hide()
+                    $message._show('success', 'Thank you!');
+                } else {
+                    $message._show('error', 'Something went wrong please try again');
+                }
+            },
+            data: JSON.stringify({email: $email.value, type: $type.value})
         });
     });
 
