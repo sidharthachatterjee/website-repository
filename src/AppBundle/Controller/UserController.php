@@ -3,13 +3,14 @@ namespace AppBundle\Controller;
 
 use BeautyStack\ApiClient\ApiException;
 use Exception;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 
-class UserController
+class UserController extends Controller
 {
     /**
      * @Route("/user/leads", name="post_lead")
@@ -22,7 +23,7 @@ class UserController
         $requestArray = json_decode($request->getContent(), 1);
 
         $apiClient = new \BeautyStack\ApiClient\ApiClient();
-        $apiClient->getConfig()->setHost('http://api.beautystack.local');
+        $apiClient->getConfig()->setHost($this->get('beautystack_api_host'));
         $apiInstance = new \BeautyStack\ApiClient\Api\DirectoryApi($apiClient);
         $createLeadRequest = new \BeautyStack\ApiClient\Model\CreateLeadRequest();
         $createLeadRequest->setEmail($requestArray['email']);

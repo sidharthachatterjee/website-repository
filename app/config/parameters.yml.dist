@@ -17,3 +17,5 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
+    api.secret: 2+IExNKEhDCMLqbr+QiP+U76QX+ixQkVzOh9q9MJtUVADSakjouEYu6QEiSAiXHDbgguMqIYg4/74skCXxQBRw==
+    beautystack_api_host: http://api.beautystack.local
