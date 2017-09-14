@@ -26,7 +26,7 @@ class DefaultController extends Controller
     public function confirmLeadEmailAction(Request $request, string $slug): Response
     {
         $apiClient = new \BeautyStack\ApiClient\ApiClient();
-        $apiClient->getConfig()->setHost($this->get('beautystack_api_host'));
+        $apiClient->getConfig()->setHost($this->getParameter('beautystack_api_host'));
         $apiInstance       = new \BeautyStack\ApiClient\Api\DirectoryApi($apiClient);
         $updateLeadRequest = new \BeautyStack\ApiClient\Model\UpdateLeadRequest();
         $updateLeadRequest->setStatus('CONFIRMED');

@@ -23,7 +23,7 @@ class UserController extends Controller
         $requestArray = json_decode($request->getContent(), 1);
 
         $apiClient = new \BeautyStack\ApiClient\ApiClient();
-        $apiClient->getConfig()->setHost($this->get('beautystack_api_host'));
+        $apiClient->getConfig()->setHost($this->getParameter('beautystack_api_host'));
         $apiInstance = new \BeautyStack\ApiClient\Api\DirectoryApi($apiClient);
         $createLeadRequest = new \BeautyStack\ApiClient\Model\CreateLeadRequest();
         $createLeadRequest->setEmail($requestArray['email']);
