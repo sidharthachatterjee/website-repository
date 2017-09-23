@@ -33,7 +33,7 @@ html, body {
   text-align: center;
 }
 
-#content {
+.content {
   max-height: 20vh;
   min-width: 300px;
   max-width: 510px;
@@ -47,6 +47,10 @@ html, body {
   color: #1D1D1D;
   font-size: 17px;
   line-height: 30px;
+}
+
+.confirmed-text {
+  font-weight: bold;
 }
 
 #buttons-wrapper {
