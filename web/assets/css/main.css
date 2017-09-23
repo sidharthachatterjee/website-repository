@@ -41,7 +41,6 @@ html, body {
   width: auto\9;
 
   margin: 0, 10px, 0, 10px;
-  /*white-space: nowrap;*/
 
   font-family: 'Helvetica', monospace;
   font-weight: 100;
@@ -57,16 +56,17 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  /*min-width: 320px;*/
-
-  /*padding: 1px;*/
-
   border: 1px solid transparent;
   background: #a9f3ff;
   background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
   background: -webkit-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
   background: linear-gradient(to right, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9f3ff', endColorstr='#ffd0bd', GradientType=1);
+}
+
+#buttons-wrapper a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .choice {
@@ -80,6 +80,7 @@ html, body {
   cursor: pointer;
 }
 
+
 .selected {
   background: #a9f3ff;
   background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
@@ -91,14 +92,6 @@ html, body {
   color: #0238FB;
 
   box-shadow: -1px 0px 10px 1px #0238FB;
-}
-
-#pro {
-
-}
-
-#client {
-
 }
 
 .left-panel {
@@ -203,351 +196,28 @@ html, body {
   }
 }
 
-/*html, body {
-    height: 100%;
-    margin: 0;
-}
+/*iPhone 5 landscape*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #logo-wrapper {
+    top: 25%;
+    left: 50%;
+    transform: translate(-51.5%, -50%);
+  }
 
-body {
-    font-family: 'Roboto Mono', monospace;
-    color: #000;
-    font-size: 16px
-}
-
-.height-100 {
-    height: 100vh;
-}
-
-.container-fluid > .row {
-    margin-bottom: 0;
-}
-
-#logo-panel {
-    height: 25vh;
-    background-image: url('http://assets.beautystack.co/bg.jpg');
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#form-panel {
-    height: 75vh;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.left-panel-content {
-    margin-top: -50px;
-    opacity: 0;
-    opacity: 1;
-    padding: 0 20px;
-    width: 100%;
-    transition: all 500ms ease-in;
-}
-
-.left-panel-content.loaded {
-    margin-top: 0;
-    opacity: 1;
-}
-
-.row {
-    margin-bottom: 24px;
-}
-
-.row:last-child {
-    margin-bottom: 0;
-}
-
-#line-break {
-    height: 1px;
-    width: 100px;
-    background: #a9f3ff;
-    background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
-    background: -webkit-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
-    background: linear-gradient(to right, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9f3ff', endColorstr='#ffd0bd', GradientType=1);
-}
-
-.type-option {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.type-option:last-child {
-    margin-bottom: 0;
-}
-
-.user-type-text {
-    display: inline-block;
-    padding-left: 8px;
-    letter-spacing: 1px;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-.form {
-    margin-bottom: 50px;
-    min-width: 240px;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill {
-    -webkit-text-fill-color: #fff;
-    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
-}
-
-input[type="submit"] {
-    height: 50px;
-    width: 80px;
-    color: white;
-    border: 0;
-    border-radius: 0 4% 4% 0;
-    font-weight: bold;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9f3ff+0,ffb2f6+51,ffd0bd+100
-    background: #a9f3ff;
-    background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
-    background: -webkit-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
-    background: linear-gradient(to right, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9f3ff', endColorstr='#ffd0bd', GradientType=1);
-}
-
-.input-field {
-    float: left;
-}
-
-#logo {
-    opacity: 1;
-    opacity: 0;
-    width: 40%;
-    transition: all 500ms ease-in;
-}
-
-#logo.loaded {
-    opacity: 1;
-}
-
-.row.social-icons {
-    margin-bottom: 0;
-}
-
-.icons {
-    padding: 0;
-    margin-left: 10px;
-    margin-bottom: 0;
-}
-
-.icons.confirm {
-    margin-left: 0;
+  #content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    width: 500px;
+  }
+
+  .choice {
+    padding: 10px;
+    width: 150px;
+
+    font-size: 13px;
+  }
+
 }
-
-.icon {
-    color: #000;
-}
-
-.icon:hover {
-    color: #000;
-}
-
-.icons li {
-    display: inline;
-    font-size: 28px;
-    margin: 0 10px;
-}
-
-.confirmation-text {
-    font-size: 14px;
-    text-align: center;
-}
-
-.confirmation-text h1 {
-    font-family: 'Karla', sans-serif;
-    color: blue;
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.legal-links {
-    font-size: 11px;
-    margin-top: 8px;
-}
-
-.legal-links a {
-    color: #b1b0b6;
-    text-decoration: underline;
-}
-
-.legal-links a:hover,
-.legal-links a:visited,
-.legal-links a:active {
-    color: #b1b0b6;
-    text-decoration: underline;
-}
-
-.legal {
-    font-family: 'Karla', sans-serif;
-}
-
-.legal .back img {
-    max-height: 30px !important;
-}
-
-.legal .back {
-    -webkit-box-pack: center !important;
-    -ms-flex-pack: center !important;
-    -webkit-box-align: center !important;
-    -ms-flex-align: center !important;
-    background: #000 !important;
-    cursor: pointer !important;
-    position: relative !important;
-    height: 50px !important;
-    width: 60px !important;
-    display: -webkit-box !important;
-    display: -moz-box !important;
-    display: -ms-flexbox !important;
-    display: -webkit-flex !important;
-    display: flex !important;
-    -webkit-align-items: center !important;
-    align-items: center !important;
-    -webkit-justify-content: center !important;
-    justify-content: center !important;
-    padding-top: 10px !important;
-}
-
-.legal .back:before {
-    content: "" !important;
-    position: absolute !important;
-    top: 50px !important;
-    right: 0px !important;
-    border-width: 10px 10px 0 0 !important;
-    border-style: solid !important;
-    border-color: #555 transparent !important;
-}
-
-.legal .back:after {
-    content: "" !important;
-    position: absolute !important;
-    top: 50px !important;
-    right: 10px !important;
-    left: 0px !important;
-    border-width: 5px !important;
-    border-style: solid !important;
-    border-color: #000 !important;
-}
-
-.legal a {
-    color: #0d38f9;
-}
-
-.legal a:hover,
-.legal a:visited,
-.legal a:focus,
-.legal a:active {
-    color: #0d38f9;
-}
-
-.legal h1 {
-    font-family: 'Roboto Mono', monospace;
-    color: #0d38f9;
-}
-
-.legal .updated {
-    color: #b1b0b6;
-}
-
-.legal p {
-    margin: 25px 0;
-}
-
-.legal ul {
-    margin: 25px 0;
-    padding: 0;
-}
-
-.legal ul li {
-    list-style: none;
-}
-
-.legal h2 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 25px 0;
-}
-
-.legal .talk {
-    text-align: center;
-    padding: 60px 0 30px;
-}
-
-.legal .talk .sub {
-    color: #b1b0b6;
-}
-
-.legal .talk .email {
-    color: #0d38f9;
-    font-size: 40px;
-}
-
-.legal .table-col-1 {
-    width: 25%;
-    padding-right: 25px;
-}
-
-.legal .table-col {
-    padding: 8px 0;
-}
-
-@media (min-width: 768px) {
-    .row {
-        margin-bottom: 45px;
-    }
-
-    .circle {
-        height: 30px;
-        width: 30px;
-    }
-
-    .selected {
-        height: 20px;
-        width: 20px;
-    }
-
-    .type-option {
-        margin-bottom: 0;
-    }
-
-    .user-type-text {
-        font-size: 14px;
-    }
-
-    .confirmation-text {
-        font-size: 16px;
-    }
-
-    .confirmation-text h1 {
-        font-size: 60px;
-    }
-
-    .legal-links {
-        position: absolute;
-        bottom: 10px;
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    #logo-panel {
-        height: 100vh;
-    }
-
-    #form-panel {
-        height: 100vh;
-    }
-    }*/
-
-
