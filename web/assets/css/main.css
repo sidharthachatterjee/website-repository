@@ -139,6 +139,36 @@ html, body {
   margin: 0 10px;
 }
 
+#footer-wrapper {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  white-space: nowrap;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-wrapper a {
+  color: #1D1D1D;
+
+}
+
+.footer-text {
+  display: inline-block;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.separator {
+  position: relative;
+  top: 50%;
+  transform: translateY(-15%);
+  text-decoration: none;
+}
+
 @media (max-width: 400px) {
   #logo-wrapper {
     position: absolute;
