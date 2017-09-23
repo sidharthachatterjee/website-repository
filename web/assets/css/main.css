@@ -51,16 +51,17 @@ html, body {
 }
 
 #buttons-wrapper {
+  white-space: nowrap;
   position: absolute;
   top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  min-width: 380px;
+  /*min-width: 320px;*/
 
-  display: inline-block;
-  padding: 1px;
+  /*padding: 1px;*/
 
+  border: 1px solid transparent;
   background: #a9f3ff;
   background: -moz-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
   background: -webkit-linear-gradient(left, #a9f3ff 0%, #ffb2f6 51%, #ffd0bd 100%);
@@ -69,6 +70,7 @@ html, body {
 }
 
 .choice {
+  margin: 0;
   display: inline-block;
   font-family: 'Roboto Mono', monospace;
   padding: 15px;
@@ -135,6 +137,40 @@ html, body {
   display: inline;
   font-size: 28px;
   margin: 0 10px;
+}
+
+@media (max-width: 400px) {
+  #logo-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-51.5%, -50%);
+  }
+
+  #content-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #buttons-wrapper {
+    white-space: nowrap;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 306px;
+  }
+
+  .choice {
+    padding: 10px;
+    width: 150px;
+
+    font-size: 13px;
+  }
 }
 
 /*html, body {
