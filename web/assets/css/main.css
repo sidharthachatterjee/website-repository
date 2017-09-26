@@ -50,6 +50,8 @@ html, body {
 }
 
 .confirmed-text {
+  font-family: 'Karla';
+  font-size: 24px;
   font-weight: bold;
 }
 
