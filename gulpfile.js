@@ -58,7 +58,7 @@ gulp.task('version', ['sass', 'js'], function () {
 gulp.task('html', ['version'], function () {
     var manifest = JSON.parse(fs.readFileSync('dist/assets/rev-manifest.json', 'utf8'));
 
-    var pages = ['index', 'privacy', 'termsofservice'];
+    var pages = ['index', 'privacy', 'termsofservice', 'confirmation'];
 
     for(var i=0; i<pages.length; i++) {
         gulp.src('views/' + pages[i] + '.hbs')
