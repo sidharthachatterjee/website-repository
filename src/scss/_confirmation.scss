@@ -1,0 +1,132 @@
+.confirmation {
+    #wrapper {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    #social {
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style: none;
+                display: inline;
+                margin: 0 10px;
+
+                .icon {
+                    color: #1D1D1D;
+                    font-size: 25px;
+
+                    &:hover {
+                        color: #1D1D1D;
+                    }
+                }
+            }
+        }
+    }
+
+    #content {
+        max-width: 600px;
+
+        #logo {
+            width: 100%;
+        }
+
+        .intro {
+            margin: 40px 0;
+            text-align: center;
+
+            p {
+                margin: 0;
+                line-height: 30px;
+                font-size: 24px;
+                font-weight: 700;
+
+                &:first-child {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+
+        a {
+            color: #1D1D1D;
+            text-decoration: underline;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 14px;
+        }
+
+        .separator {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(-15%);
+            text-decoration: none;
+            margin: 0 8px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .confirmation {
+        #social {
+            top: auto;
+            bottom: 70px;
+
+            ul {
+                li {
+                    .icon {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        #content {
+            max-width: 75%;
+            position: relative;
+            top: -40px;
+
+            .intro {
+                margin: 35px 0;
+                text-align: center;
+
+                p {
+                    line-height: 22px;
+                    font-size: 18px;
+
+                    &:last-child {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+
+        #footer {
+            bottom: 35px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
