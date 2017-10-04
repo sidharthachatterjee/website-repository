@@ -41,9 +41,10 @@
 
     #content {
         max-width: 600px;
+        text-align: center;
 
         #logo {
-            width: 100%;
+            width: 80%;
         }
 
         .intro {
@@ -83,6 +84,7 @@
                     cursor: pointer;
                     display: flex;
                     font-family: 'Roboto Mono', monospace;
+                    font-size: 14px;
                     height: 50px;
                     justify-content: center;
                     position: relative;
@@ -144,7 +146,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (orientation: portrait) {
     .home {
         #social {
             top: auto;
@@ -201,6 +203,56 @@
             bottom: 35px;
             display: flex;
             justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .home {
+        #social {
+            top: auto;
+            left: 25%;
+            bottom: 14px;
+
+            ul {
+                li {
+                    .icon {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        #content {
+            max-width: 500px;
+            text-align: center;
+            top: -15px;
+            position: relative;
+
+            #logo {
+                width: 300px;
+            }
+
+            .intro {
+                margin: 15px 0;
+                line-height: 24px;
+                font-size: 14px;
+
+                p:last-child {
+                    margin-top: 6px;
+                }
+            }
+        }
+
+        #footer {
+            bottom: 20px;
+            left: 75%;
+            width: 50%;
+            text-align: center;
+
+            a {
+                font-size: 12px;
+            }
         }
     }
 }
