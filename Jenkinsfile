@@ -1,5 +1,5 @@
 node {
-    if (env.BRANCH_NAME == 'develop') {
+    if (env.BRANCH_NAME == 'staging') {
         stage('Prepare Environment') {
             checkout scm
             def environment  = docker.build 'cloudbees-node'

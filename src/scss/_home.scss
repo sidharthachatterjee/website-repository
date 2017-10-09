@@ -13,10 +13,17 @@
 
     #social {
         position: absolute;
-        top: 55px;
+        top: 25px;
         left: 50%;
+        opacity: 0;
         transform: translateX(-50%);
+        transition: all 500ms ease-in-out;
         z-index: 2;
+
+        &.loaded {
+            opacity: 1;
+            top: 55px;
+        }
 
         ul {
             margin: 0;
@@ -41,7 +48,16 @@
 
     #content {
         max-width: 600px;
+        opacity: 0;
+        position: relative;
         text-align: center;
+        top: -30px;
+        transition: all 500ms ease-in-out;
+
+        &.loaded {
+            opacity: 1;
+            top: 0;
+        }
 
         #logo {
             width: 80%;
@@ -123,10 +139,17 @@
 
     #footer {
         position: absolute;
-        bottom: 70px;
+        bottom: 100px;
         left: 50%;
+        opacity: 0;
         transform: translateX(-50%);
+        transition: all 500ms ease-in-out;
         z-index: 2;
+
+        &.loaded {
+            opacity: 1;
+            bottom: 70px;
+        }
 
         a {
             color: #1D1D1D;

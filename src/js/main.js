@@ -4,4 +4,8 @@ $(document).ready(function () {
     }, function () {
         $('#client').removeClass('inactive');
     });
+
+    $('.home #content').addClass('loaded');
+    $('.home #social').addClass('loaded');
+    $('.home #footer').addClass('loaded');
 });
