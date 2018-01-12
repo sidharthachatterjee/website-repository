@@ -1,6 +1,10 @@
 .legal {
     font-family: 'Karla', sans-serif;
 
+    .container {
+        padding-top: 40px
+    }
+
     .back {
         -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
