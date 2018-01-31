@@ -1,4 +1,28 @@
 .home {
+    #login {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: 0;
+        background: rgb(0,0,255);
+        color: #fff;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        width: 160px;
+        font-weight: bold;
+        z-index: 10; 
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
     #wrapper {
         align-items: center;
         justify-content: center;
@@ -171,6 +195,11 @@
 
 @media (max-width: 576px) and (orientation: portrait) {
     .home {
+        #login {
+            height: 40px;
+            width: 120px;
+        }
+
         #social {
             top: auto;
             bottom: 56px;
@@ -247,6 +276,11 @@
 
 @media (max-width: 768px) and (orientation: landscape) {
     .home {
+        #login {
+            height: 40px;
+            width: 120px;
+        }
+        
         #social {
             top: auto;
             left: 25%;
