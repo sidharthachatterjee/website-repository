@@ -2,7 +2,11 @@
     font-family: 'Karla', sans-serif;
 
     .container {
-        padding-top: 40px
+        padding-top: 40px;
+
+        &.app {
+            padding-top: 0px;
+        }
     }
 
     .back {
@@ -50,6 +54,10 @@
             border-style: solid !important;
             border-color: #000 !important;
         }
+
+        &.app {
+            display: none !important;
+        }
     }
 
     a {
@@ -67,6 +75,10 @@
     h1 {
         font-family: 'Roboto Mono', monospace;
         color: #0d38f9;
+
+        &.app {
+            display: none !important;
+        }
     }
 
     h2 {
@@ -75,12 +87,26 @@
         margin: 25px 0;
     }
 
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+    }
+
     .updated {
         color: #b1b0b6;
+
+        &.app {
+            display: none;
+        }
     }
 
     p {
         margin: 25px 0;
+
+        &.no-top {
+            margin-top: 0;
+        }
     }
 
     ul {
@@ -103,6 +129,10 @@
         .email {
             color: #0d38f9;
             font-size: 40px;
+        }
+
+        &.app {
+            display: none;
         }
     }
 
