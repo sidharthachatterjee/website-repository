@@ -1,4 +1,9 @@
 .home {
+    background-image: url('https://assets.beautystack.co/gradientBg.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    
     #login {
         cursor: pointer;
         display: flex;
@@ -88,6 +93,7 @@
         }
 
         .intro {
+            color: #fff;
             margin: 40px 0;
             text-align: center;
             text-align: center;
