@@ -110,6 +110,22 @@
             }
         }
 
+        .app-store-icons {
+            display: flex;
+            justify-content: center;
+
+            a, div {
+                display: block;
+                margin: 0 10px;
+
+                p {
+                    color: #fff;
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+            }
+        }
+
         .buttons {
             margin: 0;
             padding: 0;
@@ -240,6 +256,14 @@
                     &:last-child {
                         margin-top: 15px;
                     }
+                }
+            }
+
+            .app-store-icons {
+                flex-direction: column;
+
+                a, div {
+                    margin: 10px 0;
                 }
             }
 
