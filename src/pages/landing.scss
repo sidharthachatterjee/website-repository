@@ -1,0 +1,81 @@
+/*
+|--------------------------------------------------------------------------
+| Landing
+|--------------------------------------------------------------------------
+| @namespace: lnd-
+|
+*/
+@import "../styles/app";
+
+.lnd-Landing {
+  min-height: 100vh;
+}
+
+.lnd-Landing_Inner {
+  @include Grid_Container;
+}
+
+.lnd-Landing_Body {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  min-height: 100vh;
+}
+
+.lnd-Landing_ImageContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.lnd-Landing_Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lnd-Landing_Logo {
+  margin-bottom: 16px;
+
+  @include sm {
+    width: 530px;
+    margin: 0 auto 32px;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    fill: #fff;
+  }
+}
+
+.lnd-Landing_Buttons {
+  justify-content: center;
+
+  display: flex;
+  margin: 0 -8px;
+
+  @include md {
+    margin: 0 -16px;
+  }
+}
+
+.lnd-Landing_Button {
+  margin: 0 8px;
+
+  @include md {
+    margin: 0 var(--Grid_Gutter);
+  }
+}

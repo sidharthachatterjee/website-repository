@@ -1,0 +1,17 @@
+/*
+|--------------------------------------------------------------------------
+| Page
+|--------------------------------------------------------------------------
+| @namespace: lyt-
+|
+*/
+@import "../styles/mixins/mixins";
+
+.lyt-Page_Inner {
+  @include Grid_Container;
+}
+
+.lyt-Page_Body {
+  width: calc(10 / 12 * 100%);
+  margin: 0 auto;
+}

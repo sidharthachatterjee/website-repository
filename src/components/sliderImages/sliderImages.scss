@@ -1,0 +1,50 @@
+/*
+|--------------------------------------------------------------------------
+| Images
+|--------------------------------------------------------------------------
+| @namespace: sld-
+|
+*/
+@import "../../styles/mixins/mixins";
+
+.sld-Images {
+  position: relative;
+
+  max-width: 200px;
+  margin: 0 auto;
+
+  @include sm {
+    max-width: none;
+  }
+}
+
+.sld-Images_Item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: 0;
+  transition: opacity 0.6s;
+
+  &:first-child {
+    opacity: 1;
+  }
+
+  .scrl-Overlay-complete & {
+    &:last-child {
+      opacity: 1;
+    }
+  }
+}
+
+.sld-Images_Item-active {
+  opacity: 1;
+}
+
+.sld-Images_Image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

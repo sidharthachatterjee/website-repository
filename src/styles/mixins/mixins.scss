@@ -1,0 +1,125 @@
+/*
+|--------------------------------------------------------------------------
+| Media mixins
+|--------------------------------------------------------------------------
+|
+*/
+$screen-sm-min: 768px;
+$screen-md-min: 900px;
+$screen-lg-min: 1200px;
+$screen-xlg-min: 1440px;
+$screen-xxlg-min: 1600px;
+
+@mixin sm {
+  @media screen and (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin xlg {
+  @media (min-width: #{$screen-xlg-min}) {
+    @content;
+  }
+}
+
+@mixin xxlg {
+  @media (min-width: #{$screen-xlg-min}) {
+    @content;
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Button mixins
+|--------------------------------------------------------------------------
+|
+*/
+@mixin Button {
+  display: inline-block;
+  min-width: 135px;
+  width: 100%;
+  padding: 10px calc(var(--Grid_Gutter) * 2);
+
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 114px;
+  font-family: var(--Font_Family);
+
+  transition: background-color var(--Global_Transition),
+  border var(--Global_Transition),
+  color var(--Global_Transition);
+
+  @include sm {
+    width: auto;
+    min-width: 166px;
+  }
+}
+
+@mixin Button-primary {
+  @include Button;
+
+  color: #fff;
+
+  &:hover {
+    @include sm {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-color: transparent;
+    }
+  }
+}
+
+@mixin Button-secondary {
+  @include Button;
+
+  background-color: var(--Color_Peach);
+  border-color: var(--Color_Brand);
+
+  color: var(--Color_Peach-darker);
+
+  &:hover {
+    background-color: var(--Color_Brand);
+
+    color: #fff;
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Grid mixins
+|--------------------------------------------------------------------------
+|
+*/
+@mixin Grid_Container {
+  max-width: calc(var(--Grid_Container) + (var(--Grid_Gutter) * 2));
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--Grid_Gutter);
+
+  @include sm {
+    max-width: calc(var(--Grid_Container) + (var(--Grid_Gutter) * 4));
+    padding: 0 calc(var(--Grid_Gutter) * 2);
+  }
+
+  @include lg {
+    max-width: calc(var(--Grid_Container) + (var(--Grid_Gutter) * 6));
+    padding: 0 calc(var(--Grid_Gutter) * 3);
+  }
+}

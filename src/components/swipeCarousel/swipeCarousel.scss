@@ -1,0 +1,84 @@
+/*
+|--------------------------------------------------------------------------
+| Carousel
+|--------------------------------------------------------------------------
+| @namespace: swp-
+|
+*/
+.swp-Carousel_Content {
+  position: relative;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+.swp-Carousel_Item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  opacity: 0;
+
+  transition: opacity var(--Global_Transition);
+
+  .swp-Carousel-showfirst & {
+    &:first-child {
+      opacity: 1;
+    }
+  }
+}
+
+.swp-Carousel_Item-active {
+  opacity: 1;
+}
+
+.swp-Carousel_Dots {
+  margin: 32px 0;
+}
+
+.swp-Carousel_DotsItems {
+  justify-content: center;
+
+  display: flex;
+  margin: 0 -16px;
+}
+
+.swp-Carousel_DotsItem {
+  margin: 0 var(--Grid_Gutter);
+}
+
+.swp-Carousel_Dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+
+  .swp-Carousel_DotsItem:first-child & {
+    .swp-Carousel-showfirst & {
+      background-color: #000;
+    }
+  }
+
+  .swp-Carousel_DotsItem-active & {
+    background-color: #000;
+  }
+}
+
+.swp-Carousel_Title {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.swp-Carousel_Text {
+  font-family: var(--Font_Family-karla);
+}

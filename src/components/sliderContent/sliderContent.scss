@@ -1,0 +1,64 @@
+/*
+|--------------------------------------------------------------------------
+| Content
+|--------------------------------------------------------------------------
+| @namespace: sld-
+|
+*/
+.sld-Content_Item {
+  height: 100vh;
+
+  overflow: hidden;
+
+  &:last-child {
+    height: calc(100vh * 2);
+  }
+}
+
+.sld-Content_Content {
+  position: relative;
+
+  flex-direction: column;
+  justify-content: center;
+
+  display: flex;
+  min-height: 100vh;
+
+  color: #fff;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s;
+
+  .sld-Content_Item-active & {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    opacity: 1;
+    transform: none;
+
+    transition: transform 0.6s, opacity 0.6s;
+  }
+
+  .sld-Content_Item:last-child & {
+    .scrl-Overlay-complete & {
+      position: absolute;
+      bottom: 50vh;
+
+      transform: translateY(50%);
+    }
+  }
+}
+
+.sld-Content_Title {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.sld-Content_Text {
+  font-family: var(--Font_Family-karla);
+}
