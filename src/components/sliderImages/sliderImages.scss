@@ -28,10 +28,6 @@
   opacity: 0;
   transition: opacity 0.6s;
 
-  &:first-child {
-    opacity: 1;
-  }
-
   .scrl-Overlay-complete & {
     &:last-child {
       opacity: 1;
