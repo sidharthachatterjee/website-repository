@@ -10,8 +10,6 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _domready = _interopRequireDefault(require("domready"));
 
-var _reactHotLoader = require("react-hot-loader");
-
 var _socketIo = _interopRequireDefault(require("./socketIo"));
 
 var _emitter = _interopRequireDefault(require("./emitter"));
@@ -74,16 +72,17 @@ window.___emitter = _emitter.default;
   _loader.default.addDevRequires(_syncRequires.default);
 
   _loader.default.getResourcesForPathname(window.location.pathname).then(() => {
-    let Root = (0, _reactHotLoader.hot)(module)(preferDefault(require(`./root`)));
+    const preferDefault = m => m && m.default || m;
+
+    let Root = preferDefault(require(`./root`));
     (0, _domready.default)(() => {
       renderer(_react.default.createElement(Root, null), rootElement, () => {
+        (0, _loader.postInitialRenderWork)();
         (0, _apiRunnerBrowser.apiRunner)(`onInitialClientRender`);
       });
     });
   });
 });
-
-const preferDefault = m => m && m.default || m;
 
 function supportsServiceWorkers(location, navigator) {
   if (location.hostname === `localhost` || location.protocol === `https:`) {

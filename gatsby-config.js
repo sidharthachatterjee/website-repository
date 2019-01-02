@@ -5,8 +5,16 @@ module.exports = {
     author: 'beautystack',
   },
   plugins: [
-    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://beautystack.us7.list-manage.com/subscribe/post?u=499f7285840d609af12ef8278&amp;id=729f966ca0',
+      },
+    },
+    'gatsby-plugin-offline',
+    'gatsby-plugin-sass',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,7 +23,5 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-plugin-offline',
   ],
 }

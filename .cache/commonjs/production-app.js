@@ -32,7 +32,6 @@ var _loader = _interopRequireWildcard(require("./loader"));
 
 var _ensureResources = _interopRequireDefault(require("./ensure-resources"));
 
-window.___emitter = _emitter.default;
 window.asyncRequires = _asyncRequires.default;
 window.___emitter = _emitter.default;
 window.___loader = _loader.default;
@@ -114,6 +113,7 @@ _loader.default.addProdRequires(_asyncRequires.default);
     const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, _reactDom.default.hydrate)[0];
     (0, _domready.default)(() => {
       renderer(_react.default.createElement(NewRoot, null), typeof window !== `undefined` ? document.getElementById(`___gatsby`) : void 0, () => {
+        (0, _loader.postInitialRenderWork)();
         (0, _apiRunnerBrowser.apiRunner)(`onInitialClientRender`);
       });
     });

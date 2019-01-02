@@ -226,7 +226,11 @@
 
   width: 100%;
   margin-top: 16px;
-  padding: 10px;
+  padding: 6px;
+
+  @include sm {
+    padding: 10px;
+  }
 
   &:first-child {
     margin-top: 0;

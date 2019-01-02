@@ -94,6 +94,9 @@
     }
   ],
   "footer": {
-    "inputPlaceholder": "Subscribe to the mailing list"
+    "inputPlaceholder": "Subscribe to the mailing list",
+    "inputPlaceholderSuccess": "Successfully subscribed!",
+    "inputPlaceholderError": "There was an error. Try again",
+    "inputPlaceholderExists": "This email is already subscribed!"
   }
 }

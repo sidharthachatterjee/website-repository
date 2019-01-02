@@ -50,7 +50,7 @@ $screen-xxlg-min: 1600px;
   display: inline-block;
   min-width: 135px;
   width: 100%;
-  padding: 10px calc(var(--Grid_Gutter) * 2);
+  padding: 6px calc(var(--Grid_Gutter) * 2);
 
   background-color: transparent;
   border: 2px solid #fff;
@@ -70,6 +70,7 @@ $screen-xxlg-min: 1600px;
   @include sm {
     width: auto;
     min-width: 166px;
+    padding: 10px calc(var(--Grid_Gutter) * 2);
   }
 }
 

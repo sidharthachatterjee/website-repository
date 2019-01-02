@@ -196,6 +196,287 @@
         "owner": "internal-data-bridge"
       }
     },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a8d841655c97dcb081aa32fb959cee90",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c80601cbd385b0492a587df17bccff3f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c6ee04f2-c125-53b5-bcb3-5feaeffa3201": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-mailchimp",
+      "id": "c6ee04f2-c125-53b5-bcb3-5feaeffa3201",
+      "name": "gatsby-plugin-mailchimp",
+      "version": "4.0.0",
+      "pluginOptions": {
+        "plugins": [],
+        "endpoint": "https://beautystack.us7.list-manage.com/subscribe/post?u=499f7285840d609af12ef8278&amp;id=729f966ca0"
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-mailchimp",
+      "packageJson": {
+        "name": "gatsby-plugin-mailchimp",
+        "description": "A simple, lightweight Gatsby plugin to subscribe email addresses to your Mailchimp list",
+        "version": "4.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsbyjs",
+          "mailchimp",
+          "mailchimp api"
+        ],
+        "author": {
+          "name": "Benjamin Hoffman",
+          "email": "6520022+benjaminhoffman@users.noreply.github.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "email-validator",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "jsonp",
+            "version": "^0.2.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.15.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "995c1899ec76c6c1969686c560d5d848",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">=2.0.53"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9965bf08e7a3bff421ca0f1853d0923d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
       "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-sass",
       "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
@@ -275,50 +556,100 @@
         "owner": "internal-data-bridge"
       }
     },
-    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-react-helmet",
-      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
-      "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.2",
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.17",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
+      "nodeAPIs": [
+        "onPreInit"
       ],
-      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-react-helmet",
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-sharp",
       "packageJson": {
-        "name": "gatsby-plugin-react-helmet",
-        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.2",
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.17",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
-          "favicon",
-          "react-helmet",
-          "seo",
-          "document",
-          "head",
-          "title",
-          "meta",
-          "link",
-          "script",
-          "base",
-          "noscript",
-          "style"
+          "image",
+          "sharp"
         ],
         "author": {
           "name": "Kyle Mathews",
-          "email": "matthews.kyle@gmail.com"
+          "email": "mathews.kyle@gmail.com"
         },
         "license": "MIT",
         "dependencies": [
           {
             "name": "@babel/runtime",
             "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
           }
         ],
         "devDependencies": [
@@ -332,7 +663,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -343,10 +674,6 @@
           {
             "name": "gatsby",
             "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "react-helmet",
-            "version": ">=5.1.3"
           }
         ],
         "optionalDependecies": [],
@@ -355,7 +682,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0d0f390ff7874394b8d697c5c61ae2d0",
+        "contentDigest": "50a305d8d15ae56fa8bcdc970b330168",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -364,7 +691,7 @@
       "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-source-filesystem",
       "id": "45683d42-2349-5970-a2f1-cd4d0eb799ae",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.8",
+      "version": "2.0.12",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
@@ -380,7 +707,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.8",
+        "version": "2.0.12",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -459,7 +786,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -478,7 +805,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "02de8ff6bd82380b50c486bbda0b39c0",
+        "contentDigest": "1a350bbcbd49f74543543b227f7f92b3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -487,7 +814,7 @@
       "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
       "name": "gatsby-transformer-sharp",
-      "version": "2.1.8",
+      "version": "2.1.10",
       "pluginOptions": {
         "plugins": []
       },
@@ -502,7 +829,7 @@
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.8",
+        "version": "2.1.10",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -551,7 +878,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -574,231 +901,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2967ff70bd183bab3e3168bd9cdb7a52",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "84d6154d-4241-556c-a679-cc8339cac100": {
-      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-sharp",
-      "id": "84d6154d-4241-556c-a679-cc8339cac100",
-      "name": "gatsby-plugin-sharp",
-      "version": "2.0.14",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onPreInit"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-sharp",
-      "packageJson": {
-        "name": "gatsby-plugin-sharp",
-        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.14",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "async",
-            "version": "^2.1.2"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-exists-cached",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "imagemin",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-mozjpeg",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "imagemin-pngquant",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-webp",
-            "version": "^4.1.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mini-svg-data-uri",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.0"
-          },
-          {
-            "name": "svgo",
-            "version": "^0.7.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "7ea4ba6cf831a461b343759349eb979c",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
-      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-offline",
-      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "name": "gatsby-plugin-offline",
-      "version": "2.0.16",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "createPages",
-        "onPostBuild"
-      ],
-      "browserAPIs": [
-        "registerServiceWorker",
-        "onServiceWorkerActive",
-        "onPostPrefetchPathname"
-      ],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-offline",
-      "packageJson": {
-        "name": "gatsby-plugin-offline",
-        "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.16",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "offline",
-          "precache",
-          "service-worker"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cheerio",
-            "version": "^1.0.0-rc.2"
-          },
-          {
-            "name": "idb-keyval",
-            "version": "^3.1.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "workbox-build",
-            "version": "^3.6.3"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">=2.0.53"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "87f1d615e36388c710a135dbd5ff3a5b",
+        "contentDigest": "4bb2448a502e512babb1a4e9063c3338",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -807,7 +910,7 @@
       "resolve": "/Users/eikhunter/Workspace/fe.homepage",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4403ee1a852c9dc5bc436ccdf07f889a",
+      "version": "4f05c98a99695ba24cc719fe78f413b7",
       "pluginOptions": {
         "plugins": []
       },
@@ -834,6 +937,10 @@
             "version": "^2.0.20"
           },
           {
+            "name": "gatsby-plugin-mailchimp",
+            "version": "^4.0.0"
+          },
+          {
             "name": "gatsby-plugin-manifest",
             "version": "^2.0.9"
           },
@@ -851,7 +958,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.14"
+            "version": "^2.0.17"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -895,7 +1002,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "61e8f2355e812f87575902cb9e873835",
+        "contentDigest": "d927e6ee61d44cb20bc47d0a1d2a7d3e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -904,7 +1011,7 @@
       "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-plugin-page-creator",
       "id": "6396d871-4f02-5607-ac0d-beb75827e3da",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/eikhunter/Workspace/fe.homepage/src/pages",
@@ -919,7 +1026,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.4",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -979,7 +1086,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -998,7 +1105,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d7c4cb6f80fe2db5dda03418470ca8b2",
+        "contentDigest": "4179f26020c18fafa3715d32c5b37f50",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1013,12 +1120,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-20T17:50:50.844Z",
+      "buildTime": "2019-01-02T11:27:01.859Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d76246b5424335e08b209dcda5cc510e",
+        "contentDigest": "221e4d7380c1df6813e515d636bab23b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1028,7 +1135,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "dc062da65e1397ed7b8b30498fa6ff73",
+        "contentDigest": "74b318fa9a034446b8e08f46782aecf1",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1040,7 +1147,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-12-20T17:46:54.362Z",
-      "accessTime": "2018-12-20T17:50:52.861Z",
+      "accessTime": "2019-01-02T11:27:04.350Z",
       "changeTime": "2018-12-20T17:46:54.362Z",
       "birthTime": "2018-12-11T12:23:57.640Z",
       "root": "/",
@@ -1058,11 +1165,11 @@
       "blksize": 4194304,
       "ino": 2839569,
       "blocks": 0,
-      "atimeMs": 1545328252861.417,
+      "atimeMs": 1546428424349.9727,
       "mtimeMs": 1545328014361.7546,
       "ctimeMs": 1545328014361.7546,
       "birthtimeMs": 1544531037639.792,
-      "atime": "2018-12-20T17:50:52.861Z",
+      "atime": "2019-01-02T11:27:04.350Z",
       "mtime": "2018-12-20T17:46:54.362Z",
       "ctime": "2018-12-20T17:46:54.362Z",
       "birthtime": "2018-12-11T12:23:57.640Z"
@@ -1072,7 +1179,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "726db2acdae3c43a123482261edccc99",
+        "contentDigest": "15ba2f2d7f25e5ba5d83f7910ae1c85a",
         "type": "Directory",
         "description": "Directory \"src/assets/images/slides\"",
         "owner": "gatsby-source-filesystem"
@@ -1083,9 +1190,9 @@
       "extension": "",
       "size": 288,
       "prettySize": "288 B",
-      "modifiedTime": "2018-12-20T17:50:38.895Z",
-      "accessTime": "2018-12-20T17:50:52.863Z",
-      "changeTime": "2018-12-20T17:50:38.895Z",
+      "modifiedTime": "2018-12-20T17:51:25.296Z",
+      "accessTime": "2019-01-02T11:27:04.353Z",
+      "changeTime": "2018-12-20T17:51:25.296Z",
       "birthTime": "2018-12-11T14:55:05.235Z",
       "root": "/",
       "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
@@ -1102,90 +1209,41 @@
       "blksize": 4194304,
       "ino": 2852539,
       "blocks": 0,
-      "atimeMs": 1545328252863.344,
-      "mtimeMs": 1545328238894.5046,
-      "ctimeMs": 1545328238894.5046,
+      "atimeMs": 1546428424353.04,
+      "mtimeMs": 1545328285295.6797,
+      "ctimeMs": 1545328285295.6797,
       "birthtimeMs": 1544540105234.7422,
-      "atime": "2018-12-20T17:50:52.863Z",
-      "mtime": "2018-12-20T17:50:38.895Z",
-      "ctime": "2018-12-20T17:50:38.895Z",
+      "atime": "2019-01-02T11:27:04.353Z",
+      "mtime": "2018-12-20T17:51:25.296Z",
+      "ctime": "2018-12-20T17:51:25.296Z",
       "birthtime": "2018-12-11T14:55:05.235Z"
     },
-    "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9": {
-      "id": "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9",
-      "children": [
-        "dcf5e4bb-b635-5645-a37d-a21518d4e860"
-      ],
+    "43448ee4-2fec-5f02-9aff-8a07f454371f": {
+      "id": "43448ee4-2fec-5f02-9aff-8a07f454371f",
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "087dff7e304b1eb4848726ca41467735",
+        "contentDigest": "bed171110b541ce6d9fffa49a0470b89",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/assets/images/phone-body.png\"",
+        "description": "File \"src/assets/images/slides/phonescreen-client01.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/phone-body.png",
-      "relativePath": "phone-body.png",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-client01.png",
+      "relativePath": "slides/phonescreen-client01.png",
       "extension": "png",
-      "size": 69764,
-      "prettySize": "69.8 kB",
+      "size": 58594,
+      "prettySize": "58.6 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:46:54.397Z",
-      "changeTime": "2018-12-20T17:46:54.362Z",
-      "birthTime": "2018-12-17T11:20:40.000Z",
-      "root": "/",
-      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
-      "base": "phone-body.png",
-      "ext": ".png",
-      "name": "phone-body",
-      "relativeDirectory": "",
-      "dev": 16777221,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 3045984,
-      "blocks": 144,
-      "atimeMs": 1545328014397.1538,
-      "mtimeMs": 1545045640000,
-      "ctimeMs": 1545328014361.7546,
-      "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:46:54.397Z",
-      "mtime": "2018-12-17T11:20:40.000Z",
-      "ctime": "2018-12-20T17:46:54.362Z",
-      "birthtime": "2018-12-17T11:20:40.000Z"
-    },
-    "f78f802c-37ee-5fed-bdd9-6acbba105c9e": {
-      "id": "f78f802c-37ee-5fed-bdd9-6acbba105c9e",
-      "children": [
-        "192bac6a-9bd7-5a3d-84d1-0d1abcfefc9c"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1cc29edd62be4ee15a286e0fa4cd89c0",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/images/slides/phonescreen-client02.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-client02.png",
-      "relativePath": "slides/phonescreen-client02.png",
-      "extension": "png",
-      "size": 301155,
-      "prettySize": "301 kB",
-      "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:50:39.156Z",
-      "changeTime": "2018-12-20T17:50:38.895Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-20T17:51:25.296Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
       "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
-      "base": "phonescreen-client02.png",
+      "base": "phonescreen-client01.png",
       "ext": ".png",
-      "name": "phonescreen-client02",
+      "name": "phonescreen-client01",
       "relativeDirectory": "slides",
       "dev": 16777221,
       "mode": 33261,
@@ -1194,240 +1252,20 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 3192972,
-      "blocks": 592,
-      "atimeMs": 1545328239156.4114,
+      "ino": 3045978,
+      "blocks": 120,
+      "atimeMs": 1546428252551.8386,
       "mtimeMs": 1545045640000,
-      "ctimeMs": 1545328238895.2896,
+      "ctimeMs": 1545328285295.6792,
       "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:50:39.156Z",
+      "atime": "2019-01-02T11:24:12.552Z",
       "mtime": "2018-12-17T11:20:40.000Z",
-      "ctime": "2018-12-20T17:50:38.895Z",
+      "ctime": "2018-12-20T17:51:25.296Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
-    },
-    "4a22d5b1-2c49-5e71-a89f-107b03dcc10f": {
-      "id": "4a22d5b1-2c49-5e71-a89f-107b03dcc10f",
-      "children": [
-        "c833473c-054d-50e0-9658-9a2cf1a873c1"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "0ba632d0142e707afa337380ca3ed617",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/images/slides/phonescreen-client03.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-client03.png",
-      "relativePath": "slides/phonescreen-client03.png",
-      "extension": "png",
-      "size": 251944,
-      "prettySize": "252 kB",
-      "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:50:39.156Z",
-      "changeTime": "2018-12-20T17:50:38.829Z",
-      "birthTime": "2018-12-17T11:20:40.000Z",
-      "root": "/",
-      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
-      "base": "phonescreen-client03.png",
-      "ext": ".png",
-      "name": "phonescreen-client03",
-      "relativeDirectory": "slides",
-      "dev": 16777221,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 3192966,
-      "blocks": 496,
-      "atimeMs": 1545328239156.426,
-      "mtimeMs": 1545045640000,
-      "ctimeMs": 1545328238828.7344,
-      "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:50:39.156Z",
-      "mtime": "2018-12-17T11:20:40.000Z",
-      "ctime": "2018-12-20T17:50:38.829Z",
-      "birthtime": "2018-12-17T11:20:40.000Z"
-    },
-    "a9c9d607-feb0-5760-9e49-e0da9c941a34": {
-      "id": "a9c9d607-feb0-5760-9e49-e0da9c941a34",
-      "children": [
-        "dcc6f956-7dd3-5488-a0df-65fde70c64f7"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "35dfe5125307a42770c5138c5965a041",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/images/slides/phonescreen-default.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-default.png",
-      "relativePath": "slides/phonescreen-default.png",
-      "extension": "png",
-      "size": 313701,
-      "prettySize": "314 kB",
-      "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:50:39.156Z",
-      "changeTime": "2018-12-20T17:50:38.826Z",
-      "birthTime": "2018-12-17T11:20:40.000Z",
-      "root": "/",
-      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
-      "base": "phonescreen-default.png",
-      "ext": ".png",
-      "name": "phonescreen-default",
-      "relativeDirectory": "slides",
-      "dev": 16777221,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 3192965,
-      "blocks": 616,
-      "atimeMs": 1545328239156.3938,
-      "mtimeMs": 1545045640000,
-      "ctimeMs": 1545328238826.0676,
-      "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:50:39.156Z",
-      "mtime": "2018-12-17T11:20:40.000Z",
-      "ctime": "2018-12-20T17:50:38.826Z",
-      "birthtime": "2018-12-17T11:20:40.000Z"
-    },
-    "95270fb9-4bfd-5313-8b97-e163d27c1cf6": {
-      "id": "95270fb9-4bfd-5313-8b97-e163d27c1cf6",
-      "children": [
-        "05a388c4-b876-57db-afdd-1aaf8841c994"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "8cc44113f33b35090ae8102303b726c0",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/assets/images/home-bg.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/home-bg.jpg",
-      "relativePath": "home-bg.jpg",
-      "extension": "jpg",
-      "size": 146195,
-      "prettySize": "146 kB",
-      "modifiedTime": "2018-12-11T13:20:38.054Z",
-      "accessTime": "2018-12-14T12:27:25.756Z",
-      "changeTime": "2018-12-11T13:25:16.789Z",
-      "birthTime": "2018-12-11T13:20:38.053Z",
-      "root": "/",
-      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
-      "base": "home-bg.jpg",
-      "ext": ".jpg",
-      "name": "home-bg",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 2840755,
-      "blocks": 288,
-      "atimeMs": 1544790445755.9119,
-      "mtimeMs": 1544534438053.9092,
-      "ctimeMs": 1544534716789.1968,
-      "birthtimeMs": 1544534438053.0208,
-      "atime": "2018-12-14T12:27:25.756Z",
-      "mtime": "2018-12-11T13:20:38.054Z",
-      "ctime": "2018-12-11T13:25:16.789Z",
-      "birthtime": "2018-12-11T13:20:38.053Z"
-    },
-    "05a388c4-b876-57db-afdd-1aaf8841c994": {
-      "id": "05a388c4-b876-57db-afdd-1aaf8841c994",
-      "children": [],
-      "parent": "95270fb9-4bfd-5313-8b97-e163d27c1cf6",
-      "internal": {
-        "contentDigest": "8cc44113f33b35090ae8102303b726c0",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "55cea1b7-01cc-5410-8c39-72a2774b7602": {
-      "id": "55cea1b7-01cc-5410-8c39-72a2774b7602",
-      "children": [
-        "0e5d79be-cac0-5bc8-8eab-d9545ea3c68e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a41426ab674fe0905cd41a517972e3f6",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/images/gradient-overlay.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/gradient-overlay.png",
-      "relativePath": "gradient-overlay.png",
-      "extension": "png",
-      "size": 357353,
-      "prettySize": "357 kB",
-      "modifiedTime": "2018-12-12T15:56:24.224Z",
-      "accessTime": "2018-12-14T12:27:25.756Z",
-      "changeTime": "2018-12-12T15:56:24.238Z",
-      "birthTime": "2018-12-11T13:44:27.536Z",
-      "root": "/",
-      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
-      "base": "gradient-overlay.png",
-      "ext": ".png",
-      "name": "gradient-overlay",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 2872056,
-      "blocks": 704,
-      "atimeMs": 1544790445755.8755,
-      "mtimeMs": 1544630184224.2864,
-      "ctimeMs": 1544630184237.7175,
-      "birthtimeMs": 1544535867535.8076,
-      "atime": "2018-12-14T12:27:25.756Z",
-      "mtime": "2018-12-12T15:56:24.224Z",
-      "ctime": "2018-12-12T15:56:24.238Z",
-      "birthtime": "2018-12-11T13:44:27.536Z"
-    },
-    "0e5d79be-cac0-5bc8-8eab-d9545ea3c68e": {
-      "id": "0e5d79be-cac0-5bc8-8eab-d9545ea3c68e",
-      "children": [],
-      "parent": "55cea1b7-01cc-5410-8c39-72a2774b7602",
-      "internal": {
-        "contentDigest": "a41426ab674fe0905cd41a517972e3f6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "dcf5e4bb-b635-5645-a37d-a21518d4e860": {
-      "id": "dcf5e4bb-b635-5645-a37d-a21518d4e860",
-      "children": [],
-      "parent": "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9",
-      "internal": {
-        "contentDigest": "087dff7e304b1eb4848726ca41467735",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "d91813d6-1ac7-52bf-aaa2-5bbfb75e9263": {
       "id": "d91813d6-1ac7-52bf-aaa2-5bbfb75e9263",
-      "children": [
-        "e1c9241f-cf9b-5974-9088-85e5e1690fc8"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "682426b43f7454f321fb01cb07ee0c48",
@@ -1443,7 +1281,7 @@
       "size": 44956,
       "prettySize": "45 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:50:39.156Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
       "changeTime": "2018-12-20T17:50:38.812Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1461,20 +1299,153 @@
       "blksize": 4194304,
       "ino": 3192962,
       "blocks": 88,
-      "atimeMs": 1545328239156.3652,
+      "atimeMs": 1546428252551.9207,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238811.751,
       "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:50:39.156Z",
+      "atime": "2019-01-02T11:24:12.552Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.812Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
+    "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9": {
+      "id": "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "087dff7e304b1eb4848726ca41467735",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/images/phone-body.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/phone-body.png",
+      "relativePath": "phone-body.png",
+      "extension": "png",
+      "size": 69764,
+      "prettySize": "69.8 kB",
+      "modifiedTime": "2018-12-17T11:20:40.000Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-20T17:46:54.362Z",
+      "birthTime": "2018-12-17T11:20:40.000Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
+      "base": "phone-body.png",
+      "ext": ".png",
+      "name": "phone-body",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3045984,
+      "blocks": 144,
+      "atimeMs": 1546428252551.77,
+      "mtimeMs": 1545045640000,
+      "ctimeMs": 1545328014361.7546,
+      "birthtimeMs": 1545045640000,
+      "atime": "2019-01-02T11:24:12.552Z",
+      "mtime": "2018-12-17T11:20:40.000Z",
+      "ctime": "2018-12-20T17:46:54.362Z",
+      "birthtime": "2018-12-17T11:20:40.000Z"
+    },
+    "95270fb9-4bfd-5313-8b97-e163d27c1cf6": {
+      "id": "95270fb9-4bfd-5313-8b97-e163d27c1cf6",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8cc44113f33b35090ae8102303b726c0",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/assets/images/home-bg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/home-bg.jpg",
+      "relativePath": "home-bg.jpg",
+      "extension": "jpg",
+      "size": 146195,
+      "prettySize": "146 kB",
+      "modifiedTime": "2018-12-11T13:20:38.054Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-11T13:25:16.789Z",
+      "birthTime": "2018-12-11T13:20:38.053Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
+      "base": "home-bg.jpg",
+      "ext": ".jpg",
+      "name": "home-bg",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2840755,
+      "blocks": 288,
+      "atimeMs": 1546428252551.7385,
+      "mtimeMs": 1544534438053.9092,
+      "ctimeMs": 1544534716789.1968,
+      "birthtimeMs": 1544534438053.0208,
+      "atime": "2019-01-02T11:24:12.552Z",
+      "mtime": "2018-12-11T13:20:38.054Z",
+      "ctime": "2018-12-11T13:25:16.789Z",
+      "birthtime": "2018-12-11T13:20:38.053Z"
+    },
+    "4a22d5b1-2c49-5e71-a89f-107b03dcc10f": {
+      "id": "4a22d5b1-2c49-5e71-a89f-107b03dcc10f",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0ba632d0142e707afa337380ca3ed617",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/images/slides/phonescreen-client03.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-client03.png",
+      "relativePath": "slides/phonescreen-client03.png",
+      "extension": "png",
+      "size": 251944,
+      "prettySize": "252 kB",
+      "modifiedTime": "2018-12-17T11:20:40.000Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-20T17:50:38.829Z",
+      "birthTime": "2018-12-17T11:20:40.000Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
+      "base": "phonescreen-client03.png",
+      "ext": ".png",
+      "name": "phonescreen-client03",
+      "relativeDirectory": "slides",
+      "dev": 16777221,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3192966,
+      "blocks": 496,
+      "atimeMs": 1546428252551.9158,
+      "mtimeMs": 1545045640000,
+      "ctimeMs": 1545328238828.7344,
+      "birthtimeMs": 1545045640000,
+      "atime": "2019-01-02T11:24:12.552Z",
+      "mtime": "2018-12-17T11:20:40.000Z",
+      "ctime": "2018-12-20T17:50:38.829Z",
+      "birthtime": "2018-12-17T11:20:40.000Z"
+    },
     "844282e6-4d62-548c-9c52-5bdcba9acf9a": {
       "id": "844282e6-4d62-548c-9c52-5bdcba9acf9a",
-      "children": [
-        "cf90a730-0af3-50a2-abf7-62a2c18399eb"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6044580eacd742ab6b811680af630d66",
@@ -1490,7 +1461,7 @@
       "size": 234862,
       "prettySize": "235 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:50:39.156Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
       "changeTime": "2018-12-20T17:50:38.823Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1508,20 +1479,18 @@
       "blksize": 4194304,
       "ino": 3192964,
       "blocks": 464,
-      "atimeMs": 1545328239156.3452,
+      "atimeMs": 1546428252551.895,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238823.1628,
       "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:50:39.156Z",
+      "atime": "2019-01-02T11:24:12.552Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.823Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
     "77824e51-5319-5bbc-8a58-782bfe9a2840": {
       "id": "77824e51-5319-5bbc-8a58-782bfe9a2840",
-      "children": [
-        "aae3b90b-956b-53c3-9b4c-8d9d1b9d3113"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "df38c44ec1d3a30f3961611190755d8b",
@@ -1537,7 +1506,7 @@
       "size": 261076,
       "prettySize": "261 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:50:39.156Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
       "changeTime": "2018-12-20T17:50:38.819Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1555,74 +1524,149 @@
       "blksize": 4194304,
       "ino": 3192963,
       "blocks": 512,
-      "atimeMs": 1545328239156.3794,
+      "atimeMs": 1546428252551.925,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238819.3945,
       "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:50:39.156Z",
+      "atime": "2019-01-02T11:24:12.552Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.819Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
-    "e1c9241f-cf9b-5974-9088-85e5e1690fc8": {
-      "id": "e1c9241f-cf9b-5974-9088-85e5e1690fc8",
+    "f78f802c-37ee-5fed-bdd9-6acbba105c9e": {
+      "id": "f78f802c-37ee-5fed-bdd9-6acbba105c9e",
       "children": [],
-      "parent": "d91813d6-1ac7-52bf-aaa2-5bbfb75e9263",
-      "internal": {
-        "contentDigest": "682426b43f7454f321fb01cb07ee0c48",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "aae3b90b-956b-53c3-9b4c-8d9d1b9d3113": {
-      "id": "aae3b90b-956b-53c3-9b4c-8d9d1b9d3113",
-      "children": [],
-      "parent": "77824e51-5319-5bbc-8a58-782bfe9a2840",
-      "internal": {
-        "contentDigest": "df38c44ec1d3a30f3961611190755d8b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "cf90a730-0af3-50a2-abf7-62a2c18399eb": {
-      "id": "cf90a730-0af3-50a2-abf7-62a2c18399eb",
-      "children": [],
-      "parent": "844282e6-4d62-548c-9c52-5bdcba9acf9a",
-      "internal": {
-        "contentDigest": "6044580eacd742ab6b811680af630d66",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "c833473c-054d-50e0-9658-9a2cf1a873c1": {
-      "id": "c833473c-054d-50e0-9658-9a2cf1a873c1",
-      "children": [],
-      "parent": "4a22d5b1-2c49-5e71-a89f-107b03dcc10f",
-      "internal": {
-        "contentDigest": "0ba632d0142e707afa337380ca3ed617",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "dcc6f956-7dd3-5488-a0df-65fde70c64f7": {
-      "id": "dcc6f956-7dd3-5488-a0df-65fde70c64f7",
-      "children": [],
-      "parent": "a9c9d607-feb0-5760-9e49-e0da9c941a34",
-      "internal": {
-        "contentDigest": "35dfe5125307a42770c5138c5965a041",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "192bac6a-9bd7-5a3d-84d1-0d1abcfefc9c": {
-      "id": "192bac6a-9bd7-5a3d-84d1-0d1abcfefc9c",
-      "children": [],
-      "parent": "f78f802c-37ee-5fed-bdd9-6acbba105c9e",
+      "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "1cc29edd62be4ee15a286e0fa4cd89c0",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/images/slides/phonescreen-client02.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-client02.png",
+      "relativePath": "slides/phonescreen-client02.png",
+      "extension": "png",
+      "size": 301155,
+      "prettySize": "301 kB",
+      "modifiedTime": "2018-12-17T11:20:40.000Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-20T17:50:38.895Z",
+      "birthTime": "2018-12-17T11:20:40.000Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
+      "base": "phonescreen-client02.png",
+      "ext": ".png",
+      "name": "phonescreen-client02",
+      "relativeDirectory": "slides",
+      "dev": 16777221,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3192972,
+      "blocks": 592,
+      "atimeMs": 1546428252551.861,
+      "mtimeMs": 1545045640000,
+      "ctimeMs": 1545328238895.2896,
+      "birthtimeMs": 1545045640000,
+      "atime": "2019-01-02T11:24:12.552Z",
+      "mtime": "2018-12-17T11:20:40.000Z",
+      "ctime": "2018-12-20T17:50:38.895Z",
+      "birthtime": "2018-12-17T11:20:40.000Z"
+    },
+    "a9c9d607-feb0-5760-9e49-e0da9c941a34": {
+      "id": "a9c9d607-feb0-5760-9e49-e0da9c941a34",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "35dfe5125307a42770c5138c5965a041",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/images/slides/phonescreen-default.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-default.png",
+      "relativePath": "slides/phonescreen-default.png",
+      "extension": "png",
+      "size": 313701,
+      "prettySize": "314 kB",
+      "modifiedTime": "2018-12-17T11:20:40.000Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-20T17:50:38.826Z",
+      "birthTime": "2018-12-17T11:20:40.000Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
+      "base": "phonescreen-default.png",
+      "ext": ".png",
+      "name": "phonescreen-default",
+      "relativeDirectory": "slides",
+      "dev": 16777221,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3192965,
+      "blocks": 616,
+      "atimeMs": 1546428252551.8801,
+      "mtimeMs": 1545045640000,
+      "ctimeMs": 1545328238826.0676,
+      "birthtimeMs": 1545045640000,
+      "atime": "2019-01-02T11:24:12.552Z",
+      "mtime": "2018-12-17T11:20:40.000Z",
+      "ctime": "2018-12-20T17:50:38.826Z",
+      "birthtime": "2018-12-17T11:20:40.000Z"
+    },
+    "55cea1b7-01cc-5410-8c39-72a2774b7602": {
+      "id": "55cea1b7-01cc-5410-8c39-72a2774b7602",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a41426ab674fe0905cd41a517972e3f6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/images/gradient-overlay.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/gradient-overlay.png",
+      "relativePath": "gradient-overlay.png",
+      "extension": "png",
+      "size": 357353,
+      "prettySize": "357 kB",
+      "modifiedTime": "2018-12-12T15:56:24.224Z",
+      "accessTime": "2019-01-02T11:24:12.552Z",
+      "changeTime": "2018-12-12T15:56:24.238Z",
+      "birthTime": "2018-12-11T13:44:27.536Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images",
+      "base": "gradient-overlay.png",
+      "ext": ".png",
+      "name": "gradient-overlay",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 2872056,
+      "blocks": 704,
+      "atimeMs": 1546428252551.739,
+      "mtimeMs": 1544630184224.2864,
+      "ctimeMs": 1544630184237.7175,
+      "birthtimeMs": 1544535867535.8076,
+      "atime": "2019-01-02T11:24:12.552Z",
+      "mtime": "2018-12-12T15:56:24.224Z",
+      "ctime": "2018-12-12T15:56:24.238Z",
+      "birthtime": "2018-12-11T13:44:27.536Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1723,68 +1767,11 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "43448ee4-2fec-5f02-9aff-8a07f454371f": {
-      "id": "43448ee4-2fec-5f02-9aff-8a07f454371f",
-      "children": [
-        "605b733a-e61d-50cf-9cb8-2adcfa1ec987"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "bed171110b541ce6d9fffa49a0470b89",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/images/slides/phonescreen-client01.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides/phonescreen-client01.png",
-      "relativePath": "slides/phonescreen-client01.png",
-      "extension": "png",
-      "size": 58594,
-      "prettySize": "58.6 kB",
-      "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2018-12-20T17:51:25.649Z",
-      "changeTime": "2018-12-20T17:51:25.296Z",
-      "birthTime": "2018-12-17T11:20:40.000Z",
-      "root": "/",
-      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/assets/images/slides",
-      "base": "phonescreen-client01.png",
-      "ext": ".png",
-      "name": "phonescreen-client01",
-      "relativeDirectory": "slides",
-      "dev": 16777221,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 3045978,
-      "blocks": 120,
-      "atimeMs": 1545328285648.6428,
-      "mtimeMs": 1545045640000,
-      "ctimeMs": 1545328285295.6792,
-      "birthtimeMs": 1545045640000,
-      "atime": "2018-12-20T17:51:25.649Z",
-      "mtime": "2018-12-17T11:20:40.000Z",
-      "ctime": "2018-12-20T17:51:25.296Z",
-      "birthtime": "2018-12-17T11:20:40.000Z"
-    },
-    "605b733a-e61d-50cf-9cb8-2adcfa1ec987": {
-      "id": "605b733a-e61d-50cf-9cb8-2adcfa1ec987",
-      "children": [],
-      "parent": "43448ee4-2fec-5f02-9aff-8a07f454371f",
-      "internal": {
-        "contentDigest": "bed171110b541ce6d9fffa49a0470b89",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "166e5bacad06bafbdbc0c3afeeb677cb"
+    "PLUGINS_HASH": "b292b433fc7b05df949127b98eeba9d9"
   },
   "componentDataDependencies": {
     "nodes": {

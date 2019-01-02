@@ -9,5 +9,5 @@ exports.components = {
   "component---src-pages-terms-js": () => import("/Users/eikhunter/Workspace/fe.homepage/src/pages/terms.js" /* webpackChunkName: "component---src-pages-terms-js" */)
 }
 
-exports.data = () => import("/Users/eikhunter/Workspace/fe.homepage/.cache/data.json")
+exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/eikhunter/Workspace/fe.homepage/.cache/data.json")
 
