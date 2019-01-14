@@ -5,7 +5,7 @@ import Layout from '../components/layout/layout'
 
 import SEO from '../components/seo'
 import '../pages/page.scss'
-import '../pages/wysiwyg.scss'
+import '../styles/wysiwyg.scss'
 
 export default function Policy({ data }) {
   const { markdownRemark } = data

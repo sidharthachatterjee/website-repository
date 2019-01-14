@@ -30,7 +30,6 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: node.frontmatter.path,
         component: terms,
-        context: {}, // additional data can be passed via context
       })
     })
   })
