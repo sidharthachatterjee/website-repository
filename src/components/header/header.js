@@ -16,7 +16,7 @@ const header = () => (
           <Logo />
         </Link>
 
-        <a href="https://popup.beautystack.com/" target="_blank" rel="noopener noreferrer" className="hd-Header_Link">
+        <a href="https://www.beautystack.com/login" target="_blank" rel="noopener noreferrer" className="hd-Header_Link">
           {headerContent.buttonText}
         </a>
       </div>

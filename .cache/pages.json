@@ -20,13 +20,18 @@
         "path": "/dev-404-page/"
     },
     {
+        "componentChunkName": "component---src-templates-policy-js",
+        "jsonName": "privacy-71e",
+        "path": "/privacy"
+    },
+    {
         "componentChunkName": "component---src-pages-privacy-js",
         "jsonName": "privacy-06e",
         "path": "/privacy/"
     },
     {
-        "componentChunkName": "component---src-pages-terms-js",
-        "jsonName": "terms-8c4",
-        "path": "/terms/"
+        "componentChunkName": "component---src-templates-policy-js",
+        "jsonName": "terms-8b2",
+        "path": "/terms"
     }
 ]

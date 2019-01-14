@@ -691,7 +691,7 @@
       "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-source-filesystem",
       "id": "45683d42-2349-5970-a2f1-cd4d0eb799ae",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.12",
+      "version": "2.0.16",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
@@ -707,7 +707,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.12",
+        "version": "2.0.16",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -759,6 +759,10 @@
             "version": "^4.0.2"
           },
           {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
             "name": "read-chunk",
             "version": "^3.0.0"
           },
@@ -805,7 +809,277 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1a350bbcbd49f74543543b227f7f92b3",
+        "contentDigest": "104fddc02ce9454ea86c43a8af17fabb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "bd4498ff-9cc2-58e8-be12-32ff4d9cc1ec": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-source-filesystem",
+      "id": "bd4498ff-9cc2-58e8-be12-32ff4d9cc1ec",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.16",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "markdown",
+        "path": "/Users/eikhunter/Workspace/fe.homepage/src/markdown"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.16",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a8db361a5af9f56f3df3ba9b8d0f0d8c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.0",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "52778d489ec117ed7b7c2601f2cf9518",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -910,11 +1184,13 @@
       "resolve": "/Users/eikhunter/Workspace/fe.homepage",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4f05c98a99695ba24cc719fe78f413b7",
+      "version": "d5465fa1143528418d18caac4e670123",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/eikhunter/Workspace/fe.homepage",
@@ -962,7 +1238,11 @@
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^2.0.8"
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.0"
           },
           {
             "name": "gatsby-transformer-sharp",
@@ -1002,7 +1282,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d927e6ee61d44cb20bc47d0a1d2a7d3e",
+        "contentDigest": "555d9f583d10759a821cbdd70182c890",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1116,16 +1396,16 @@
         "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
         "author": "beautystack"
       },
-      "port": "8000",
+      "port": 8001,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-02T11:27:01.859Z",
+      "buildTime": "2019-01-14T15:01:10.480Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "221e4d7380c1df6813e515d636bab23b",
+        "contentDigest": "36c569165dc557e0acb9b5bfa75602d3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1133,9 +1413,9 @@
     "25ee99ae-9d5a-5c59-be23-809011f9bdcd": {
       "id": "25ee99ae-9d5a-5c59-be23-809011f9bdcd",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "74b318fa9a034446b8e08f46782aecf1",
+        "contentDigest": "2913fc64452006417cb87e74c972f574",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1147,7 +1427,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-12-20T17:46:54.362Z",
-      "accessTime": "2019-01-02T11:27:04.350Z",
+      "accessTime": "2019-01-14T15:01:13.974Z",
       "changeTime": "2018-12-20T17:46:54.362Z",
       "birthTime": "2018-12-11T12:23:57.640Z",
       "root": "/",
@@ -1165,11 +1445,11 @@
       "blksize": 4194304,
       "ino": 2839569,
       "blocks": 0,
-      "atimeMs": 1546428424349.9727,
+      "atimeMs": 1547478073973.857,
       "mtimeMs": 1545328014361.7546,
       "ctimeMs": 1545328014361.7546,
       "birthtimeMs": 1544531037639.792,
-      "atime": "2019-01-02T11:27:04.350Z",
+      "atime": "2019-01-14T15:01:13.974Z",
       "mtime": "2018-12-20T17:46:54.362Z",
       "ctime": "2018-12-20T17:46:54.362Z",
       "birthtime": "2018-12-11T12:23:57.640Z"
@@ -1177,9 +1457,9 @@
     "2d4ed114-83d8-5ba6-adde-3a583be7eb2b": {
       "id": "2d4ed114-83d8-5ba6-adde-3a583be7eb2b",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": null,
       "internal": {
-        "contentDigest": "15ba2f2d7f25e5ba5d83f7910ae1c85a",
+        "contentDigest": "9d48c2cbbee8b081a63d0ed46077b40d",
         "type": "Directory",
         "description": "Directory \"src/assets/images/slides\"",
         "owner": "gatsby-source-filesystem"
@@ -1191,7 +1471,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-12-20T17:51:25.296Z",
-      "accessTime": "2019-01-02T11:27:04.353Z",
+      "accessTime": "2019-01-14T15:01:13.976Z",
       "changeTime": "2018-12-20T17:51:25.296Z",
       "birthTime": "2018-12-11T14:55:05.235Z",
       "root": "/",
@@ -1209,19 +1489,21 @@
       "blksize": 4194304,
       "ino": 2852539,
       "blocks": 0,
-      "atimeMs": 1546428424353.04,
+      "atimeMs": 1547478073975.689,
       "mtimeMs": 1545328285295.6797,
       "ctimeMs": 1545328285295.6797,
       "birthtimeMs": 1544540105234.7422,
-      "atime": "2019-01-02T11:27:04.353Z",
+      "atime": "2019-01-14T15:01:13.976Z",
       "mtime": "2018-12-20T17:51:25.296Z",
       "ctime": "2018-12-20T17:51:25.296Z",
       "birthtime": "2018-12-11T14:55:05.235Z"
     },
     "43448ee4-2fec-5f02-9aff-8a07f454371f": {
       "id": "43448ee4-2fec-5f02-9aff-8a07f454371f",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "605b733a-e61d-50cf-9cb8-2adcfa1ec987"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "bed171110b541ce6d9fffa49a0470b89",
         "type": "File",
@@ -1236,7 +1518,7 @@
       "size": 58594,
       "prettySize": "58.6 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:51:25.296Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1254,19 +1536,21 @@
       "blksize": 4194304,
       "ino": 3045978,
       "blocks": 120,
-      "atimeMs": 1546428252551.8386,
+      "atimeMs": 1547477871490.085,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328285295.6792,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:51:25.296Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
     "d91813d6-1ac7-52bf-aaa2-5bbfb75e9263": {
       "id": "d91813d6-1ac7-52bf-aaa2-5bbfb75e9263",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "e1c9241f-cf9b-5974-9088-85e5e1690fc8"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "682426b43f7454f321fb01cb07ee0c48",
         "type": "File",
@@ -1281,7 +1565,7 @@
       "size": 44956,
       "prettySize": "45 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:50:38.812Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1299,19 +1583,21 @@
       "blksize": 4194304,
       "ino": 3192962,
       "blocks": 88,
-      "atimeMs": 1546428252551.9207,
+      "atimeMs": 1547477871490.2302,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238811.751,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.812Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
     "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9": {
       "id": "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "dcf5e4bb-b635-5645-a37d-a21518d4e860"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "087dff7e304b1eb4848726ca41467735",
         "type": "File",
@@ -1326,7 +1612,7 @@
       "size": 69764,
       "prettySize": "69.8 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:46:54.362Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1344,19 +1630,41 @@
       "blksize": 4194304,
       "ino": 3045984,
       "blocks": 144,
-      "atimeMs": 1546428252551.77,
+      "atimeMs": 1547477871489.9797,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328014361.7546,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:46:54.362Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
+    "605b733a-e61d-50cf-9cb8-2adcfa1ec987": {
+      "id": "605b733a-e61d-50cf-9cb8-2adcfa1ec987",
+      "children": [],
+      "parent": "43448ee4-2fec-5f02-9aff-8a07f454371f",
+      "internal": {
+        "contentDigest": "bed171110b541ce6d9fffa49a0470b89",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e1c9241f-cf9b-5974-9088-85e5e1690fc8": {
+      "id": "e1c9241f-cf9b-5974-9088-85e5e1690fc8",
+      "children": [],
+      "parent": "d91813d6-1ac7-52bf-aaa2-5bbfb75e9263",
+      "internal": {
+        "contentDigest": "682426b43f7454f321fb01cb07ee0c48",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "95270fb9-4bfd-5313-8b97-e163d27c1cf6": {
       "id": "95270fb9-4bfd-5313-8b97-e163d27c1cf6",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "05a388c4-b876-57db-afdd-1aaf8841c994"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "8cc44113f33b35090ae8102303b726c0",
         "type": "File",
@@ -1371,7 +1679,7 @@
       "size": 146195,
       "prettySize": "146 kB",
       "modifiedTime": "2018-12-11T13:20:38.054Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-11T13:25:16.789Z",
       "birthTime": "2018-12-11T13:20:38.053Z",
       "root": "/",
@@ -1389,19 +1697,31 @@
       "blksize": 4194304,
       "ino": 2840755,
       "blocks": 288,
-      "atimeMs": 1546428252551.7385,
+      "atimeMs": 1547477871489.9512,
       "mtimeMs": 1544534438053.9092,
       "ctimeMs": 1544534716789.1968,
       "birthtimeMs": 1544534438053.0208,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-11T13:20:38.054Z",
       "ctime": "2018-12-11T13:25:16.789Z",
       "birthtime": "2018-12-11T13:20:38.053Z"
     },
+    "dcf5e4bb-b635-5645-a37d-a21518d4e860": {
+      "id": "dcf5e4bb-b635-5645-a37d-a21518d4e860",
+      "children": [],
+      "parent": "1d3fd92b-7d1b-5c56-b13b-7f97eaea71a9",
+      "internal": {
+        "contentDigest": "087dff7e304b1eb4848726ca41467735",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "4a22d5b1-2c49-5e71-a89f-107b03dcc10f": {
       "id": "4a22d5b1-2c49-5e71-a89f-107b03dcc10f",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "c833473c-054d-50e0-9658-9a2cf1a873c1"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "0ba632d0142e707afa337380ca3ed617",
         "type": "File",
@@ -1416,7 +1736,7 @@
       "size": 251944,
       "prettySize": "252 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:50:38.829Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1434,19 +1754,21 @@
       "blksize": 4194304,
       "ino": 3192966,
       "blocks": 496,
-      "atimeMs": 1546428252551.9158,
+      "atimeMs": 1547477871490.1445,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238828.7344,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.829Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
     "844282e6-4d62-548c-9c52-5bdcba9acf9a": {
       "id": "844282e6-4d62-548c-9c52-5bdcba9acf9a",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "cf90a730-0af3-50a2-abf7-62a2c18399eb"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "6044580eacd742ab6b811680af630d66",
         "type": "File",
@@ -1461,7 +1783,7 @@
       "size": 234862,
       "prettySize": "235 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:50:38.823Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1479,19 +1801,31 @@
       "blksize": 4194304,
       "ino": 3192964,
       "blocks": 464,
-      "atimeMs": 1546428252551.895,
+      "atimeMs": 1547477871490.2014,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238823.1628,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.823Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
+    "05a388c4-b876-57db-afdd-1aaf8841c994": {
+      "id": "05a388c4-b876-57db-afdd-1aaf8841c994",
+      "children": [],
+      "parent": "95270fb9-4bfd-5313-8b97-e163d27c1cf6",
+      "internal": {
+        "contentDigest": "8cc44113f33b35090ae8102303b726c0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "77824e51-5319-5bbc-8a58-782bfe9a2840": {
       "id": "77824e51-5319-5bbc-8a58-782bfe9a2840",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "aae3b90b-956b-53c3-9b4c-8d9d1b9d3113"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "df38c44ec1d3a30f3961611190755d8b",
         "type": "File",
@@ -1506,7 +1840,7 @@
       "size": 261076,
       "prettySize": "261 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:50:38.819Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1524,19 +1858,21 @@
       "blksize": 4194304,
       "ino": 3192963,
       "blocks": 512,
-      "atimeMs": 1546428252551.925,
+      "atimeMs": 1547477871490.2585,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238819.3945,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.819Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
     "f78f802c-37ee-5fed-bdd9-6acbba105c9e": {
       "id": "f78f802c-37ee-5fed-bdd9-6acbba105c9e",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "192bac6a-9bd7-5a3d-84d1-0d1abcfefc9c"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "1cc29edd62be4ee15a286e0fa4cd89c0",
         "type": "File",
@@ -1551,7 +1887,7 @@
       "size": 301155,
       "prettySize": "301 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:50:38.895Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1569,19 +1905,21 @@
       "blksize": 4194304,
       "ino": 3192972,
       "blocks": 592,
-      "atimeMs": 1546428252551.861,
+      "atimeMs": 1547477871490.1155,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238895.2896,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.895Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
     "a9c9d607-feb0-5760-9e49-e0da9c941a34": {
       "id": "a9c9d607-feb0-5760-9e49-e0da9c941a34",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "dcc6f956-7dd3-5488-a0df-65fde70c64f7"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "35dfe5125307a42770c5138c5965a041",
         "type": "File",
@@ -1596,7 +1934,7 @@
       "size": 313701,
       "prettySize": "314 kB",
       "modifiedTime": "2018-12-17T11:20:40.000Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:51.490Z",
       "changeTime": "2018-12-20T17:50:38.826Z",
       "birthTime": "2018-12-17T11:20:40.000Z",
       "root": "/",
@@ -1614,19 +1952,41 @@
       "blksize": 4194304,
       "ino": 3192965,
       "blocks": 616,
-      "atimeMs": 1546428252551.8801,
+      "atimeMs": 1547477871490.173,
       "mtimeMs": 1545045640000,
       "ctimeMs": 1545328238826.0676,
       "birthtimeMs": 1545045640000,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:51.490Z",
       "mtime": "2018-12-17T11:20:40.000Z",
       "ctime": "2018-12-20T17:50:38.826Z",
       "birthtime": "2018-12-17T11:20:40.000Z"
     },
+    "c833473c-054d-50e0-9658-9a2cf1a873c1": {
+      "id": "c833473c-054d-50e0-9658-9a2cf1a873c1",
+      "children": [],
+      "parent": "4a22d5b1-2c49-5e71-a89f-107b03dcc10f",
+      "internal": {
+        "contentDigest": "0ba632d0142e707afa337380ca3ed617",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cf90a730-0af3-50a2-abf7-62a2c18399eb": {
+      "id": "cf90a730-0af3-50a2-abf7-62a2c18399eb",
+      "children": [],
+      "parent": "844282e6-4d62-548c-9c52-5bdcba9acf9a",
+      "internal": {
+        "contentDigest": "6044580eacd742ab6b811680af630d66",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "55cea1b7-01cc-5410-8c39-72a2774b7602": {
       "id": "55cea1b7-01cc-5410-8c39-72a2774b7602",
-      "children": [],
-      "parent": "___SOURCE___",
+      "children": [
+        "0e5d79be-cac0-5bc8-8eab-d9545ea3c68e"
+      ],
+      "parent": null,
       "internal": {
         "contentDigest": "a41426ab674fe0905cd41a517972e3f6",
         "type": "File",
@@ -1641,7 +2001,7 @@
       "size": 357353,
       "prettySize": "357 kB",
       "modifiedTime": "2018-12-12T15:56:24.224Z",
-      "accessTime": "2019-01-02T11:24:12.552Z",
+      "accessTime": "2019-01-14T14:57:48.133Z",
       "changeTime": "2018-12-12T15:56:24.238Z",
       "birthTime": "2018-12-11T13:44:27.536Z",
       "root": "/",
@@ -1659,14 +2019,268 @@
       "blksize": 4194304,
       "ino": 2872056,
       "blocks": 704,
-      "atimeMs": 1546428252551.739,
+      "atimeMs": 1547477868132.6558,
       "mtimeMs": 1544630184224.2864,
       "ctimeMs": 1544630184237.7175,
       "birthtimeMs": 1544535867535.8076,
-      "atime": "2019-01-02T11:24:12.552Z",
+      "atime": "2019-01-14T14:57:48.133Z",
       "mtime": "2018-12-12T15:56:24.224Z",
       "ctime": "2018-12-12T15:56:24.238Z",
       "birthtime": "2018-12-11T13:44:27.536Z"
+    },
+    "aae3b90b-956b-53c3-9b4c-8d9d1b9d3113": {
+      "id": "aae3b90b-956b-53c3-9b4c-8d9d1b9d3113",
+      "children": [],
+      "parent": "77824e51-5319-5bbc-8a58-782bfe9a2840",
+      "internal": {
+        "contentDigest": "df38c44ec1d3a30f3961611190755d8b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "192bac6a-9bd7-5a3d-84d1-0d1abcfefc9c": {
+      "id": "192bac6a-9bd7-5a3d-84d1-0d1abcfefc9c",
+      "children": [],
+      "parent": "f78f802c-37ee-5fed-bdd9-6acbba105c9e",
+      "internal": {
+        "contentDigest": "1cc29edd62be4ee15a286e0fa4cd89c0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dcc6f956-7dd3-5488-a0df-65fde70c64f7": {
+      "id": "dcc6f956-7dd3-5488-a0df-65fde70c64f7",
+      "children": [],
+      "parent": "a9c9d607-feb0-5760-9e49-e0da9c941a34",
+      "internal": {
+        "contentDigest": "35dfe5125307a42770c5138c5965a041",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0e5d79be-cac0-5bc8-8eab-d9545ea3c68e": {
+      "id": "0e5d79be-cac0-5bc8-8eab-d9545ea3c68e",
+      "children": [],
+      "parent": "55cea1b7-01cc-5410-8c39-72a2774b7602",
+      "internal": {
+        "contentDigest": "a41426ab674fe0905cd41a517972e3f6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "857c8c0d-b0d0-54d3-abf7-807a4ecfb198": {
+      "id": "857c8c0d-b0d0-54d3-abf7-807a4ecfb198",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d56a3c1ebee369bdf32d1598e83c4e46",
+        "type": "Directory",
+        "description": "Directory \"src/markdown\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/markdown",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-01-14T14:46:35.414Z",
+      "accessTime": "2019-01-14T15:01:14.008Z",
+      "changeTime": "2019-01-14T14:46:35.414Z",
+      "birthTime": "2019-01-14T14:43:30.126Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src",
+      "base": "markdown",
+      "ext": "",
+      "name": "markdown",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3612453,
+      "blocks": 0,
+      "atimeMs": 1547478074007.533,
+      "mtimeMs": 1547477195413.6301,
+      "ctimeMs": 1547477195413.6301,
+      "birthtimeMs": 1547477010126.487,
+      "atime": "2019-01-14T15:01:14.008Z",
+      "mtime": "2019-01-14T14:46:35.414Z",
+      "ctime": "2019-01-14T14:46:35.414Z",
+      "birthtime": "2019-01-14T14:43:30.126Z"
+    },
+    "23062509-4705-5567-998b-54e8ec796f9d": {
+      "id": "23062509-4705-5567-998b-54e8ec796f9d",
+      "children": [
+        "f8c409bb-3ed9-5bee-9098-caa426b88d4e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b3f6da3579e1cf05171265520acc85c8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/markdown/beautystack-privacy-policy.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/markdown/beautystack-privacy-policy.md",
+      "relativePath": "beautystack-privacy-policy.md",
+      "extension": "md",
+      "size": 18643,
+      "prettySize": "18.6 kB",
+      "modifiedTime": "2019-01-14T15:00:57.040Z",
+      "accessTime": "2019-01-14T15:00:58.684Z",
+      "changeTime": "2019-01-14T15:00:57.040Z",
+      "birthTime": "2019-01-14T14:46:31.095Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/markdown",
+      "base": "beautystack-privacy-policy.md",
+      "ext": ".md",
+      "name": "beautystack-privacy-policy",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3612746,
+      "blocks": 40,
+      "atimeMs": 1547478058683.667,
+      "mtimeMs": 1547478057040.334,
+      "ctimeMs": 1547478057040.334,
+      "birthtimeMs": 1547477191095.367,
+      "atime": "2019-01-14T15:00:58.684Z",
+      "mtime": "2019-01-14T15:00:57.040Z",
+      "ctime": "2019-01-14T15:00:57.040Z",
+      "birthtime": "2019-01-14T14:46:31.095Z"
+    },
+    "43590c4f-f38a-5ec1-b5b3-c87400701b82": {
+      "id": "43590c4f-f38a-5ec1-b5b3-c87400701b82",
+      "children": [
+        "67755118-7acb-5ea8-974f-2e95a2bc8e3d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2c57e55d01c0f809f558ad6912d0e240",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/markdown/beautystack-terms-of-service.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown",
+      "absolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/markdown/beautystack-terms-of-service.md",
+      "relativePath": "beautystack-terms-of-service.md",
+      "extension": "md",
+      "size": 19082,
+      "prettySize": "19.1 kB",
+      "modifiedTime": "2019-01-14T15:00:57.039Z",
+      "accessTime": "2019-01-14T15:00:58.684Z",
+      "changeTime": "2019-01-14T15:00:57.039Z",
+      "birthTime": "2019-01-14T14:46:31.091Z",
+      "root": "/",
+      "dir": "/Users/eikhunter/Workspace/fe.homepage/src/markdown",
+      "base": "beautystack-terms-of-service.md",
+      "ext": ".md",
+      "name": "beautystack-terms-of-service",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 3612745,
+      "blocks": 40,
+      "atimeMs": 1547478058683.5657,
+      "mtimeMs": 1547478057038.926,
+      "ctimeMs": 1547478057038.926,
+      "birthtimeMs": 1547477191091.3499,
+      "atime": "2019-01-14T15:00:58.684Z",
+      "mtime": "2019-01-14T15:00:57.039Z",
+      "ctime": "2019-01-14T15:00:57.039Z",
+      "birthtime": "2019-01-14T14:46:31.091Z"
+    },
+    "f8c409bb-3ed9-5bee-9098-caa426b88d4e": {
+      "id": "f8c409bb-3ed9-5bee-9098-caa426b88d4e",
+      "children": [],
+      "parent": "23062509-4705-5567-998b-54e8ec796f9d",
+      "internal": {
+        "content": "\n# Privacy Policy\nLast Updated: 11th September 2017\n\nHey Babe, heres the 411 on Beautystack Privacy.\n\nBeautystack App, Inc. (“Beautystack,” the “Company,” “we,” and “us”) is committed to maintaining a trustworthy, curated community. To that end, the policy set forth below (the “Privacy Policy”) reflects our commitment to protecting your privacy and describes the information we collect, how that information may be used, and with whom it may be shared. By using our web application (the “app”) and related services (collectively, the “Service”), you are agreeing to be bound by the terms described herein. We encourage you to read this Privacy Policy and our [Terms of Use](http://www.beautystack.co/termsofservice.html) carefully and contact us at [hello@beautystack.co](mailto:hello@beautystack.co) with any questions you may have.\n\nWe will occasionally update this Privacy Policy to reflect changes in the law, our data collection and use practices, the features of our Service, or advances in technology. When we make changes, we will email you and we will revise the “updated” date at the top of this Privacy Policy, which will be posted at [http://www.beautystack.co/privacy.html](http://www.beautystack.co/privacy.html). We encourage you to regularly check for the most recent version. Your continued use of the Service following the posting of changes to this Privacy Policy will mean you consent to and acceptance thereof. If you do not consent to such changes you can terminate your account at any time as described in our [Terms of Use](http://www.beautystack.co/termsofservice.html).\n\nWhen you’re using our Beautystack web application and related services, there is some information we collect about you, and you can share your information on the App with other users (“Users”).\n\n## Collection of Information\nIn order to apply for membership to the Service, you will be asked to begin an application using your Instagram credentials. Upon doing so, you authorize us to access information from your Instagram account, such as your username, profile picture, biography, website, list of followers, list of people you follow, and number of pictures. You will also be asked to allow us to collect your geographical at all times, only while you are using the app or not at all. Further, you may be asked if you would like to display your specific location to other users. In addition, we may collect and store any personal information you provide while using our Service, which may include identifying information provided in your application, such as your name, Instagram username, email address, date of birth, gender, hometown, city of residence, and listed friends currently using Beautystack. In connection with your use of the Service, you may also provide us images, a biographical description, information about your gender and preferences for recommendations and connections. If you communicate with other users within the Service, you provide us the content of your conversation. Should you contact us with an inquiry, you provide us the content of that correspondence. You may change your personal information at any time within the app settings.\n\nBeautystack will ask to manage your calendar. This is so we can insert your bookings that clients make on the site. Your calendar entries will not be visible publicly. Our calendar integration only checks the duration and free/busy status of the events in your calendar so that we don’t book you when you’re busy. We never save who you’re meeting with, their email, the meeting title or any other details about the appointments in your calendar outside of Beautystack.\n\nBeautystack will ask to view your contacts. This is so you can easily import your client list into our database. We save these contacts under your demand. We have no access to your contacts unless you specifically choose to import them into your Dashboard. Beautystack will never contact your clients without your authorisation and action such as an appointment confirmation or a promotion on your site. These messages are considered part of the service and you may not opt out of these messages.\n\n## Information Collected Automatically\nInformation you provide. In addition to the information you provide, certain information will be automatically collected as you use the Service, including, but not limited to, the operation system used by your device, your device type and ID, your IP address, and access times. If you grant us permission to use location services, we will automatically collect data regarding your geographical location at all times or while the app is actively running, as applicable. Note that even if you do not grant us permission to use location services, we may collect data regarding your city, state and general location (not not your exact location) through your IP address.\n\nOnce your application is successful, you are able to sign up to Beautystack through your Facebook account. We will collect information about you from your Facebook profile (“Registration Information”) including:\n\n* Name;\n* Age;\n* Photographs;\n* Email address;\n* Telephone number;\n* Location;\n* Workplace;\n* Friends list;\n\n## Uses Made of the Information\nInformation Shared with Other Users. When you register as a user of the Service, your app profile will be viewable by other users of the Service. Such other users will be able to view information you have provided to us directly or through Instagram, such as your Instagram username, photos you upload, your first name, your age, city of residence, hometown, your biography, and information you have in common with the person viewing your profile, such as mutually followed Instagram accounts. Users are about to chat with you through the Service. Should you engage in a conversation through our Service, that user with whom you are communicating will see the content of that interaction. By submitting an application to Beautystack, you are giving the app access to your Instagram profile through the use of Instagram’s API. However, the Instagram information automatically available to users of the app will not exceed the information otherwise accessible through your Instagram profile. Therefore, a “private” Instagram user profile will still be private; only the content you choose to share with Beautystack users will be visible.\n\nWe may use information about you, or technical information relating to your mobile device to:\n\n* offer you our services and features;\n* contact you with information about the App subject to the “Marketing” section below;\n* respond to any queries you raise when you contact us directly;\n* notify you about changes to our service;\n* carry out internal operations such as troubleshooting, data analysis, testing, research or for statistical purposes;\n* investigate fraud, protect our legal rights, and to enforce our [Terms of Use](http://www.beautystack.co/termsofservice.html)\n* to allow you to participate in interactive features of our service, when you choose to do so\n\n## Disclosure of your Information\nWe will not disclose your information, except in the limited circumstances described here:\n\nYour Consent\n\nService Providers — We engage certain trusted third parties to perform functions and provide services to us. We may share your Registration Information with these third parties, but only for the purposes of performing these functions and providing such services.\n\nLaw and Harm — We will cooperate with law enforcement enquiries received from within or outside your country of residence. This may include preserving or disclosing any of your information, including your Registration Information, if we believe in good faith that it is necessary to comply with a law or regulation, or when we believe that disclosure is necessary to comply with a judicial proceeding, court order, or legal request, to protect the safety of any person, to address fraud, security or technical issues, or to protect our rights or property or those of third parties. In such cases we may raise or waive any legal obligation or right available to us.\n\nBusiness Transfers — In the event that Beautystack or any of our affiliates are involved in a bankruptcy, merger, acquisition, reorganisation or sale of assets, your information may be sold or transferred as part of that transaction.\n\nOther Information — We may share or disclose aggregated or otherwise anonymised information with third parties for industry analysis and demographic profiling, and to deliver targeted advertising.\n\n## Where we Store Your Personal Data\nThe data that we collect from you may be stored in the European Union as well as being transferred to, and stored at, a destination outside the European Economic Area (“EEA”) such as the United States. It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. This includes staff engaged in, among other things, the provision of support services. By submitting your personal data, you agree to this transfer, storing or processing. Beautystack will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.\n\n## Keeping Information Secure\nWe take the security of your information very seriously. Despite our efforts, no system is guaranteed to be completely secure. While we have taken, and will continue to take, reasonable actions to regularly update and improve our security, we do not promise, nor you should expect, that your information, chats, or other communications will always remain secure. We have no liability to you or to any third party arising out of any loss, misuse or alteration of your personal information. Users outside of the EU, should note that your information may be transferred to our servers which are hosted within the EU.\n\n## Marketing and Push NOtifications\nWe may contact you using your email address which you can opt out of at any time by using the unsubscribe link in any of our communications. Upon using the App you will be asked to accept or deny push notifications/alerts. If you deny, you will not receive any push notifications/alerts. If you accept, push notifications/alerts will automatically be sent to you. If you no longer wish to receive push notifications/alerts from the App, you may opt out by changing the notification settings on your mobile device.\n\n## Geolocation Information\nUpon using the App, you will be asked to turn on location services. If you turn these features on, we may collect your device’s geolocation data and save your device’s coordinates to offer certain features to you. We may also use your device’s geolocation information to personalise the App and make it easier for you to interact with other Users close by. You can control your location information settings in your Account settings and switch them off if you want to. Even if you have disabled location services, we may still determine your city, state, and country location based on your IP address (but not your exact location).\n\n## Log and Usage Data\nOur servers automatically record information (“Log and Usage Data”) created by your use of Beautystack, which again helps us to improve our service. Log and Usage Data may include information such as your IP address, browser type, the referring domain, pages visited, access times, your mobile carrier, and search terms. Other actions, such as interactions with Beautystack and advertisements, may also be included in Log and Usage Data.\n\n## Device Information\nWe may collect information about your device when you use the App including the unique device identifier, device model, operating system, and MAC address. In addition, if you permit us to do so, the App may access your device’s address book and contact lists in order to offer you certain features of our Services.\n\n## What Others See About You\nBeautystack is designed to make it easier for you to connect with other Users and to interact with them. When you register or login to the App using your Facebook account, you are authorizing us to access certain Facebook account information, including information you make available via Facebook, your friends list, current location and those friends you have in common with other Beautystack users. Your Beautystack profile and other information you make available via the App, including information you provide directly or indirectly through Facebook (i.e., your Facebook photos, your name, age, approximate location, friends you have in common with other Users and other profile information), may be viewed and shared by Users with individuals who may or may not be Users or via third party applications. When using Beautystack you should assume that anything you post or submit on the App may be publicly-viewable and accessible, both by Users of the App and non-Users of the App. So, please be careful about what you post.\n\n## Removing Beautystack Access\nIf you want to remove Beautystack from your Facebook account at any time (and we hope you don’t!) you can do this by visiting the application settings on your Facebook profile and following the instructions to remove Beautystack access permissions.\n\nEven after you remove information from your profile or delete your Account, copies of that information may still be viewable and/or accessed to the extent such information has been previously shared with others, or copied or stored by other Users or to the extent such information has been shared with search engines. We cannot control this, nor do we accept any liability for this. If you have given third party applications or websites access to your personal information they may retain such information to the extent permitted under their terms of service or privacy policies. Removed and deleted information may persist in backup copies for up to 30 days to enable restoration, but will not be available to others in the meantime.\n\n## Access To Information\nYou may request, at any time, Beautystack to provide you with information about the data it stores on you. In order to file a request, please contact hello@beautystack.co We will process that request in line with any applicable local laws and our policies and procedures in place for dealing with such requests.\n\n## Cookies\nWe collect information by placing cookies on your mobile. A cookie is a piece of text stored on your computer or mobile by your web browser. They are basically a tool that stores information about website visits, recognises you and your preferences, ensures site functionality and enables us to provide the services you request. We use cookies for a number of reasons, as explained below:\n\n## Analytics and Research\nWe use Google Analytics to collect information about how visitors use the Beautystack site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited. For more information about Google’s privacy policy, please visit\n()[http://www.google.com/intl/en/policies/](http://www.google.com/intl/en/policies/)\n\n## Authentication\nThese cookies help us to identify visitors so that when you’re logged in, you can enjoy Beautystack’s offerings and localise your experience, such as when you’ve requested to view Beautystack’s site in your local language or when you’ve asked Beautystack to ‘remember me’.\n\n## Security and Site Integrity\nWe use cookies and other devices, such as CAPTCHAs, to help keep the site and our visitors safe and secure. These cookies do things like protect visitors from spam and fraud, by ensuring the safety of personal data. We may use persistent cookies, which will help us to ensure we have identified the same device is logging into the correct account. These types of cookies also help with our anti-spam measures and may help us to prevent phishers, scammers and other unauthorised activity.\n\n## Site Features and Services\nThese cookies and local storage devices provide functionalities such as links to other social media sites and social plugins. In some cases, the site feature you choose may allow a third party to place cookies or local storage devices on your computer. The third party who places cookies on your device is responsible for how they process their data and Beautystack recommends that you read their privacy policies. Third parties who place cookies on your device when you use Beautystack include the following, and we have included a link to their privacy policies:\n\nFacebook: [http://www.facebook.com/about/privacy/your-info-on-other#socialplugin](http://www.facebook.com/about/privacy/your-info-on-other#socialplugin)\n\nYouTube: [http://www.google.co.uk/intl/en/policies/privacy/](http://www.google.co.uk/intl/en/policies/privacy/)\n\n## Performance\nWe need to use certain cookies and local storage devices to ensure our visitors have the best possible experience. These may, for example, assist with your navigation of our site, ensure pages load up quickly and respond faster to your requests for the site’s services.\n\nOur use of cookies and local share devices, including the specific cookie names, may change over time, but will generally fall into the above categories. Please visit this page regularly so that you are aware of any changes.\n\nIf you would like to know more about cookies, including flash cookies/local storage devices, the following websites provide useful information:\n\n* [www.allaboutcookies.org](www.allaboutcookies.org)\n* [www.youronlinechoices.eu](www.youronlinechoices.eu)\n* [http://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html](http://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html)\n* [www.google.co.uk/goodtoknow/data-on-the-web/cookies](www.google.co.uk/goodtoknow/data-on-the-web/cookies)\n\n## No Rights of Third Parties\n\nThis Privacy Policy does not create rights enforceable by third parties or require disclosure of any information relating to users of the Service.\n\n**WE EXPRESSLY DISCLAIM ANY REPRESENTATION OR WARRANTY, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO ANY BREACHES OF SECURITY, DAMAGE TO YOUR DEVICE, OR ANY LOSS OR UNAUTHORISED USE OF YOUR REGISTRATION INFORMATION OR OTHER DATA.**\n\nBeautystack Limited is registered in the United Kingdom under company number 10736703. Our registered address is 4 Peter Street, London, W1F 0AD\n\nThis privacy policy was last updated on: 11 September 2017\n\n\n\n\n\n\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "732a4264d77a79731ae1b9d496e3e8fb",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Privacy policy",
+        "path": "/privacy"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Privacy Policy\nLast Updated: 11th September 2017\n\nHey Babe, heres the 411 on Beautystack Privacy.\n\nBeautystack App, Inc. (“Beautystack,” the “Company,” “we,” and “us”) is committed to maintaining a trustworthy, curated community. To that end, the policy set forth below (the “Privacy Policy”) reflects our commitment to protecting your privacy and describes the information we collect, how that information may be used, and with whom it may be shared. By using our web application (the “app”) and related services (collectively, the “Service”), you are agreeing to be bound by the terms described herein. We encourage you to read this Privacy Policy and our [Terms of Use](http://www.beautystack.co/termsofservice.html) carefully and contact us at [hello@beautystack.co](mailto:hello@beautystack.co) with any questions you may have.\n\nWe will occasionally update this Privacy Policy to reflect changes in the law, our data collection and use practices, the features of our Service, or advances in technology. When we make changes, we will email you and we will revise the “updated” date at the top of this Privacy Policy, which will be posted at [http://www.beautystack.co/privacy.html](http://www.beautystack.co/privacy.html). We encourage you to regularly check for the most recent version. Your continued use of the Service following the posting of changes to this Privacy Policy will mean you consent to and acceptance thereof. If you do not consent to such changes you can terminate your account at any time as described in our [Terms of Use](http://www.beautystack.co/termsofservice.html).\n\nWhen you’re using our Beautystack web application and related services, there is some information we collect about you, and you can share your information on the App with other users (“Users”).\n\n## Collection of Information\nIn order to apply for membership to the Service, you will be asked to begin an application using your Instagram credentials. Upon doing so, you authorize us to access information from your Instagram account, such as your username, profile picture, biography, website, list of followers, list of people you follow, and number of pictures. You will also be asked to allow us to collect your geographical at all times, only while you are using the app or not at all. Further, you may be asked if you would like to display your specific location to other users. In addition, we may collect and store any personal information you provide while using our Service, which may include identifying information provided in your application, such as your name, Instagram username, email address, date of birth, gender, hometown, city of residence, and listed friends currently using Beautystack. In connection with your use of the Service, you may also provide us images, a biographical description, information about your gender and preferences for recommendations and connections. If you communicate with other users within the Service, you provide us the content of your conversation. Should you contact us with an inquiry, you provide us the content of that correspondence. You may change your personal information at any time within the app settings.\n\nBeautystack will ask to manage your calendar. This is so we can insert your bookings that clients make on the site. Your calendar entries will not be visible publicly. Our calendar integration only checks the duration and free/busy status of the events in your calendar so that we don’t book you when you’re busy. We never save who you’re meeting with, their email, the meeting title or any other details about the appointments in your calendar outside of Beautystack.\n\nBeautystack will ask to view your contacts. This is so you can easily import your client list into our database. We save these contacts under your demand. We have no access to your contacts unless you specifically choose to import them into your Dashboard. Beautystack will never contact your clients without your authorisation and action such as an appointment confirmation or a promotion on your site. These messages are considered part of the service and you may not opt out of these messages.\n\n## Information Collected Automatically\nInformation you provide. In addition to the information you provide, certain information will be automatically collected as you use the Service, including, but not limited to, the operation system used by your device, your device type and ID, your IP address, and access times. If you grant us permission to use location services, we will automatically collect data regarding your geographical location at all times or while the app is actively running, as applicable. Note that even if you do not grant us permission to use location services, we may collect data regarding your city, state and general location (not not your exact location) through your IP address.\n\nOnce your application is successful, you are able to sign up to Beautystack through your Facebook account. We will collect information about you from your Facebook profile (“Registration Information”) including:\n\n* Name;\n* Age;\n* Photographs;\n* Email address;\n* Telephone number;\n* Location;\n* Workplace;\n* Friends list;\n\n## Uses Made of the Information\nInformation Shared with Other Users. When you register as a user of the Service, your app profile will be viewable by other users of the Service. Such other users will be able to view information you have provided to us directly or through Instagram, such as your Instagram username, photos you upload, your first name, your age, city of residence, hometown, your biography, and information you have in common with the person viewing your profile, such as mutually followed Instagram accounts. Users are about to chat with you through the Service. Should you engage in a conversation through our Service, that user with whom you are communicating will see the content of that interaction. By submitting an application to Beautystack, you are giving the app access to your Instagram profile through the use of Instagram’s API. However, the Instagram information automatically available to users of the app will not exceed the information otherwise accessible through your Instagram profile. Therefore, a “private” Instagram user profile will still be private; only the content you choose to share with Beautystack users will be visible.\n\nWe may use information about you, or technical information relating to your mobile device to:\n\n* offer you our services and features;\n* contact you with information about the App subject to the “Marketing” section below;\n* respond to any queries you raise when you contact us directly;\n* notify you about changes to our service;\n* carry out internal operations such as troubleshooting, data analysis, testing, research or for statistical purposes;\n* investigate fraud, protect our legal rights, and to enforce our [Terms of Use](http://www.beautystack.co/termsofservice.html)\n* to allow you to participate in interactive features of our service, when you choose to do so\n\n## Disclosure of your Information\nWe will not disclose your information, except in the limited circumstances described here:\n\nYour Consent\n\nService Providers — We engage certain trusted third parties to perform functions and provide services to us. We may share your Registration Information with these third parties, but only for the purposes of performing these functions and providing such services.\n\nLaw and Harm — We will cooperate with law enforcement enquiries received from within or outside your country of residence. This may include preserving or disclosing any of your information, including your Registration Information, if we believe in good faith that it is necessary to comply with a law or regulation, or when we believe that disclosure is necessary to comply with a judicial proceeding, court order, or legal request, to protect the safety of any person, to address fraud, security or technical issues, or to protect our rights or property or those of third parties. In such cases we may raise or waive any legal obligation or right available to us.\n\nBusiness Transfers — In the event that Beautystack or any of our affiliates are involved in a bankruptcy, merger, acquisition, reorganisation or sale of assets, your information may be sold or transferred as part of that transaction.\n\nOther Information — We may share or disclose aggregated or otherwise anonymised information with third parties for industry analysis and demographic profiling, and to deliver targeted advertising.\n\n## Where we Store Your Personal Data\nThe data that we collect from you may be stored in the European Union as well as being transferred to, and stored at, a destination outside the European Economic Area (“EEA”) such as the United States. It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. This includes staff engaged in, among other things, the provision of support services. By submitting your personal data, you agree to this transfer, storing or processing. Beautystack will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.\n\n## Keeping Information Secure\nWe take the security of your information very seriously. Despite our efforts, no system is guaranteed to be completely secure. While we have taken, and will continue to take, reasonable actions to regularly update and improve our security, we do not promise, nor you should expect, that your information, chats, or other communications will always remain secure. We have no liability to you or to any third party arising out of any loss, misuse or alteration of your personal information. Users outside of the EU, should note that your information may be transferred to our servers which are hosted within the EU.\n\n## Marketing and Push NOtifications\nWe may contact you using your email address which you can opt out of at any time by using the unsubscribe link in any of our communications. Upon using the App you will be asked to accept or deny push notifications/alerts. If you deny, you will not receive any push notifications/alerts. If you accept, push notifications/alerts will automatically be sent to you. If you no longer wish to receive push notifications/alerts from the App, you may opt out by changing the notification settings on your mobile device.\n\n## Geolocation Information\nUpon using the App, you will be asked to turn on location services. If you turn these features on, we may collect your device’s geolocation data and save your device’s coordinates to offer certain features to you. We may also use your device’s geolocation information to personalise the App and make it easier for you to interact with other Users close by. You can control your location information settings in your Account settings and switch them off if you want to. Even if you have disabled location services, we may still determine your city, state, and country location based on your IP address (but not your exact location).\n\n## Log and Usage Data\nOur servers automatically record information (“Log and Usage Data”) created by your use of Beautystack, which again helps us to improve our service. Log and Usage Data may include information such as your IP address, browser type, the referring domain, pages visited, access times, your mobile carrier, and search terms. Other actions, such as interactions with Beautystack and advertisements, may also be included in Log and Usage Data.\n\n## Device Information\nWe may collect information about your device when you use the App including the unique device identifier, device model, operating system, and MAC address. In addition, if you permit us to do so, the App may access your device’s address book and contact lists in order to offer you certain features of our Services.\n\n## What Others See About You\nBeautystack is designed to make it easier for you to connect with other Users and to interact with them. When you register or login to the App using your Facebook account, you are authorizing us to access certain Facebook account information, including information you make available via Facebook, your friends list, current location and those friends you have in common with other Beautystack users. Your Beautystack profile and other information you make available via the App, including information you provide directly or indirectly through Facebook (i.e., your Facebook photos, your name, age, approximate location, friends you have in common with other Users and other profile information), may be viewed and shared by Users with individuals who may or may not be Users or via third party applications. When using Beautystack you should assume that anything you post or submit on the App may be publicly-viewable and accessible, both by Users of the App and non-Users of the App. So, please be careful about what you post.\n\n## Removing Beautystack Access\nIf you want to remove Beautystack from your Facebook account at any time (and we hope you don’t!) you can do this by visiting the application settings on your Facebook profile and following the instructions to remove Beautystack access permissions.\n\nEven after you remove information from your profile or delete your Account, copies of that information may still be viewable and/or accessed to the extent such information has been previously shared with others, or copied or stored by other Users or to the extent such information has been shared with search engines. We cannot control this, nor do we accept any liability for this. If you have given third party applications or websites access to your personal information they may retain such information to the extent permitted under their terms of service or privacy policies. Removed and deleted information may persist in backup copies for up to 30 days to enable restoration, but will not be available to others in the meantime.\n\n## Access To Information\nYou may request, at any time, Beautystack to provide you with information about the data it stores on you. In order to file a request, please contact hello@beautystack.co We will process that request in line with any applicable local laws and our policies and procedures in place for dealing with such requests.\n\n## Cookies\nWe collect information by placing cookies on your mobile. A cookie is a piece of text stored on your computer or mobile by your web browser. They are basically a tool that stores information about website visits, recognises you and your preferences, ensures site functionality and enables us to provide the services you request. We use cookies for a number of reasons, as explained below:\n\n## Analytics and Research\nWe use Google Analytics to collect information about how visitors use the Beautystack site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited. For more information about Google’s privacy policy, please visit\n()[http://www.google.com/intl/en/policies/](http://www.google.com/intl/en/policies/)\n\n## Authentication\nThese cookies help us to identify visitors so that when you’re logged in, you can enjoy Beautystack’s offerings and localise your experience, such as when you’ve requested to view Beautystack’s site in your local language or when you’ve asked Beautystack to ‘remember me’.\n\n## Security and Site Integrity\nWe use cookies and other devices, such as CAPTCHAs, to help keep the site and our visitors safe and secure. These cookies do things like protect visitors from spam and fraud, by ensuring the safety of personal data. We may use persistent cookies, which will help us to ensure we have identified the same device is logging into the correct account. These types of cookies also help with our anti-spam measures and may help us to prevent phishers, scammers and other unauthorised activity.\n\n## Site Features and Services\nThese cookies and local storage devices provide functionalities such as links to other social media sites and social plugins. In some cases, the site feature you choose may allow a third party to place cookies or local storage devices on your computer. The third party who places cookies on your device is responsible for how they process their data and Beautystack recommends that you read their privacy policies. Third parties who place cookies on your device when you use Beautystack include the following, and we have included a link to their privacy policies:\n\nFacebook: [http://www.facebook.com/about/privacy/your-info-on-other#socialplugin](http://www.facebook.com/about/privacy/your-info-on-other#socialplugin)\n\nYouTube: [http://www.google.co.uk/intl/en/policies/privacy/](http://www.google.co.uk/intl/en/policies/privacy/)\n\n## Performance\nWe need to use certain cookies and local storage devices to ensure our visitors have the best possible experience. These may, for example, assist with your navigation of our site, ensure pages load up quickly and respond faster to your requests for the site’s services.\n\nOur use of cookies and local share devices, including the specific cookie names, may change over time, but will generally fall into the above categories. Please visit this page regularly so that you are aware of any changes.\n\nIf you would like to know more about cookies, including flash cookies/local storage devices, the following websites provide useful information:\n\n* [www.allaboutcookies.org](www.allaboutcookies.org)\n* [www.youronlinechoices.eu](www.youronlinechoices.eu)\n* [http://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html](http://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html)\n* [www.google.co.uk/goodtoknow/data-on-the-web/cookies](www.google.co.uk/goodtoknow/data-on-the-web/cookies)\n\n## No Rights of Third Parties\n\nThis Privacy Policy does not create rights enforceable by third parties or require disclosure of any information relating to users of the Service.\n\n**WE EXPRESSLY DISCLAIM ANY REPRESENTATION OR WARRANTY, WHETHER EXPRESS OR IMPLIED, WITH RESPECT TO ANY BREACHES OF SECURITY, DAMAGE TO YOUR DEVICE, OR ANY LOSS OR UNAUTHORISED USE OF YOUR REGISTRATION INFORMATION OR OTHER DATA.**\n\nBeautystack Limited is registered in the United Kingdom under company number 10736703. Our registered address is 4 Peter Street, London, W1F 0AD\n\nThis privacy policy was last updated on: 11 September 2017\n\n\n\n\n\n\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/markdown/beautystack-privacy-policy.md"
+    },
+    "67755118-7acb-5ea8-974f-2e95a2bc8e3d": {
+      "id": "67755118-7acb-5ea8-974f-2e95a2bc8e3d",
+      "children": [],
+      "parent": "43590c4f-f38a-5ec1-b5b3-c87400701b82",
+      "internal": {
+        "content": "\n# Terms and Conditions\nLast Updated: 20 May 2018\n\nHeya!\n\nWelcome to Beautystack’s Terms and Conditions (these “Terms”). This is a contract between you and Beautystack Limited and we want you to be aware of yours and our rights before you use the Beautystack application (“App”). Please take some time to read these Terms before enjoying the App, because once you access, view or use the App, you will be legally bound by these Terms!\n\n## Beautystack Rules\nBefore you can use our App, you will need to register for an account (“Account”). In order to create an Account you must:\n\n* be at least 16 years old; and\n* be legally permitted to use the App legally in your country\n\nIf you create an Account using Facebook, you authorize us to access, display and use certain information from your Facebook account (e.g. profile pictures, relationship status, location and information about Facebook friends). For more information about what information we use and how we use it, please check out our [Privacy Policy](https://www.beautystack.com/privacy.html).\n\nYou cannot use another beauty pros Account without her permission.\n\nWe hope you love the community of beauty junkies on Beautystack, but if you want to leave (sob), you can delete your Account at any time by going to the ‘Settings’ cog on the profile screen of your Account when you are logged in, and clicking on the ‘Delete account’ link. Your Account will be deleted immediately but it may take a little while for Beauty Professionals Content to be completely removed from the App. We will save your profile information in case you realise you miss us and you decide to restore your Account (which you can do within 90 days of de-activating your Account). Beautystack Limited reserves the right at our sole discretion to terminate or suspend any Account, or make use of any operational, technological, legal or other means available to enforce the Terms (including without limitation blocking specific IP addresses), at any time without liability and without the need to give you prior notice.\n\n## Types of Content\nThere are three types of content that you will be able to access on the App:\n\n* content that Beauty Pros upload and provide (“Beauty Professionals Content”);\n* content that Clients provide (“Client Content”); and\n* content that Beautystack Limited provide (“Our Content”)\n\n## We don't allow certain content on Beautystack\nWe want our beauty pros to freely communicate on Beautystack, but we have to impose restrictions on certain content that:\n\n* contains language which could be deemed offensive or is likely to harass, upset, embarrass, alarm or annoy any other person;\n* is obscene, pornographic or otherwise may offend human dignity;\n* is abusive, insulting or threatening, or which promotes or encourages racism, sexism, hatred or bigotry;\n* encourages any illegal activity including, without limitation, terrorism, inciting racial hatred or the submission of which in itself constitutes committing a criminal offence;\n* is defamatory or libellous;\n* involves the transmission of “junk” mail or “spam”;\n* contains any spy ware, adware, viruses, corrupt files, worm programmes or other malicious code designed to interrupt, damage or limit the functionality of or disrupt any software, hardware, telecommunications, networks, servers or other equipment, Trojan horse or any other material designed to damage, interfere with, wrongly intercept or expropriate any data or personal information whether from Beautystack or otherwise;\n* itself, or the posting of which, infringes any third party’s rights (including, without limitation, intellectual property rights and privacy rights);\n* shows another person which was created or distributed without that person’s consent.\n\nWe operate a zero-tolerance policy for this kind of content! Don’t use other Beauty Pro’s work without their permission or credit.\n\n## Beauty Professional Content\nAs Beauty Professionals Content is created by you, you are responsible and liable for Beauty Professionals Content and will indemnify, defend, release, and hold us harmless from any claims made in connection with Beauty Professionals Content.\n\nYou may not display any personal contact or banking information on your individual profile page whether in relation to you or any other person (for example, names, home addresses or postcodes, telephone numbers, email addresses, URLs, credit/debit card or other banking details). If you do choose to reveal any personal information about yourself to other users, whether via email or otherwise, it is at your own risk. We encourage you to use the same caution in disclosing details about yourself to third parties online as you would under any other circumstances.\n\nBeautystack is a public community, so Beauty Professionals Content will be visible to other users of the App all around the world. Please make sure you are comfortable sharing Beauty Professionals Content before you post it, particularly insofar as it relates to Clients. As such, you agree that Beauty Professionals Content may be viewed by other users and any person visiting, participating in or who is sent a link to the App. By uploading Beauty Professionals Content on Beautystack, you represent and warrant to us that you have all necessary rights and licences to do so, and automatically grant us a non-exclusive, royalty free, perpetual, worldwide licence to use Beauty Professionals Content in any way (including, without limitation, editing, copying, modifying, adapting, translating, reformatting, creative derivative works from, incorporating into other works, advertising, distributing and otherwise making available to the general publish such Content, whether in whole or in part and in any format or medium currently known or developed in the future).\n\nWe may assign and/or sub-licence the above licence to our affiliates and successors without any further approval by you.\n\nWe have the right to remove, edit, limit or block access to any of Beauty Professionals Content at any time, and we have no obligation to display or review Beauty Professionals Content.\n\n## Client Content\nClients of Beautystack will also share content via the App. Client Content belongs to the user who posted the content and is stored on our servers and displayed via the App at the direction of the user providing the Client Content.\n\nYou do not have any rights in relation to other users’ Client Content, and you may only use other Beautystack users’ personal information to the extent that your use of it matches Beautystack’s purpose of allowing people to connect with one another. You may not use other users’ information to spam, to harass, or to make unlawful threats. We reserve the right to terminate your Account if you misuse other users’ information.\n\n## Our Content\nThe rest of the content on Beautystack belongs to us! Any other text, content, graphics, user interfaces, trademarks, logos, sounds, artwork, and other intellectual property appearing on Beautystack are owned, controlled or licensed by us and are protected by copyright, trademark and other intellectual property law rights. All right, title and interest in and to Our Content remains with us at all times.\n\nWe grant you a non-exclusive, limited, personal, non-transferable, revocable, license to access and use Our Content, without the right to sublicense, under the following conditions:\n\n* you shall not use, sell, modify, or distribute Our Content except as permitted by the functionality of the App;\n* you shall not use our name in metatags, keywords and/or hidden text;\n* you shall not create derivative works from Our Content or commercially exploit Our Content, in whole or in part, in any way; and\n* you shall use Our Content for lawful purposes only.\n\nWe reserve all other rights.\n\n## Restriction on the App\nWe don’t tolerate bad behaviour on Beautystack. You can report any abuse or complain about Client Content by contacting us, outlining the abuse and/or complaint. Email us at [hello@beautystack.co](mailto:hello@beautystack.co).\n\nWe also want our users to respect Beautystack. Scraping or replicating any part of the App without our prior consent is expressly prohibited. This includes by any means (automated or otherwise) other than through our currently available, published interfaces – unless you have been specifically allowed to do so in a separate agreement with us.\n\n## Privacy\nFor information about how Beautystack Limited collects, uses, and shares your personal data, please check out our [Privacy Policy](https://www.beautystack.com/privacy.html). By using Beautystack, you agree that we can use such data in accordance with our [Privacy Policy](https://www.beautystack.com/privacy.html).\n\n## Third Party Stores; In-app Purchases\nThe Service may be dependent on and/or interoperate with third-party owned and/or operated platforms and services, e.g., Apple (iTunes, etc.), Google, Stripe etc. (each, a “Third Party Platform”) and may require that you be a registered Client of such Third Party Platforms and provide certain account credentials and other information in order to access the App. By using the App, you agree to comply with any applicable terms, conditions or requirements promulgated by any provider of a Third Party Platform (e.g., Facebook’s Terms of Use, iTunes Store Terms of Use, etc.).\n\n## Push Notifications; Location based Features\nWe may provide you with emails, text messages, push notifications, alerts and other messages related to the App and/or the Beautystack services, such as enhancements, offers, products, events, and other promotions. After using the App, you will be asked to accept or deny push notifications/alerts. If you deny, you will not receive any push notifications/alerts. If you accept, push notifications/alerts will be automatically sent to you. If you no longer wish to receive push notifications/alerts from the App, you may opt out by changing your notification settings on your mobile device. With respect to other types of messaging or communications, such as emails, text messages, etc., you can unsubscribe or opt out by either following the specific instructions included in such communications, or by emailing us with your request at hello@Beautystack.com\n\nThe App may allow access to or make available opportunities for you to view certain content and receive other products, services and/or other materials based on your location. To make these opportunities available to you, the App will determine your location using one or more reference points, such as GPS, Bluetooth and/or software within your browsing device. If you have set your mobile device to disable GPS, Bluetooth or other location determining software or do not authorize the App to access your location data, you will not be able to access such location-specific content, products, services and materials. For more about how the App uses and retains your information, please read the Privacy Policy.\n\n## Disclaimer\nTHE APP, SITE, OUR CONTENT, AND CLIENT CONTENT ARE ALL PROVIDED TO YOU “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.\n\nSHOULD APPLICABLE LAW NOT PERMIT THE FOREGOING EXCLUSION OF EXPRESS OR IMPLIED WARRANTIES, THEN WE GRANT THE MINIMUM EXPRESS OR IMPLIED WARRANTY REQUIRED BY APPLICABLE LAW. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, SHALL CREATE ANY WARRANTY, REPRESENTATION OR GUARANTEE NOT EXPRESSLY STATED IN THIS SECTION.\n\nADDITIONALLY, WE DO NOT MAKE ANY WARRANTIES THAT THE APP OR SITE WILL BE UNINTERRUPTED, SECURE OR ERROR FREE OR THAT YOUR USE OF THE APP OR SITE WILL MEET YOUR EXPECTATIONS, OR THAT THE APP, SITE, OUR CONTENT, ANY Client CONTENT, OR ANY PORTION THEREOF, IS CORRECT, ACCURATE, OR RELIABLE. YOUR USE OF THE APP OR SITE IS AT YOUR OWN RISK. YOU ARE SOLELY RESPONSIBLE FOR YOUR INTERACTIONS WITH OTHER CLIENTS. BEAUTYSTACK LIMITED IS NOT RESPONSIBLE FOR THE CONDUCT OF ANY USER.\n\nNEITHER US NOR ANY OWNER WILL BE LIABLE FOR ANY DAMAGES, DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE, INCLUDING, WITHOUT LIMITATION, LOSS OF DATA, INCOME, PROFIT OR GOODWILL, LOSS OF OR DAMAGE TO PROPERTY AND CLAIMS OF THIRD PARTIES ARISING OUT OF YOUR ACCESS TO OR USE OF THE APP, SITE, OUR CONTENT, OR ANY Client CONTENT, HOWEVER CAUSED, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), PROPRIETARY RIGHTS INFRINGEMENT, PRODUCT LIABILITY OR OTHERWISE.\n\nTHE FOREGOING SHALL APPLY EVEN IF WE WERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IF YOU BECOME DISSATISFIED IN ANY WAY WITH THE APP OR SITE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO STOP YOUR USE OF THE APP AND SITE.\n\nYOU HEREBY WAIVE ANY AND ALL CLAIMS ARISING OUT OF YOUR USE OF THE APP OR SITE. BECAUSE SOME STATES DO NOT ALLOW THE DISCLAIMER OF IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN TYPES OF DAMAGES, THESE PROVISIONS MAY NOT APPLY TO YOU.\n\nTHE LIMITATION OF LIABILITY HEREIN IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE BARGAIN AND REFLECTS A FAIR ALLOCATION OF RISK. THE APP AND SITE WOULD NOT BE PROVIDED WITHOUT SUCH LIMITATIONS AND YOU AGREE THAT THE LIMITATIONS AND EXCLUSIONS OF LIABILITY, DISCLAIMERS AND EXCLUSIVE REMEDIES SPECIFIED HEREIN WILL SURVIVE EVEN IF FOUND TO HAVE FAILED IN THEIR ESSENTIAL PURPOSE.\n\n## Indemnity\nAll the actions you make and information you post on Beautystack remain your responsibility. Therefore, you agree to indemnify, defend, release, and hold us, and our partners, licensors, affiliates, contractors, officers, directors, employees, representatives and agents, harmless, from and against any third party claims, damages (actual and/or consequential), actions, proceedings, demands, losses, liabilities, costs and expenses (including reasonable legal fees) suffered or reasonably incurred by us arising as a result of, or in connection with:\n\n* any negligent acts, omissions or wilful misconduct by you;\n* your access to and use of the App;\n* the uploading or submission of Content to the App by you;\n* any breach of these Terms by you; and/or\n* your violation of any law or of any rights of any third party.\n\nWe retain the exclusive right to settle, compromise and pay any and all claims or causes of action which are brought against us without your prior consent. If we ask, you will co-operate fully and reasonably as required by us in the defence of any relevant claim.\n\n## Miscellaneous\nThese Terms, which we may amend from time to time, constitute the entire agreement between you and Beautystack Limited. The Terms supersede all previous agreements, representations and arrangements between us (written or oral). Nothing in this clause shall limit or exclude any liability for fraudulent misrepresentation.\n\nBeautystack Limited has taken reasonable steps to ensure the currency, availability, correctness and completeness of the information contained on Beautystack and provides that information on an “as is”, “as available” basis. Beautystack Limited does not give or make any warranty or representation of any kind about the information contained on Beautystack, whether express or implied. Use of Beautystack and the materials available on it is at your sole risk. Beautystack Limited can not be held responsible for any loss arising from the transmission, use of data, or inaccurate User Content.\n\nYou are responsible for taking all necessary precautions to ensure that any material you may obtain from Beautystack is free of viruses or other harmful components. You accept that Beautystack will not be provided uninterrupted or error free, that defects may not be corrected or that Beautystack Limited, or the server that makes it available, are free of viruses or bugs, spyware, Trojan horse or any similar malicious software. Beautystack Limited is not responsible for any damage to your computer hardware, computer software, or other equipment or technology including, but without limitation damage from any security breach or from any virus, bugs, tampering, fraud, error, omission, interruption, defect, delay in operation or transmission, computer line or network failure or any other technical or other malfunction.\n\nAs Beautystack grows, we might have to make changes to these Terms so we reserve the right to modify, amend or change the Terms at any time (a “Change”). If we do this then the Changes will be posted on this page and we will indicate the Effective Date of the updates at the bottom of the Terms. In certain circumstances, we may send an email to you notifying you of a Change. You should regularly check this page for notice of any Changes – we want our users to be as informed as possible.\n\nYour continued use of Beautystack following any Change constitutes your acceptance of the Change and you will be legally bound by the new updated Terms. If you do not accept any Changes to the Terms, you should stop using Beautystack immediately.\n\nIf, for any reason, any of the Terms are declared illegal, invalid or otherwise unenforceable by a court of a competent jurisdiction, then to the extent that term is illegal, invalid or unenforceable, it shall be severed and deleted from the Terms and the remainder of the Terms shall survive, remain in full force and effect and continue to be binding and enforceable.\n\nNo failure or delay in exercising any right, power or privilege under the Terms shall operate as a waiver of such right or acceptance of any variation of the Terms and nor shall any single or partial exercise by either party of any right, power or privilege preclude any further exercise of the right or the exercise of any other right, power or privilege.\n\nThe App may contain links to third-party websites or resources. In such cases, you acknowledge and agree that we are not responsible or liable for:\n\n* the availability or accuracy of such websites or resources; or\n* the content, products, or services on or available from such websites or resources.\n\nLinks to such websites or resources do not imply any endorsement. You acknowledge sole responsibility for and assume all risk arising from your use of any such websites or resources.\n\nThese Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by us without restriction.\n\n## About Us\nAccess to the App, Beauty Professional Content, Our Content, and any Client Content, as well as these Terms are governed and interpreted by the laws of England and Wales. By using the App, you are consenting to the exclusive jurisdiction of the courts of England and Wales. In the event there is a discrepancy between this English language version and any translated copies of the Terms, the English version shall prevail.\n\nBeautystack Limited is registered in the United Kingdom under company number 10736703. Our registered address is 4 Peter Street, London, W1F 0AD\n\nThe terms were last updated on: 30 May 2018\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4be1cd88ff63121e354344e15a80a0fc",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Terms and conditions",
+        "path": "/terms"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n# Terms and Conditions\nLast Updated: 20 May 2018\n\nHeya!\n\nWelcome to Beautystack’s Terms and Conditions (these “Terms”). This is a contract between you and Beautystack Limited and we want you to be aware of yours and our rights before you use the Beautystack application (“App”). Please take some time to read these Terms before enjoying the App, because once you access, view or use the App, you will be legally bound by these Terms!\n\n## Beautystack Rules\nBefore you can use our App, you will need to register for an account (“Account”). In order to create an Account you must:\n\n* be at least 16 years old; and\n* be legally permitted to use the App legally in your country\n\nIf you create an Account using Facebook, you authorize us to access, display and use certain information from your Facebook account (e.g. profile pictures, relationship status, location and information about Facebook friends). For more information about what information we use and how we use it, please check out our [Privacy Policy](https://www.beautystack.com/privacy.html).\n\nYou cannot use another beauty pros Account without her permission.\n\nWe hope you love the community of beauty junkies on Beautystack, but if you want to leave (sob), you can delete your Account at any time by going to the ‘Settings’ cog on the profile screen of your Account when you are logged in, and clicking on the ‘Delete account’ link. Your Account will be deleted immediately but it may take a little while for Beauty Professionals Content to be completely removed from the App. We will save your profile information in case you realise you miss us and you decide to restore your Account (which you can do within 90 days of de-activating your Account). Beautystack Limited reserves the right at our sole discretion to terminate or suspend any Account, or make use of any operational, technological, legal or other means available to enforce the Terms (including without limitation blocking specific IP addresses), at any time without liability and without the need to give you prior notice.\n\n## Types of Content\nThere are three types of content that you will be able to access on the App:\n\n* content that Beauty Pros upload and provide (“Beauty Professionals Content”);\n* content that Clients provide (“Client Content”); and\n* content that Beautystack Limited provide (“Our Content”)\n\n## We don't allow certain content on Beautystack\nWe want our beauty pros to freely communicate on Beautystack, but we have to impose restrictions on certain content that:\n\n* contains language which could be deemed offensive or is likely to harass, upset, embarrass, alarm or annoy any other person;\n* is obscene, pornographic or otherwise may offend human dignity;\n* is abusive, insulting or threatening, or which promotes or encourages racism, sexism, hatred or bigotry;\n* encourages any illegal activity including, without limitation, terrorism, inciting racial hatred or the submission of which in itself constitutes committing a criminal offence;\n* is defamatory or libellous;\n* involves the transmission of “junk” mail or “spam”;\n* contains any spy ware, adware, viruses, corrupt files, worm programmes or other malicious code designed to interrupt, damage or limit the functionality of or disrupt any software, hardware, telecommunications, networks, servers or other equipment, Trojan horse or any other material designed to damage, interfere with, wrongly intercept or expropriate any data or personal information whether from Beautystack or otherwise;\n* itself, or the posting of which, infringes any third party’s rights (including, without limitation, intellectual property rights and privacy rights);\n* shows another person which was created or distributed without that person’s consent.\n\nWe operate a zero-tolerance policy for this kind of content! Don’t use other Beauty Pro’s work without their permission or credit.\n\n## Beauty Professional Content\nAs Beauty Professionals Content is created by you, you are responsible and liable for Beauty Professionals Content and will indemnify, defend, release, and hold us harmless from any claims made in connection with Beauty Professionals Content.\n\nYou may not display any personal contact or banking information on your individual profile page whether in relation to you or any other person (for example, names, home addresses or postcodes, telephone numbers, email addresses, URLs, credit/debit card or other banking details). If you do choose to reveal any personal information about yourself to other users, whether via email or otherwise, it is at your own risk. We encourage you to use the same caution in disclosing details about yourself to third parties online as you would under any other circumstances.\n\nBeautystack is a public community, so Beauty Professionals Content will be visible to other users of the App all around the world. Please make sure you are comfortable sharing Beauty Professionals Content before you post it, particularly insofar as it relates to Clients. As such, you agree that Beauty Professionals Content may be viewed by other users and any person visiting, participating in or who is sent a link to the App. By uploading Beauty Professionals Content on Beautystack, you represent and warrant to us that you have all necessary rights and licences to do so, and automatically grant us a non-exclusive, royalty free, perpetual, worldwide licence to use Beauty Professionals Content in any way (including, without limitation, editing, copying, modifying, adapting, translating, reformatting, creative derivative works from, incorporating into other works, advertising, distributing and otherwise making available to the general publish such Content, whether in whole or in part and in any format or medium currently known or developed in the future).\n\nWe may assign and/or sub-licence the above licence to our affiliates and successors without any further approval by you.\n\nWe have the right to remove, edit, limit or block access to any of Beauty Professionals Content at any time, and we have no obligation to display or review Beauty Professionals Content.\n\n## Client Content\nClients of Beautystack will also share content via the App. Client Content belongs to the user who posted the content and is stored on our servers and displayed via the App at the direction of the user providing the Client Content.\n\nYou do not have any rights in relation to other users’ Client Content, and you may only use other Beautystack users’ personal information to the extent that your use of it matches Beautystack’s purpose of allowing people to connect with one another. You may not use other users’ information to spam, to harass, or to make unlawful threats. We reserve the right to terminate your Account if you misuse other users’ information.\n\n## Our Content\nThe rest of the content on Beautystack belongs to us! Any other text, content, graphics, user interfaces, trademarks, logos, sounds, artwork, and other intellectual property appearing on Beautystack are owned, controlled or licensed by us and are protected by copyright, trademark and other intellectual property law rights. All right, title and interest in and to Our Content remains with us at all times.\n\nWe grant you a non-exclusive, limited, personal, non-transferable, revocable, license to access and use Our Content, without the right to sublicense, under the following conditions:\n\n* you shall not use, sell, modify, or distribute Our Content except as permitted by the functionality of the App;\n* you shall not use our name in metatags, keywords and/or hidden text;\n* you shall not create derivative works from Our Content or commercially exploit Our Content, in whole or in part, in any way; and\n* you shall use Our Content for lawful purposes only.\n\nWe reserve all other rights.\n\n## Restriction on the App\nWe don’t tolerate bad behaviour on Beautystack. You can report any abuse or complain about Client Content by contacting us, outlining the abuse and/or complaint. Email us at [hello@beautystack.co](mailto:hello@beautystack.co).\n\nWe also want our users to respect Beautystack. Scraping or replicating any part of the App without our prior consent is expressly prohibited. This includes by any means (automated or otherwise) other than through our currently available, published interfaces – unless you have been specifically allowed to do so in a separate agreement with us.\n\n## Privacy\nFor information about how Beautystack Limited collects, uses, and shares your personal data, please check out our [Privacy Policy](https://www.beautystack.com/privacy.html). By using Beautystack, you agree that we can use such data in accordance with our [Privacy Policy](https://www.beautystack.com/privacy.html).\n\n## Third Party Stores; In-app Purchases\nThe Service may be dependent on and/or interoperate with third-party owned and/or operated platforms and services, e.g., Apple (iTunes, etc.), Google, Stripe etc. (each, a “Third Party Platform”) and may require that you be a registered Client of such Third Party Platforms and provide certain account credentials and other information in order to access the App. By using the App, you agree to comply with any applicable terms, conditions or requirements promulgated by any provider of a Third Party Platform (e.g., Facebook’s Terms of Use, iTunes Store Terms of Use, etc.).\n\n## Push Notifications; Location based Features\nWe may provide you with emails, text messages, push notifications, alerts and other messages related to the App and/or the Beautystack services, such as enhancements, offers, products, events, and other promotions. After using the App, you will be asked to accept or deny push notifications/alerts. If you deny, you will not receive any push notifications/alerts. If you accept, push notifications/alerts will be automatically sent to you. If you no longer wish to receive push notifications/alerts from the App, you may opt out by changing your notification settings on your mobile device. With respect to other types of messaging or communications, such as emails, text messages, etc., you can unsubscribe or opt out by either following the specific instructions included in such communications, or by emailing us with your request at hello@Beautystack.com\n\nThe App may allow access to or make available opportunities for you to view certain content and receive other products, services and/or other materials based on your location. To make these opportunities available to you, the App will determine your location using one or more reference points, such as GPS, Bluetooth and/or software within your browsing device. If you have set your mobile device to disable GPS, Bluetooth or other location determining software or do not authorize the App to access your location data, you will not be able to access such location-specific content, products, services and materials. For more about how the App uses and retains your information, please read the Privacy Policy.\n\n## Disclaimer\nTHE APP, SITE, OUR CONTENT, AND CLIENT CONTENT ARE ALL PROVIDED TO YOU “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.\n\nSHOULD APPLICABLE LAW NOT PERMIT THE FOREGOING EXCLUSION OF EXPRESS OR IMPLIED WARRANTIES, THEN WE GRANT THE MINIMUM EXPRESS OR IMPLIED WARRANTY REQUIRED BY APPLICABLE LAW. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, SHALL CREATE ANY WARRANTY, REPRESENTATION OR GUARANTEE NOT EXPRESSLY STATED IN THIS SECTION.\n\nADDITIONALLY, WE DO NOT MAKE ANY WARRANTIES THAT THE APP OR SITE WILL BE UNINTERRUPTED, SECURE OR ERROR FREE OR THAT YOUR USE OF THE APP OR SITE WILL MEET YOUR EXPECTATIONS, OR THAT THE APP, SITE, OUR CONTENT, ANY Client CONTENT, OR ANY PORTION THEREOF, IS CORRECT, ACCURATE, OR RELIABLE. YOUR USE OF THE APP OR SITE IS AT YOUR OWN RISK. YOU ARE SOLELY RESPONSIBLE FOR YOUR INTERACTIONS WITH OTHER CLIENTS. BEAUTYSTACK LIMITED IS NOT RESPONSIBLE FOR THE CONDUCT OF ANY USER.\n\nNEITHER US NOR ANY OWNER WILL BE LIABLE FOR ANY DAMAGES, DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE, INCLUDING, WITHOUT LIMITATION, LOSS OF DATA, INCOME, PROFIT OR GOODWILL, LOSS OF OR DAMAGE TO PROPERTY AND CLAIMS OF THIRD PARTIES ARISING OUT OF YOUR ACCESS TO OR USE OF THE APP, SITE, OUR CONTENT, OR ANY Client CONTENT, HOWEVER CAUSED, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), PROPRIETARY RIGHTS INFRINGEMENT, PRODUCT LIABILITY OR OTHERWISE.\n\nTHE FOREGOING SHALL APPLY EVEN IF WE WERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IF YOU BECOME DISSATISFIED IN ANY WAY WITH THE APP OR SITE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO STOP YOUR USE OF THE APP AND SITE.\n\nYOU HEREBY WAIVE ANY AND ALL CLAIMS ARISING OUT OF YOUR USE OF THE APP OR SITE. BECAUSE SOME STATES DO NOT ALLOW THE DISCLAIMER OF IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN TYPES OF DAMAGES, THESE PROVISIONS MAY NOT APPLY TO YOU.\n\nTHE LIMITATION OF LIABILITY HEREIN IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE BARGAIN AND REFLECTS A FAIR ALLOCATION OF RISK. THE APP AND SITE WOULD NOT BE PROVIDED WITHOUT SUCH LIMITATIONS AND YOU AGREE THAT THE LIMITATIONS AND EXCLUSIONS OF LIABILITY, DISCLAIMERS AND EXCLUSIVE REMEDIES SPECIFIED HEREIN WILL SURVIVE EVEN IF FOUND TO HAVE FAILED IN THEIR ESSENTIAL PURPOSE.\n\n## Indemnity\nAll the actions you make and information you post on Beautystack remain your responsibility. Therefore, you agree to indemnify, defend, release, and hold us, and our partners, licensors, affiliates, contractors, officers, directors, employees, representatives and agents, harmless, from and against any third party claims, damages (actual and/or consequential), actions, proceedings, demands, losses, liabilities, costs and expenses (including reasonable legal fees) suffered or reasonably incurred by us arising as a result of, or in connection with:\n\n* any negligent acts, omissions or wilful misconduct by you;\n* your access to and use of the App;\n* the uploading or submission of Content to the App by you;\n* any breach of these Terms by you; and/or\n* your violation of any law or of any rights of any third party.\n\nWe retain the exclusive right to settle, compromise and pay any and all claims or causes of action which are brought against us without your prior consent. If we ask, you will co-operate fully and reasonably as required by us in the defence of any relevant claim.\n\n## Miscellaneous\nThese Terms, which we may amend from time to time, constitute the entire agreement between you and Beautystack Limited. The Terms supersede all previous agreements, representations and arrangements between us (written or oral). Nothing in this clause shall limit or exclude any liability for fraudulent misrepresentation.\n\nBeautystack Limited has taken reasonable steps to ensure the currency, availability, correctness and completeness of the information contained on Beautystack and provides that information on an “as is”, “as available” basis. Beautystack Limited does not give or make any warranty or representation of any kind about the information contained on Beautystack, whether express or implied. Use of Beautystack and the materials available on it is at your sole risk. Beautystack Limited can not be held responsible for any loss arising from the transmission, use of data, or inaccurate User Content.\n\nYou are responsible for taking all necessary precautions to ensure that any material you may obtain from Beautystack is free of viruses or other harmful components. You accept that Beautystack will not be provided uninterrupted or error free, that defects may not be corrected or that Beautystack Limited, or the server that makes it available, are free of viruses or bugs, spyware, Trojan horse or any similar malicious software. Beautystack Limited is not responsible for any damage to your computer hardware, computer software, or other equipment or technology including, but without limitation damage from any security breach or from any virus, bugs, tampering, fraud, error, omission, interruption, defect, delay in operation or transmission, computer line or network failure or any other technical or other malfunction.\n\nAs Beautystack grows, we might have to make changes to these Terms so we reserve the right to modify, amend or change the Terms at any time (a “Change”). If we do this then the Changes will be posted on this page and we will indicate the Effective Date of the updates at the bottom of the Terms. In certain circumstances, we may send an email to you notifying you of a Change. You should regularly check this page for notice of any Changes – we want our users to be as informed as possible.\n\nYour continued use of Beautystack following any Change constitutes your acceptance of the Change and you will be legally bound by the new updated Terms. If you do not accept any Changes to the Terms, you should stop using Beautystack immediately.\n\nIf, for any reason, any of the Terms are declared illegal, invalid or otherwise unenforceable by a court of a competent jurisdiction, then to the extent that term is illegal, invalid or unenforceable, it shall be severed and deleted from the Terms and the remainder of the Terms shall survive, remain in full force and effect and continue to be binding and enforceable.\n\nNo failure or delay in exercising any right, power or privilege under the Terms shall operate as a waiver of such right or acceptance of any variation of the Terms and nor shall any single or partial exercise by either party of any right, power or privilege preclude any further exercise of the right or the exercise of any other right, power or privilege.\n\nThe App may contain links to third-party websites or resources. In such cases, you acknowledge and agree that we are not responsible or liable for:\n\n* the availability or accuracy of such websites or resources; or\n* the content, products, or services on or available from such websites or resources.\n\nLinks to such websites or resources do not imply any endorsement. You acknowledge sole responsibility for and assume all risk arising from your use of any such websites or resources.\n\nThese Terms, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by us without restriction.\n\n## About Us\nAccess to the App, Beauty Professional Content, Our Content, and any Client Content, as well as these Terms are governed and interpreted by the laws of England and Wales. By using the App, you are consenting to the exclusive jurisdiction of the courts of England and Wales. In the event there is a discrepancy between this English language version and any translated copies of the Terms, the English version shall prevail.\n\nBeautystack Limited is registered in the United Kingdom under company number 10736703. Our registered address is 4 Peter Street, London, W1F 0AD\n\nThe terms were last updated on: 30 May 2018\n",
+      "fileAbsolutePath": "/Users/eikhunter/Workspace/fe.homepage/src/markdown/beautystack-terms-of-service.md"
+    },
+    "SitePage /terms": {
+      "jsonName": "terms-8b2",
+      "internalComponentName": "ComponentTerms",
+      "path": "/terms",
+      "component": "/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js",
+      "componentChunkName": "component---src-templates-policy-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js",
+      "id": "SitePage /terms",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7b977797528f91dfd3648f1e1799ae1e",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /privacy": {
+      "jsonName": "privacy-71e",
+      "internalComponentName": "ComponentPrivacy",
+      "path": "/privacy",
+      "component": "/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js",
+      "componentChunkName": "component---src-templates-policy-js",
+      "context": {},
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js",
+      "id": "SitePage /privacy",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "34bbc1e144e1cd6bd2f823ab9dcb160c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1728,26 +2342,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /terms/": {
-      "jsonName": "terms-8c4",
-      "internalComponentName": "ComponentTerms",
-      "path": "/terms/",
-      "component": "/Users/eikhunter/Workspace/fe.homepage/src/pages/terms.js",
-      "componentChunkName": "component---src-pages-terms-js",
-      "context": {},
-      "pluginCreator___NODE": "6396d871-4f02-5607-ac0d-beb75827e3da",
-      "pluginCreatorId": "6396d871-4f02-5607-ac0d-beb75827e3da",
-      "componentPath": "/Users/eikhunter/Workspace/fe.homepage/src/pages/terms.js",
-      "id": "SitePage /terms/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ba32f21a467b85dcfca2cb2baa670e66",
-        "description": "6396d871-4f02-5607-ac0d-beb75827e3da",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1771,26 +2365,43 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b292b433fc7b05df949127b98eeba9d9"
+    "PLUGINS_HASH": "9fa712ecff440c9233e920de04e8b4c6"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-seo-js"
+      ],
+      "67755118-7acb-5ea8-974f-2e95a2bc8e3d": [
+        "/terms"
+      ],
+      "f8c409bb-3ed9-5bee-9098-caa426b88d4e": [
+        "/privacy"
       ]
     },
-    "connections": {}
+    "connections": {
+      "MarkdownRemark": [
+        null
+      ]
+    }
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-seo-js": 1025518380,
+    "terms-8c4": "905/path---terms-8-c-4-c6a-YgV6PMucCfm5UqFLltIiArHr58",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "privacy-06e": "359/path---privacy-06-e-82f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "terms-8c4": "387/path---terms-8-c-4-c6a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "blog-my-first-post-ac2": "238/path---blog-my-first-post-ac-2-66c-49FH3l5UcIqJFJoqFcJ50rsosJ8",
+    "terms-8b2": "282/path---terms-8-b-2-fd7-rzl2iWcxXvCHfFAILvFND7Yjpak",
+    "privacy-71e": "593/path---privacy-71-e-a9a-JrBG78sbLoQpdjftTQHJ20PY88"
   },
   "components": {
+    "/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js": {
+      "query": "query usersEikhunterWorkspaceFeHomepageSrcTemplatesPolicyJs997976791(\n  $path: String!\n) {\n  markdownRemark(frontmatter: {path: {eq: $path}}) {\n    html\n    frontmatter {\n      path\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js"
+    },
     "/Users/eikhunter/Workspace/fe.homepage/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/eikhunter/Workspace/fe.homepage/.cache/dev-404-page.js"
@@ -1806,10 +2417,6 @@
     "/Users/eikhunter/Workspace/fe.homepage/src/pages/privacy.js": {
       "query": "",
       "componentPath": "/Users/eikhunter/Workspace/fe.homepage/src/pages/privacy.js"
-    },
-    "/Users/eikhunter/Workspace/fe.homepage/src/pages/terms.js": {
-      "query": "",
-      "componentPath": "/Users/eikhunter/Workspace/fe.homepage/src/pages/terms.js"
     }
   },
   "staticQueryComponents": {

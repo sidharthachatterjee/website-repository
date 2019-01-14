@@ -5,10 +5,10 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---src-templates-policy-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/src/templates/policy.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/src/pages/404.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/src/pages/index.js"))),
-  "component---src-pages-privacy-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/src/pages/privacy.js"))),
-  "component---src-pages-terms-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/src/pages/terms.js")))
+  "component---src-pages-privacy-js": hot(preferDefault(require("/Users/eikhunter/Workspace/fe.homepage/src/pages/privacy.js")))
 }
 
