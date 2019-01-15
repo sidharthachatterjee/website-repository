@@ -5,7 +5,7 @@ phases:
       - npm set registry https://npm.beautystack.xyz
       - echo "//npm.beautystack.xyz/:_authToken=\"CVs2BhIj7A5GJ1ixhNdIkFKkZa5z1uz49EDg+jkDFI4=\"" >> ~/.npmrc
       - echo "always-auth=true" >> ~/.npmrc
-      - npm install -g gatsby-cli
+      - npm install -g gatsby-cli yarn
       - npm install
   pre_build:
     commands:
@@ -13,7 +13,7 @@ phases:
       - aws s3 cp s3://beautystack.config/policies/beautystack-terms-of-service.md deploy/markdown/src/beautystack-terms-of-service.md
   build:
     commands:
-      - gatsby build
+      - yarn build
       - mv public build
 artifacts:
   files:
