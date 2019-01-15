@@ -9,8 +9,8 @@ phases:
       - npm install
   pre_build:
     commands:
-      - aws s3 cp s3://beautystack.config/policies/beautystack-privacy-policy.md src/markdown/beautystack-privacy-policy.md
-      - aws s3 cp s3://beautystack.config/policies/beautystack-terms-of-service.md src/markdown/beautystack-terms-of-service.md
+      - aws s3 cp s3://beautystack.config/policies/beautystack-privacy-policy.md deploy/markdown/src/beautystack-privacy-policy.md
+      - aws s3 cp s3://beautystack.config/policies/beautystack-terms-of-service.md deploy/markdown/src/beautystack-terms-of-service.md
   build:
     commands:
       - gatsby build
