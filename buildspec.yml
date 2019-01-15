@@ -14,6 +14,7 @@ version: 0.2
     build:
       commands:
         - gatsby build
+        - mv public build
   artifacts:
     files:
       - '**/*'
