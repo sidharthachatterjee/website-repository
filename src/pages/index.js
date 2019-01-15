@@ -31,7 +31,7 @@ class Landing extends React.Component {
       clientSlides: content.slider.client,
       containerFixed: false,
       defaultSlide: content.slider.default,
-      mediaQuery: window.matchMedia('(min-width: 768px)'),
+      mediaQuery: typeof window !== 'undefined' && (window.matchMedia('(min-width: 768px)')),
       proSlides: content.slider.pro,
       sliderType: 'client',
       swipeSliderHeight: 320
