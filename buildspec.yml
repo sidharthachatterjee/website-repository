@@ -1,0 +1,19 @@
+version: 0.2
+  phases:
+    install:
+      commands:
+        - npm set registry https://npm.beautystack.xyz
+        - echo "//npm.beautystack.xyz/:_authToken=\"CVs2BhIj7A5GJ1ixhNdIkFKkZa5z1uz49EDg+jkDFI4=\"" >> ~/.npmrc
+        - echo "always-auth=true" >> ~/.npmrc
+        - npm install -g gatsby-cli
+        - npm install
+     pre_build:
+      commands:
+        - aws s3 cp s3://beautystack.config/policies/beautystack-privacy-policy.md src/markdown/beautystack-privacy-policy.md
+        - aws s3 cp s3://beautystack.config/policies/beautystack-terms-of-service.md src/markdown/beautystack-terms-of-service.md
+    build:
+      commands:
+        - gatsby build
+  artifacts:
+    files:
+      - '**/*'
