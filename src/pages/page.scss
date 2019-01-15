@@ -1,0 +1,32 @@
+/*
+|--------------------------------------------------------------------------
+| Page
+|--------------------------------------------------------------------------
+| @namespace: lyt-
+|
+*/
+@import "../styles/mixins/mixins";
+
+.lyt-Page {
+  margin-top: 100px;
+
+  @include sm {
+    margin-top: 60px;
+  }
+
+  @include md {
+    margin-top: 80px;
+  }
+}
+
+.lyt-Page_Inner {
+  @include Grid_Container;
+}
+
+.lyt-Page_Body {
+
+  @include md {
+    width: calc(8 / 12 * 100%);
+    margin: 0 auto;
+  }
+}

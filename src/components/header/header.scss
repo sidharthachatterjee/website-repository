@@ -1,0 +1,79 @@
+/*
+|--------------------------------------------------------------------------
+| Header
+|--------------------------------------------------------------------------
+| @namespace: hd-
+|
+*/
+@import "../../styles/mixins/fonts";
+
+.hd-Header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+
+  width: 100%;
+
+  @include sm {
+    padding-right: calc(var(--Grid_Gutter) * 2);
+  }
+}
+
+.hd-Header_Body {
+  align-items: flex-start;
+  justify-content: space-between;
+
+  display: flex;
+
+  @include sm {
+    align-items: center;
+  }
+}
+
+.hd-Header_LogoContainer {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  width: 65px;
+  height: 65px;
+
+  background: var(--Color_Gradient-angled);
+
+  svg {
+    width: 49px;
+
+    fill: #fff;
+  }
+}
+
+.hd-Header_Link {
+  flex-grow: 1;
+
+  text-align: center;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+
+  background-color: #000;
+
+  transition: opacity var(--Global_Transition);
+
+  color: #fff;
+
+  @include sm {
+    flex-grow: 0;
+
+    font-size: 20px;
+    line-height: 28px;
+
+    background-color: transparent;
+  }
+
+  &:hover {
+    opacity: 0.65;
+  }
+}

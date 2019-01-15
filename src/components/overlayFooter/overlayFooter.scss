@@ -1,0 +1,117 @@
+/*
+|--------------------------------------------------------------------------
+| Footer
+|--------------------------------------------------------------------------
+| @namespace: ovr-
+|
+*/
+@import "../../styles/mixins/fonts";
+
+.ovr-Footer {
+  text-align: center;
+
+  color: #fff;
+}
+
+.ovr-Footer_Items {
+  justify-content: center;
+
+  @include sm {
+    display: flex;
+    margin: 0 -16px;
+  }
+
+  @include md {
+    margin: 0 -24px;
+  }
+}
+
+.ovr-Footer_Item {
+  flex: 1;
+
+  margin-top: 32px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  @include sm {
+    margin: 0 var(--Grid_Gutter);
+  }
+
+  @include md {
+    margin: 0 calc(var(--Grid_Gutter) * 1.5);
+  }
+}
+
+.ovr-Footer_Title {
+  @include Font_20-28;
+}
+
+.ovr-Footer_Title-condensed {
+  display: inline-block;
+
+  font-family: var(--Font_Family-condensed);
+}
+
+.ovr-Footer_Text {
+  font-family: var(--Font_Family-karla);
+}
+
+.ovr-Footer_Text-top {
+  margin-bottom: 16px;
+
+  @include sm {
+    max-width: calc(6 / 12 * 100%);
+    margin: 10px auto 16px;
+  }
+
+  @include md {
+    max-width: calc(4 / 12 * 100%);
+  }
+}
+
+.ovr-Footer_Steps {
+  margin-top: 32px;
+
+  @include sm {
+    margin-top: 48px;
+  }
+
+  @include md {
+    margin-top: 64px;
+  }
+}
+
+.ovr-Footer_Download {
+  margin-top: 32px;
+
+  font-family: var(--Font_Family-karla);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ovr-Footer_Buttons {
+  justify-content: center;
+
+  display: flex;
+  margin: 16px -8px 32px;
+
+  @include sm {
+    margin: 16px -8px 56px;
+  }
+
+  @include md {
+    margin: 24px -16px 64px;
+  }
+}
+
+.ovr-Footer_Button {
+  width: 100%;
+  margin: 0 8px;
+
+  @include sm {
+    width: auto;
+    margin: 0 var(--Grid_Gutter);
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "defaults": {
+    "companyName": "beautystack",
+    "email": "hello@beautystack.com"
+  },
+  "header": {
+    "buttonText": "Log in"
+  },
+  "slider": {
+    "titleCondensed": "How it",
+    "title": "works",
+    "buttonText1": "Client",
+    "buttonText2": "Beauty Pro",
+    "client": [
+      {
+        "id": 0,
+        "img": "phonescreen-default.png",
+        "text": "Beautystack is a community of beauty treatment junkies. Upload photos of your latest nails or hair, browse our editorial content and book your next treatment with our curated list of Beauty Pros."
+      },
+      {
+        "id": 1,
+        "img": "phonescreen-client01.png",
+        "title": "Save",
+        "text": "Need to remember the name of that gel polish you loved last month? Well, now you can keep your own personal treatment notes with our app. Save styles you’re interested in and start planning your next look now!"
+      },
+      {
+        "id": 2,
+        "img": "phonescreen-client02.png",
+        "title": "Share",
+        "text": "Friends always asking where you get your hair done? Share your beauty squad through our app. Follow friends and like and comment on each other’s treatments. Where do you get your beauty stacked?"
+      },
+      {
+        "id": 3,
+        "img": "phonescreen-client03.png",
+        "title": "Read",
+        "text": "WTF is a hydrafacial? How does your mate do her braids? What beauty looks are trending for summer? Our daily articles will have all the answers and more, to keep you buffs inspired and up-to-date on the latest in beauty."
+      }
+    ],
+    "pro": [
+      {
+        "id": 0,
+        "img": "phonescreen-default.png",
+        "text": "Beautystack is a community of beauty treatment junkies. Upload photos of your latest nails or hair, browse our editorial content and book your next treatment with our curated list of Beauty Pros."
+      },
+      {
+        "id": 1,
+        "img": "phonescreen-pro01.png",
+        "title": "Apply",
+        "text": "Download the Beautystack app and create a Client account as usual. If you want to sell your services you can apply for a Beauty Pro account in the Settings Panel. We are building a trusted community of Beauty Pros all over the world, and require a few details before we make your Pro account live. Hold tight and we’ll confirm your application!"
+      },
+      {
+        "id": 2,
+        "img": "phonescreen-pro02.png",
+        "title": "Create",
+        "text": "Once you’ve been accepted, you can use Beautystack to manage your business. Whether you are work mobile, pop up, from a salon or from home, all you need to have is a Google Calendar account and images of your finished work. We love Pros that are specialists at what they do and have a distinct style."
+      },
+      {
+        "id": 3,
+        "img": "phonescreen-pro03.png",
+        "title": "Launch",
+        "text": "Once your profile is live and complete you can get going! Upload images of your finished looks and take bookings from your posts. We’ll connect to your calendar to the app, show your real time availability to your client, take payment and send reminders."
+      }
+    ]
+  },
+  "footerTop": {
+    "title": "Boss",
+    "titleCondensed": "It.",
+    "textTop": "Get bookings directly from your Beautystack image feed, because likes and reposts don’t put food on the table!",
+    "textBottom": "We are committed to helping you build your business, independently. Apply to be a Beauty Pro in app now!",
+    "downloadText": "Download in the APP store now",
+    "sloganWord1": "See",
+    "sloganWord2": "Like",
+    "sloganWord3": "Book",
+    "sloganText": "It."
+  },
+  "steps": [
+    {
+      "id": 0,
+      "svg": "phone",
+      "title": "Step two",
+      "text": "Download the app"
+    },
+    {
+      "id": 1,
+      "svg": "pen",
+      "title": "Step two",
+      "text": "Create an account"
+    },
+    {
+      "id": 2,
+      "svg": "smile",
+      "title": "Step two",
+      "text": "Start building your profile!"
+    }
+  ],
+  "footer": {
+    "inputPlaceholder": "Subscribe to the mailing list",
+    "inputPlaceholderSuccess": "Successfully subscribed!",
+    "inputPlaceholderError": "There was an error. Try again",
+    "inputPlaceholderExists": "This email is already subscribed!"
+  }
+}

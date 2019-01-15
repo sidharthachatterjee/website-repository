@@ -1,0 +1,59 @@
+/* We use an order that is beneficial for a 'settings' file */
+/* stylelint-disable */
+:root {
+  /*
+  |--------------------------------------------------------------------------
+  | Colours
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Color_Brand: #2000ff;
+  --Color_Brand-secondary: #ffb2f6;
+  --Color_Blue: #a9f3ff;
+  --Color_Green: #99ff99;
+  --Color_Grey: #9d9d9d;
+  --Color_Peach: #ffd0bd;
+  --Color_Peach-darker: #fec3d6;
+  --Color_Red: #ff8080;
+
+  --Color_Anchor: var(--Color_Brand);
+  --Color_Body: #2c2c2c;
+  --Color_Border: #d7d7d7;
+
+  --Color_Gradient: linear-gradient(0deg, #a9f3ff 0%, #ffb2f6 50%, #ffd0bd 100%);
+  --Color_Gradient-angled: linear-gradient(-45deg, #a9f3ff 0%, #ffb2f6 50%, #ffd0bd 100%);
+
+  /*
+  |--------------------------------------------------------------------------
+  | Fonts
+  |--------------------------------------------------------------------------
+  |
+  */
+  /**
+  * Font - Families
+  */
+  --Font_Family: 'Druk', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --Font_Family-condensed: 'Druk Condensed';
+  --Font_Family-karla: 'Karla', san-serif;
+  --Font_Family-body: var(--Font_Family);
+
+  /*
+  |--------------------------------------------------------------------------
+  | Grid
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Grid_Container: 1100px;
+  --Grid_Gutter: 16px;
+
+  /*
+  |--------------------------------------------------------------------------
+  | Miscellaneous
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Box_Shadow: 0 2px 20px 1px rgba(0, 0, 0, 0.10);
+  --Global_Radius: 6px;
+  --Global_Transition: 0.3s;
+  --Transition_EaseOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.075);
+}

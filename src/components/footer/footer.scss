@@ -1,0 +1,192 @@
+/*
+|--------------------------------------------------------------------------
+| Footer
+|--------------------------------------------------------------------------
+| @namespace: ft-
+|
+*/
+@import "../../styles/mixins/mixins";
+
+.ft-Footer {
+  position: relative;
+  z-index: 10;
+
+  padding: 32px 0;
+
+  background-color: #fff;
+
+  text-align: center;
+
+  @include md {
+    padding: 72px 0 80px;
+  }
+}
+
+.ft-Footer_Inner {
+  @include Grid_Container;
+}
+
+.ft-Footer_Links {
+  margin-top: 24px;
+
+  @include sm {
+    margin-top: 32px;
+  }
+}
+
+.ft-Footer_Items {
+  justify-content: center;
+
+  display: flex;
+
+  margin: 0 -10px;
+}
+
+.ft-Footer_Item {
+  margin: 0 10px;
+}
+
+.ft-Footer_Link {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 72px;
+  border: 2px solid var(--Color_Brand);
+
+  transition: background-color var(--Global_Transition);
+
+  &:hover {
+    background-color: var(--Color_Brand);
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  svg {
+    width: 20px;
+
+    fill: var(--Color_Brand);
+
+    transition: fill var(--Global_Transition);
+  }
+}
+
+.ft-Footer_InputContainer {
+  align-items: center;
+
+  justify-content: center;
+  display: flex;
+
+  max-width: 400px;
+  margin: 0 auto;
+
+  border: 2px solid var(--Color_Brand);
+
+  .ft-Footer_Form-success & {
+    border-color: var(--Color_Green);
+  }
+
+  .ft-Footer_Form-failed & {
+    border-color: var(--Color_Red);
+  }
+}
+
+.ft-Footer_Input {
+  flex: 1;
+
+  padding: 10px var(--Grid_Gutter);
+
+  font-size: 16px;
+
+  font-family: var(--Font_Family-karla);
+
+  border: none;
+  background-color: transparent;
+
+  @include sm {
+    padding: 16px var(--Grid_Gutter);
+  }
+
+  &::placeholder {
+    font-size: 16px;
+    text-transform: uppercase;
+
+    font-family: var(--Font_Family-karla);
+
+    color: var(--Color_Brand);
+
+    transition: color var(--Global_Transition);
+
+    .ft-Footer_Form-success & {
+      color: var(--Color_Green);
+    }
+
+    .ft-Footer_Form-failed & {
+      color: var(--Color_Red);
+    }
+  }
+}
+
+.ft-Footer_Button {
+  position: relative;
+
+  width: 60px;
+  padding: 10px 18px;
+
+  background-color: transparent;
+  border: none;
+
+  @include sm {
+    padding: 16px 18px;
+  }
+
+  &:disabled {
+    cursor: initial;
+  }
+
+  svg {
+    stroke: var(--Color_Brand);
+
+    transition: stroke var(--Global_Transition);
+
+    .ft-Footer_Form-success & {
+      stroke: var(--Color_Green);
+    }
+
+    .ft-Footer_Form-failed & {
+      stroke: var(--Color_Red);
+    }
+  }
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+
+    display: block;
+    width: 2px;
+    height: 80%;
+
+    background-color: var(--Color_Brand);
+
+    transform: translateY(-50%);
+
+    transition: background-color var(--Global_Transition);
+
+    .ft-Footer_Form-success & {
+      background-color: var(--Color_Green);
+    }
+
+    .ft-Footer_Form-failed & {
+      background-color: var(--Color_Red);
+    }
+  }
+}

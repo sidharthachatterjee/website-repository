@@ -1,0 +1,93 @@
+/*
+|--------------------------------------------------------------------------
+| Privacy
+|--------------------------------------------------------------------------
+| @namespace: ft-
+|
+*/
+@import "../../styles/mixins/mixins";
+
+.ft-Privacy {
+  position: relative;
+  z-index: 11;
+
+  padding: 5px var(--Grid_Gutter);
+
+  text-align: center;
+
+  background-color: #000;
+
+  @include sm {
+    text-align: left;
+  }
+}
+
+.ft-Privacy_Body {
+  font-size: 12px;
+  font-family: var(--Font_Family-karla);
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  @include sm {
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+  }
+}
+
+.ft-Privacy_Column {
+  flex: 1;
+
+  &:last-child {
+    @include sm {
+      text-align: right;
+    }
+  }
+}
+
+.ft-Privacy_Items {
+  justify-content: center;
+
+  display: flex;
+  margin: 0 -3px;
+
+  @include sm {
+    justify-content: flex-start;
+  }
+
+  @include md {
+    margin: 0 -6px;
+  }
+}
+
+.ft-Privacy_Item {
+  margin: 0 3px;
+
+  @include md {
+    margin: 0 6px;
+  }
+}
+
+.ft-Privacy_Email {
+  text-align: center;
+}
+
+.ft-Privacy_Link {
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #fff;
+
+  transition: opacity var(--Global_Transition);
+
+  @include md {
+    padding: 5px;
+  }
+
+  &:hover {
+    opacity: 0.65;
+  }
+}

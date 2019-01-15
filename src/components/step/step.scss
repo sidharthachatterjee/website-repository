@@ -1,0 +1,35 @@
+/*
+|--------------------------------------------------------------------------
+| Step
+|--------------------------------------------------------------------------
+| @namespace: stp-
+|
+*/
+@import "../../styles/mixins/fonts";
+
+.stp-Step_Icon {
+  display: none;
+  max-width: 50px;
+  margin-right: var(--Grid_Gutter);
+
+  @include sm {
+    display: block;
+    margin: 0 auto;
+  }
+
+  svg {
+    width: 100%;
+
+    @include sm {
+      margin: 0 auto 16px;
+    }
+  }
+}
+
+.stp-Step_Title {
+  @include Font_20-28;
+}
+
+.stp-Step_Text {
+  font-family: var(--Font_Family-karla);
+}
