@@ -13,6 +13,7 @@ phases:
       - aws s3 cp s3://beautystack.config/policies/beautystack-terms-of-service.md deploy/markdown/src/beautystack-terms-of-service.md
   build:
     commands:
+      - chmod +x deploy/markdown/compile.js
       - yarn build
       - mv public build
 artifacts:
