@@ -7,7 +7,7 @@ phases:
       - echo "always-auth=true" >> ~/.npmrc
       - npm install -g gatsby-cli
       - npm install
-   pre_build:
+  pre_build:
     commands:
       - aws s3 cp s3://beautystack.config/policies/beautystack-privacy-policy.md src/markdown/beautystack-privacy-policy.md
       - aws s3 cp s3://beautystack.config/policies/beautystack-terms-of-service.md src/markdown/beautystack-terms-of-service.md
