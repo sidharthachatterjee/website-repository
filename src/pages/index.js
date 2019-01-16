@@ -15,11 +15,6 @@ class Landing extends React.Component {
   constructor (props) {
     super(props)
 
-    // this.touchstartX = 0;
-    // this.touchstartY = 0;
-    // this.touchendX = 0;
-    // this.touchendY = 0;
-
     this.swipeCarouselRef = undefined
     this.swipeSlidesRef = []
     this.innerRef = undefined
@@ -115,31 +110,9 @@ class Landing extends React.Component {
       this.calculateThresholds()
     } else {
       window.addEventListener('resize', this.calculateCarouselContentHeight)
-      // if(typeof this.swipeCarouselRef !== 'undefined') {
-      //   this.swipeCarouselRef.addEventListener('touchstart', (event) => {
-      //     this.touchstartX = event.screenX
-      //     this.touchstartY = event.screenY
-      //     this.handleSwipeGesture()
-      //   }, false)
-      //
-      //   this.swipeCarouselRef.addEventListener('touchend', (event) => {
-      //     this.touchendX = event.screenX
-      //     this.touchendY = event.screenY
-      //     this.handleSwipeGesture()
-      //   }, false)
-      // }
       this.calculateCarouselContentHeight()
     }
   }
-
-  // handleSwipeGesture = () => {
-  //   if (this.touchendX < this.touchstartX) {
-  //     alert('left!');
-  //   }
-  //   if (this.touchendX > this.touchstartX) {
-  //     alert('right!');
-  //   }
-  // }
 
   toggleSliders = (type) => {
     if(window.matchMedia('(min-width: 768px)').matches) {

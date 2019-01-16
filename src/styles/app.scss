@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Karla');
 @font-face {
   font-family: 'Druk';
   src: url("../assets/fonts/Druk-WideSuper.eot"),
@@ -9,6 +8,7 @@
   src: url("../assets/fonts/DrukCondensed-Super.eot"),
   url("../assets/fonts/DrukCondensed-Super.woff2") format("woff2"), url("../assets/fonts/DrukCondensed-Super.woff") format("woff"), url("../assets/fonts/DrukCondensed-Super.ttf") format("truetype"), url("../assets/fonts/DrukCondensed-Super.svg#DrukCondensed-Super") format("svg");
 }
+@import url('https://fonts.googleapis.com/css?family=Karla');
 
 @import "./mixins/mixins";
 @import "./mixins/fonts";

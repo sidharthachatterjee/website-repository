@@ -3,7 +3,6 @@ dist
 build
 node_modules
 deploy/markdown/src/*
-src/markdown/*
 public
 .cache
 .DS_Store
